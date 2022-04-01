@@ -1,12 +1,17 @@
 ---
 lab:
-    title: '探索 Azure Active Directory'
-    module: '單元 2，第 1 課：描述 Microsoft 身分識別與存取權管理解決方案的功能：探索 Azure AD 的服務和身分識別類型'
+  title: 探索 Azure Active Directory
+  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
+ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
+ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "137893842"
 ---
+# <a name="lab-explore-azure-active-directory"></a>實驗室：探索 Azure Active Directory
 
-# 實驗：探索 Azure Active Directory
-
-## 實驗案例
+## <a name="lab-scenario"></a>實驗案例
 
 在此實驗中，您將會存取 Azure Active Directory。  另外，您將會建立使用者與進行不同設定，包括新增授權。  
 
@@ -14,24 +19,24 @@ lab:
 
 **預估時間**：10-15 分鐘
 
-#### 工作 1：  身為 Microsoft 365 的訂閱者，您已經在使用 Azure AD。  在此工作中，您將會逐步了解透過 Microsoft 365 系統管理入口網站與 Azure 入口網站存取 Azure AD 的方式。
+#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>工作 1：身為 Microsoft 365 的訂閱者，您已經在使用 Azure AD。  在此工作中，您將會逐步了解透過 Microsoft 365 系統管理入口網站與 Azure 入口網站存取 Azure AD 的方式。
 
 1. 開啟 Microsoft Edge。
 
 2. 在網址列中輸入 **admin.microsoft.com** 存取 Microsoft 365 系統管理中心。
 
 3. 登入管理員認證。 
-    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中 ZZZZZZ 是您的實驗託管提供者提供的唯一租用戶 ID)，然後選取**下一步**。
-    1. 輸入應由您的實驗託管提供者提供的管理員密碼。請選取**登入**。
-    1. 當提示保持登入狀態時，請選取**是**。
+    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
+    1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
+    1. 當提示保持登入狀態時，請選取 **是**。
 
-4. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取**顯示全部**。
+4. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
 
-5. 在系統管理中心下方選取 **Azure Active Directory** (可能需要向下捲動)。  全新瀏覽器頁面將開啟前往至 Azure Active Directory 系統管理中心的 [我的儀表板] 頁面。在儀表板的主視窗中，您將會看到數個圖格，包括組織身分識別圖格 (Contoso、租用戶與 Azure AD 版本)、使用者與群組圖格等等。
+5. 在系統管理中心下方選取 **Azure Active Directory** (可能需要向下捲動)。  全新瀏覽器頁面將開啟前往至 Azure Active Directory 系統管理中心的 [我的儀表板] 頁面。 在儀表板的主視窗中，您將會看到數個圖格，包括組織身分識別圖格 (Contoso、租用戶與 Azure AD 版本)、使用者與群組圖格等等。
 
-6. 在左側導覽窗格中的 [我的最愛] 下方選取 **Azure Active Directory**。  在主視窗中，您將會看到另一個導覽面板，列出 Azure AD 中可用的所有服務。在右側，您將會看到關於 Contoso 租用戶的資訊及連結，供您建立身分識別類型與特別服務。  
+6. 在左側導覽窗格中的 [我的最愛] 下方選取 **Azure Active Directory**。  在主視窗中，您將會看到另一個導覽面板，列出 Azure AD 中可用的所有服務。 在右側，您將會看到關於 Contoso 租用戶的資訊及連結，供您建立身分識別類型與特別服務。  
 
-7. 現在請開啟新的瀏覽器視窗，並在網址列中輸入 **portal.azure.com**。  因為您已使用 admin@WWLxZZZZZZ.onmicrosoft.com 的身分登入，且原本使用相同的認證來兌換 Azure Pass，在存取 Azure 入口網站時，您應以管理員身分登入。  您可以透過確認頁面右上角的電子郵件，以及將游標移到使用者圖示上來進行驗證。
+7. 現在請開啟新的瀏覽器視窗，並在網址列中輸入 **portal.azure.com**。  因為您已使用 admin@WWLxZZZZZZ.onmicrosoft.com 的身分登入，且原本使用相同的認證來兌換 Azure Pass，所以在存取 Azure 入口網站時，應以系統管理員的身分登入。  您可以透過確認頁面右上角的電子郵件，以及將游標移到使用者圖示上來進行驗證。
 
 8. Azure 入口網站的登錄頁面會顯示 Azure 服務，包括 Azure Active Directory、VM、儲存體帳戶、資料庫及更多。  選取 **Azure Active Directory**。  
 
@@ -40,17 +45,17 @@ lab:
 10. 保持此瀏覽器頁面處於開啟狀態，以供下一個工作使用。
 
 
-#### 工作 2：  在本工作中，您將會學習如何在 Azure Active Directory 中建立新的使用者，並探索可在使用者等級管理的部分服務。
+#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>工作 2：在本工作中，您將會學習如何在 Azure Active Directory 中建立新的使用者，並探索可在使用者等級管理的部分服務。
 
-1. 前往瀏覽器中開啟的索引標籤 Contoso – Microsoft Azure。如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並選取 Azure Active Directory。  您應以管理員身分登入 Azure 入口網站，如果未登入，請重新登入。
+1. 前往瀏覽器中開啟的索引標籤 Contoso – Microsoft Azure。 如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並選取 Azure Active Directory。  您應以管理員身分登入 Azure 入口網站，如果未登入，請重新登入。
 
-2. 在左側導覽窗格中選取**使用者**。  請注意，已透過使用者設定了您的租用戶。
+2. 在左側導覽窗格中選取 **使用者**。  請注意，已透過使用者設定了您的租用戶。
 
 3. 在頁面上方選取 **+ 新使用者**。
 
-4. 如果尚未選取**建立使用者**，請選取該選項。
+4. 如果尚未選取 **建立使用者**，請選取該選項。
 
-5. 依照下列填入**身分識別欄位**：
+5. 依照下列填入 **身分識別欄位**：
 
     1. 使用者名稱：**sara**。
 
@@ -60,71 +65,71 @@ lab:
 
     4. 姓氏：**Perez**。
 
-6. 依照下列填入**密碼**：
+6. 依照下列填入 **密碼**：
 
-    1. 選取**自行建立密碼**：
+    1. 選取 **自行建立密碼**：
 
-    1. 初始密碼：**Naja8996**。當 Sara 第一次登入時，會收到變更密碼的提示。
+    1. 初始密碼：**Naja8996**。 當 Sara 第一次登入時，會收到變更密碼的提示。
 
-7. 設定**群組與角色**。
+7. 設定 **群組與角色**。
 
-    1. 在 [群組] 旁選取**選取 0 個群組**。  這會顯示可用的群組。  留意可用的群組清單。
+    1. 在 [群組] 旁選取 **選取 0 個群組**。  這會顯示可用的群組。  留意可用的群組清單。
 
-    2. 選取**作業**，可能需要向下捲動，接著按一下**選取**。請注意群組旁的文字已更新，代表已選取 1 個群組。  
+    2. 選取 **作業**，可能需要向下捲動，接著按一下 **選取**。 請注意群組旁的文字已更新，代表已選取 1 個群組。  
 
-    3. 在 [角色] 旁邊，選取**使用者**。出現目錄角色的清單。  向下捲動以檢視多個內建角色，檢視多個角色時請勿變更使用者角色。  請選取頁面右上角的 **X** 關閉此視窗。
+    3. 在 [角色] 旁邊，選取 **使用者**。 出現目錄角色的清單。  向下捲動以檢視多個內建角色，檢視多個角色時請勿變更使用者角色。  請選取頁面右上角的 **X** 關閉此視窗。
 
-8. 進行**設定**
+8. 配置 [設定]
 
-    1. 封鎖登入：  **否** (保留預設的設定)。
+    1. 封鎖登入：**否** (保留預設的設定)。
 
     1. 使用位置：**美國** (選取下拉式功能表，向下捲動找到此選項)。  必須設定使用位置，才能指派授權。
 
-9. 請在頁面下方選取**建立**按鈕。
+9. 請在頁面下方選取 **建立** 按鈕。
 
 10. 驗證出現在使用者清單上的使用者 (名稱依字母順序排序)。
 
 11. 在使用者清單上，選取剛剛建立的使用者 **Sara Perez**。  設定檔頁面已開啟。
 
-12. 左側的導覽面板會顯示可供使用者設定的多個選項。  選取**群組**。  您可以在此處檢視關於群組的其他資訊。  已列出 [驗證作業] 群組 (群組指派可能需要幾分鐘才會顯示)。  備註：  雖然建立使用者時僅指派一個群組，但是您也會看到 Contoso 群組。  這是預先設定原則的結果，在租用戶中會自動指派新的使用者給 Contoso 群組。
+12. 左側的導覽面板會顯示可供使用者設定的多個選項。  選取 [群組]。  您可以在此處檢視關於群組的其他資訊。  已列出 [驗證作業] 群組 (群組指派可能需要幾分鐘才會顯示)。  注意：雖然建立使用者時僅指派了一個群組，但是您也會看到 Contoso 群組。  這是預先設定原則的結果，在租用戶中會自動指派新的使用者給 Contoso 群組。
 
-13. 在左側導覽面板中選取**授權**。  請注意，未找到此使用者的授權指派。  
+13. 在左側導覽面板中選取 **授權**。  請注意，未找到此使用者的授權指派。  
 
 14. 若要新增授權，請選取主視窗上方的 **+ 指派**。
 
-15. 在 [選取授權] 下方，選取 **Office 365 E3** 及 **Windows 10 Enterprise E3**，接著請選取螢幕下方的**儲存**按鈕。螢幕右上角應會出現授權指派成功的通知。
+15. 在 [選取授權] 下方，選取 **Office 365 E3** 及 **Windows 10 Enterprise E3**，接著請選取螢幕下方的 **儲存** 按鈕。 螢幕右上角應會出現授權指派成功的通知。
 
 16. 請選取螢幕右上角的 **X** 來關閉 [授權指派] 視窗。
 
-17. 請選取頁面上方的**重新整理**圖示來確認授權指派。
+17. 請選取頁面上方的 **重新整理** 圖示來確認授權指派。
 
-18. 請選取螢幕左上方 (階層連結) 的 **Contoso** 退回 Contoso Overview Azure Active Directory 頁面，在 [Sara Perez | 授權] 上方。
+18. 請在畫面 ([Sara Perez | 授權] 上方) 左上方 (階層連結)，選取 **Contoso**，返回 Contoso 概觀 Azure Active Directory 的頁面。
 
 19. 您已成功在 Azure Active Directory 中建立與設定使用者。
 
-20.	按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤登出。接著關閉所有瀏覽器視窗。
+20. 按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤登出。 接著關閉所有瀏覽器視窗。
 
-#### 工作 3：  在此工作中，您將首次以 Sara Perez 身分登入。
+#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>工作 3：在此工作中，您將首次以 Sara Perez 身分登入。
 
 1. 開啟 Microsoft Edge。
 
 2. 在網址列輸入 **login.microsoft.com**。
 
-3. 使用 **sara@WWLxZZZZZZ.onmicrosoft.com**登入 (其中 ZZZZZZ 是您的實驗託管提供者提供的唯一租用戶 ID)。
+3. 以 **sara@WWLxZZZZZ.onmicrosoft.com** 的身分登入 (其中的 ZZZZZZ 是您實驗室代管服務提供者所提供的唯一租用戶識別碼)。
 
 4. 輸入暫時密碼 **Naja8996**。
 
-5. 您現在會收到 [更新密碼] 的提示。在 [現有密碼] 欄位中，輸入 **Naja8996**。
+5. 您現在會收到 [更新密碼] 的提示。 在 [現有密碼] 欄位中，輸入 **Naja8996**。
 
-6. 在 [新密碼] 欄位中輸入 **SC900-Lab**。  在 [確認您的密碼] 欄位中輸入 [SC900-Lab]，接著選取 [登入]。請注意：最佳做法是使用更安全的密碼。選取此密碼是出於其便利性，且僅供此實驗使用。
+6. 在 [新密碼] 欄位中輸入 **SC900-Lab**。  在 [確認密碼] 欄位中，輸入 SC900-Lab，然後選取 [登入]。  注意：最佳做法是使用更安全的密碼。 選取此密碼是出於其便利性，且僅供此實驗使用。
 
 7. 您現在可以成功登入 Microsoft 365。
 
-8. 按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤**登出**。接著關閉所有瀏覽器視窗。
+8. 按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤 **登出**。 接著關閉所有瀏覽器視窗。
 
 
 
-#### 回顧
-在此實驗中，您初次開始探索 Azure AD。因為 Microsoft 365 的訂閱者會自動使用 Azure Ad，所以您會發現可透過 Microsoft 365 系統管理入口網站或 Azure 入口網站存取 Azure AD 功能與服務。  無論採取哪一種方式都能發揮同樣功能。  您已了解建立新使用者的流程，以及可以進行的不同設定，包括可指派使用者的群組、角色的顯示狀態與使用者授權指派...
+#### <a name="review"></a>檢閱
+在此實驗中，您初次開始探索 Azure AD。 因為 Microsoft 365 的訂閱者會自動使用 Azure Ad，所以您會發現可透過 Microsoft 365 系統管理入口網站或 Azure 入口網站存取 Azure AD 功能與服務。  無論採取哪一種方式都能發揮同樣功能。  您已了解建立新使用者的流程，以及可以進行的不同設定，包括可指派使用者的群組、角色的顯示狀態與使用者授權指派...
 
 
