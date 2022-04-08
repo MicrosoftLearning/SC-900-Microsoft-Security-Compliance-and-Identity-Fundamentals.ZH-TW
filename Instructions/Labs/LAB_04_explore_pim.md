@@ -2,12 +2,12 @@
 lab:
   title: '探索 Azure AD 中 Privileged Identity Management 的身分識別治理。 '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893835"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489232"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>實驗室：探索 Azure AD 中 Privileged Identity Management 的身分識別治理。
 
@@ -50,9 +50,9 @@ ms.locfileid: "137893835"
 
 2. 在左側導覽面板中選取 **身分識別治理**。
 
-3. 在主視窗中，請確保 **使用者入門** 已畫底線，接著請在螢幕中間偏右的部分選取 **管理角色指派**。  或者，請在左側導覽面板的 Privileged Identity Management 下方選取 **Azure AD 角色**。
+3. 請在左側導覽面板的 Privileged Identity Management 下方選取 **Azure AD 角色**。
 
-4. 您現在位於 Privileged Identity Management 快速入門視窗。  請選取 **管理存取**。
+4. 您現在位於 Privileged Identity Management 快速入門視窗。  選取 [管理]。
 
 5. 您現在位於 [Contoso 角色] 頁面。  在頁面頂部的搜尋列，請輸入 **使用者**。  在搜尋結果中，請選取 **使用者管理員**。
 
@@ -85,7 +85,7 @@ ms.locfileid: "137893835"
 19. 若要登出，請選取螢幕右上角電子郵件地址旁的使用者圖示，並選取 **登出**。接著關閉所有瀏覽器視窗。
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>工作 3：工作 3：在此工作中，您將以 Diego Siciliani 的身分登入 Azure 入口網站，存取 Azure Active Directory 的 Privileged Identity Management 功能，以使用者管理員的身份啟用您的指派。  完成啟用後，您將會對現有使用者進行某些設定變更。 注意：在此工作中，您將需要可以立即存取與接收簡訊的行動裝置。
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>工作 3：在此工作中，您將以 Diego Siciliani 的身分登入 Azure 入口網站，存取 Azure Active Directory 的 Privileged Identity Management 功能，以使用者管理員的身份啟用您的指派。  完成啟用後，您將會對現有使用者進行某些設定變更。 注意：在此工作中，您將需要可以立即存取與接收簡訊的行動裝置。
 
 1. 開啟 Microsoft Edge。  在瀏覽器的網址列中，請輸入 **portal.azure.com**。
 
