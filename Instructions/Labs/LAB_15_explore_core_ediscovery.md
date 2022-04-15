@@ -1,13 +1,13 @@
 ---
 lab:
   title: 探索「核心電子文件探索」工作流程
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: cb7b0e4c2d7b2ac980e829f24ebbdbb31965e2b8
-ms.sourcegitcommit: 965f24bd5f74be6d0841bf526259a5651af4fdf5
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
+ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "139253904"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614371"
 ---
 # <a name="lab-explore-the-core-ediscovery-workflow"></a>實驗室：探索「核心電子文件探索」工作流程
 
@@ -22,7 +22,7 @@ ms.locfileid: "139253904"
  開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
 
 1. 登入管理員認證。
-    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中 ZZZZZZ 是您的實驗託管提供者提供的唯一租用戶 ID)，然後選取 [下一步]。
+    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
     
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。 這將帶您前往 Microsoft 365 系統管理中心頁面。
