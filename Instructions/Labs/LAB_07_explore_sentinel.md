@@ -2,150 +2,119 @@
 lab:
   title: 探索 Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: c5a7ba866c82f15a4f78099326fd93a734caead8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893831"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614335"
 ---
 # <a name="lab-explore-microsoft-sentinel"></a>實驗室：探索 Microsoft Sentinel 
 
 ## <a name="lab-scenario"></a>實驗案例
-在此示範中，將引導您逐步了解建立 Microsoft Sentinel 執行個體的流程。  您也將會設定權限，確保可存取將會部署的資源，以支援 Microsoft Sentinel。  完成基本設定後，將引導您逐步了解將 Microsoft Sentinel 連線至資料來源的步驟，以及使用內建分析來取得所有可疑事件的通知，最後將會探索自動化功能。  
+在此示範中，將引導您逐步了解建立 Microsoft Sentinel 執行個體的流程。  您也將會設定權限，確保可存取將會部署的資源，以支援 Microsoft Sentinel。  完成此基本設定之後，會逐步引導您進行將 Microsoft Sentinel 連線至資料來源、設定活頁簿的步驟，並會對 Microsoft Sentinel 中所提供的部分主要功能逐一解說。  
 
-  
+**預估時間**：45-60 分鐘
 
-**預估時間**：30-45 分鐘
+#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>工作 1：建立 Microsoft Sentinel 執行個體
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>工作 1：建立 Microsoft Sentinel 執行個體。
+1. 開啟瀏覽器索引標籤的 **首頁-Microsoft Azure**。  如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並重新登入。
 
-1. 開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com**。
+1. 在頁面頂端 Microsoft Azure 旁藍色列的搜尋方塊中，輸入 **Microsoft Sentinel**，然後從搜尋結果中選取 **Microsoft Sentinel**。
 
-2. 登入管理員認證。
-    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
-    
-    1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
-    1. 當提示保持登入狀態時，請選取 **是**。
+1. 從 Microsoft Sentinel 頁面，選取 [建立 Microsoft Sentinel]。
 
-3. 在螢幕左上角的 Microsoft Azure 旁邊，請選取 [顯示入口網站功能表] 圖示 (三條水平線，又稱為漢堡圖示)，接著選取 **所有服務**。  
+1. 從 [將 Microsoft Sentinel 新增到工作區] 頁面，選取 [建立新的工作區]。
 
-4. 請在篩選服務方塊中，輸入 **Microsoft Sentinel**，然後從清單中選取 **Microsoft Sentinel**。
-
-5. 從 Microsoft Sentinel 頁面，選取 [建立 Microsoft Sentinel]。
-
-6. 從 [將 Microsoft Sentinel 新增到工作區] 頁面，選取 [建立新的工作區]。
-
-7. 從建立 Log Analytics 工作區的基本索引標籤中，輸入以下內容：
+1. 從建立 Log Analytics 工作區的基本索引標籤中，輸入以下內容：
     1. 訂用帳戶：**Azure Pass – 贊助**
-   
-    1. 資源群組：請選取 **建立新的**，並輸入名稱 **SC900-ResourceGroup**，然後選取 **確定**。
+    1. 資源群組：請選取 **建立新的**，並輸入名稱 **SC900-Sentinel-RG**，然後選取 **確定**。
     1. 名稱：**SC900-LogAnalytics-workspace**。
-    1. 地區：**美國西部** (保留預設值)
-    1. 選取 下一步：**定價層 >**
+    1. 地區：**美國東部** (可能會根據您所在的位置選取不同預設區域)
+    1. 選取 [下一步：**標記 >]**
 
-8. 對於定價層，保留預設值設定：**隨用隨付 (每 GB 2018)** ，然後選取 [下一步：**標籤 >]** 。
+1. 對於標記，您可以將其留為空白，然後選取 **檢閱 + 建立**。
 
-9. 對於標記，您可以將其留為空白，然後選取 **檢閱 + 建立**。
+1. 驗證您所輸入的資訊，然後選取 **建立**。
 
-10. 驗證您所輸入的資訊，然後選取 **建立**。
+1. 列出新工作區可能需要一至兩分鐘的時間，若仍未看見，請選取 **重新整理**，然後選取 **新增**。
 
-11. 如果您未看到已列出的新工作區，請選取 **重新整理**，然後選取 **新增**。
+1. 新增工作區之後，[Microsoft Sentinel] | [新聞與指南] 頁面會隨即顯示。  請注意開始使用頁面上所列出的三個步驟。
 
-12. 新增工作區之後，[Microsoft Sentinel] | [新聞與指南] 頁面會隨即顯示。  請注意開始使用頁面上所列出的三個步驟。
+1. 請保持此頁面開啟，您將在下個工作中使用它。
 
-13. 請保持此頁面開啟，您將在下個工作中使用它。
+#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>工作 2：建立 Microsoft Sentinel 執行個體後，需要確保對部署的資源具有必要的存取權，以支援 Microsoft Sentinel。  
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel--in-this-task-you-will-go-to-the-access-control-iam-page-for-the-resource-group-that-you-created-with-the-instance-of-microsoft-sentinel-view-the-available-roles-and-assign-yourself-mod-administrator-the-required-role-assigning-the-role-at-the-resource-group-level-will-ensure-the-role-will-apply-to-all-the-resources-that-are-deployed-to-support-microsoft-sentinel"></a>工作 2：建立 Microsoft Sentinel 執行個體後，需要確保對部署的資源具有必要的存取權，以支援 Microsoft Sentinel。  在此工作中，您將前往利用 Microsoft Sentinel 執行個體所建立的資源群組的存取控制 (IAM) 頁面，檢視可供使用的角色，並為自己 (MOD 系統管理員) 指派所需的角色。 指派資源群組等級的角色，可確保該角色將套用於為支援 Azure Sentinel 而部署的所有資源。
+1. 在搜尋方塊中，在頁面頂部 Microsoft Azure 旁邊的藍色列中，輸入 **資源群組**，然後從搜尋結果中選取 **資源群組**。 指派資源群組等級的角色，可確保該角色將套用於為支援 Azure Sentinel 而部署的所有資源。
 
-1. 請從 Microsoft Sentinel 頁面左上角的 Microsoft Sentinel，選取 [所有服務]。
+1. 從資源群組頁面中，選取以 Microsoft Sentinel 所建立的資源群組 **SC900-Sentinel-RG**。 
 
-2. 在篩選服務方塊中，輸入資源群組，然後從提供的清單中選取 **資源群組**。
+1. 在 SC900-Sentinel-RG 頁面中，從左側導覽面板中選取 **存取控制 (IAM)** 。
 
-3. 從 [資源群組] 頁面中，選取以 Microsoft Sentinel 所建立的資源群組 **SC900-ResourceGroup**。
+1. 從存取控制頁面，請選取 **檢視我的存取權**。  MOD 系統管理員，目前的角色為服務管理員。  這將會授與您必要的權限，但重點在於了解可用的 Sentinel 特定角色。  透過選取視窗右上角的 **X** 關閉 MOD 管理員指派視窗。
 
-4. 在 SC900-ResourceGroup 頁面中，從左側導覽面板中選取 **存取控制 (IAM)** 。
+    1. 在存取控制頁面中，請選取 **+ 新增**，然後選取 **新增角色指派**。
 
-5. 從存取控制頁面，請選取 **檢視我的存取權**。  請注意，目前角色為安全性管理員。透過選取視窗右上角的 **X** 關閉 MOD 管理員指派視窗。
+    1. 新增角色指派視窗已開啟。  在搜尋方塊中，輸入 **Microsoft Sentinel** 以檢視與 Microsoft Sentinel 建立關聯的 4 個角色。 
+    1. 從列出的任何角色中，選取 [檢視] 以檢視該角色的詳細資料。  作為最佳做法，您應該為角色指派最少的權限。  
 
-6. 在存取控制頁面中，請選取 **+ 新增**，然後選取 **新增角色指派**。
+    1. 請選取視窗右上角的 [X] 以關閉視窗。
 
-7. 新增角色指派視窗已開啟。  在選取角色欄位中選取下拉式箭頭以顯示可提供使用的角色。  對於此實驗，請選取 **擁有者**。  注意：作為最佳做法，您應該為角色指派最少的權限。  也可檢閱 Microsoft Sentinel 中的權限： https://docs.microsoft.com/en-us/azure/sentinel/roles (機器翻譯) 作為參考
+1. 從存取控制頁面，選取視窗右上角的 [X] 以關閉視窗。
 
-8. 從顯示的使用者清單中，請選取 **MOD 管理員**。
+#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>工作 3：在此作業中，將引導您逐步了解將 Microsoft Sentinel 連線至資料來源以開始收集資料的流程。
 
-9. 請選取頁面底部的 **儲存**。
+1. 在頁面頂端 Microsoft Azure 旁藍色列的搜尋方塊中，輸入 **Microsoft Sentinel**，然後從搜尋結果中選取 **Microsoft Sentinel**。
 
-10. 在存取控制頁面中，請選取 **檢視我的存取權** 以確認已新增角色，然後透過選取視窗右上角的 **X** 關閉視窗。
+1. 從 Microsoft Sentinel 頁面選取以 Microsoft Sentinel 執行個體所建立的工作區 **SC900-LogAnalytics-workspace**。
 
-11. 透過從頁面左上角選取 **所有服務**，其上方顯示為資源群組，退回至 Azure 的所有服務頁面。
+1. 利用 Microsoft Sentinel 的第一步，是能夠收集資料。 從左側導覽面板中選取 **資料連接器**，在設定下列出。
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data-note-it-can-take-a-bit-time-to-show-the-connected-status-of-a-connector-30-minutes-depending-on-the-tenant"></a>工作 3：在此作業中，將引導您逐步了解將 Microsoft Sentinel 連線至資料來源以開始收集資料的流程。 請注意：顯示連接器的連線狀態可能需要一些時間 (約 30 分鐘，其取決於租用戶)。
+1. 從資料連接器頁面，向下捲動主要視窗以檢視可用連接器的擴充清單。 在資料連接器頁面的 [搜尋] 方塊中，輸入 **Office 365**，然後選取清單中的 [**Office 365**]。
 
-1. 請在 [所有服務] 頁面的篩選服務方塊中，輸入 **Microsoft Sentinel**，然後從結果清單中選取 **Microsoft Sentinel**。 
+1. 會隨即開啟 [Office 365 連接器] 視窗。  選取 [開啟連接器頁面]。
 
-2. 從 Microsoft Sentinel 頁面選取以 Microsoft Sentinel 執行個體所建立的工作區 **SC900-LogAnalytics-workspace**。
+1. 從 [Office 365 連接器] 頁面，檢閱視窗左側的 [說明]。
 
-3. 利用 Microsoft Sentinel 的第一步，是能夠收集資料。 從左側導覽面板中選取 **資料連接器**，在設定下列出。
+1. 主視窗中的 [指示] 索引標籤會提供 Microsoft Sentinel 與 Office 365 整合所需的先決條件，且這些條件全部都應該顯示綠色的核取記號。   選取 [設定] 下方的 [Exchange] 和 [SharePoint]，然後選取 [套用變更]。  會立即在視窗的左側顯示其連線狀態。
 
-4. 從資料連接器頁面，向下捲動主要視窗以檢視可用連接器的擴充清單。 在資料連接器頁面的搜尋方塊中，輸入 **Azure**，然後從清單中選取 **Azure Active Directory**。
+1. 選取視窗右上角的 [X]**X** 以關閉視窗，並返回資料連接器頁面。
 
-5. Azure Active Directory 連接器視窗已開啟。  選取 [開啟連接器頁面]。
+1. 在資料連接器頁面的頂部應該會顯示「1 個已連線」，表示您現在已連線至 Office 365。 如果您的畫面中並未顯示該訊息，請選取 [重新整理]。 更新此頁面可能會需要幾分鐘的時間。
 
-6. 在 Azure Active Directory 連接器頁面中，請檢閱說明並記下相關內容，其中包括活頁簿、查詢和分析規則範本。  
+1. 請保持此頁面開啟，您將在下個工作中使用它。
 
-7. 主視窗中的指示索引標籤，提供 Microsoft Sentinel 與 Azure Active Directory 整合的必要條件。   在設定下，請選取 **登入記錄**，然後選取套用變更 (可以選取多個連接器)。
+#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>工作 4：在這項工作中，會逐步引導您進行 Office 365 活頁簿的設定流程，以視覺化和監視您的資料。
 
-8. 在下一步索引標籤中，請記下建議的活頁簿清單。   在建議的活頁簿下，請選取 **Azure 登入記錄** (可以選取其他活頁簿)。
+1. 從左側導覽面板，請選取 **活頁簿**。
 
-9. 從活頁簿頁面並選取範本索引標籤 (已畫底線)，請選取 **Azure 登入記錄**。 
+1. 在搜尋方塊中，輸入 Office 365，然後選取 [Office 365]。
 
-10. 從以開啟的 Azure AD 登入記錄視窗中，檢閱說明然後選取 **檢視範本**。  透過選取螢幕右上角的 **X** 退出範本。  從頁面底部選取 **儲存**，然後選取 **確定** 將活頁簿儲存至預設位置。
+1. 從畫面右側開啟的視窗，檢閱說明後再選取畫面底部的 [儲存]，然後選取 [確定] 以將活頁簿儲存到預設位置。  現在，選取 [檢視已儲存的活頁簿]。
 
-11. 從 [活頁簿] 頁面左上角的 [活頁簿]，選取 Microsoft Sentinel。 如此您即會返回 Microsoft Sentinel 資料連接器頁面。
+1. 會隨即開啟 [Office 365 活頁簿] 頁面。  選取 [作業: 取消設定] 旁的下拉式箭號，然後選取 [全部]。  現在，選取 [使用者: 查詢擱置中] 旁的下拉式箭號，然後選取 [全部]。  選取 **儲存 (磁片) 圖示**。 請選取視窗右上角的 [X] 以關閉視窗。 資料可能會需要花數分鐘的時間才會在活頁簿中顯示，您可以稍後再回到活頁簿。
 
-12. 資料連接器頁面的頂部應顯示 1 個已連線，以反映您現在已連線至 Azure Active Directory。
+1. 從 [活頁簿] 頁面左上角的 [活頁簿]，選取 Microsoft Sentinel。 這會將您帶回到 [概觀] 頁面。
 
-13. 從左側導覽面板，請選取 **活頁簿**。
+#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>工作 5：在此工作中，會逐步解說 Microsoft Sentinel 中部分可用的選項。
 
-14. 從活頁簿頁面中，請選取搜尋方塊上方的 **我的活頁簿** 索引標籤。  您剛剛儲存的活頁簿已列出，並且可供您檢視和監視資料。
+1. 從左側導覽面板選取 [搜捕]。  在已選取 (加上底線) 的 [查詢] 索引標籤中，選取清單中任何一個查詢。  選取查詢之後，請記下該查詢的相關資訊，包括查詢的程式碼，以及執行查詢的選項，並查看結果。  請勿選取任何項目。
 
-15. 請保持此頁面開啟，您將在下個工作中使用它。
+1. 從左側導覽面板選取 [MITRE ATT&CK]。  MITRE ATT&CK 是一種可公開存取的知識庫，提供攻擊者常用策略與技術的相關資訊。 使用 Microsoft Sentinel，您可以依據 MITRE ATT&CK® 架構中的策略與技術，檢視已在工作區中啟用且可供您設定的偵測，以了解組織安全性的涵蓋範圍。  選取矩陣中的任一儲存格，並記下畫面右側中的可用資訊。  
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-using-a-built-in-analytics-rule-template-to-create-a-rule-to-get-notified-when-something-suspicious-occurs"></a>工作 4：在此工作中，您將逐步了解使用內建分析規則範本建立規則以在發生可疑事件時取得通知的流程。
+1. 從左側導覽面板選取 [社群]。 Microsoft 的安全性分析師會持續地建立和新增新的活頁簿、劇本、搜捕查詢以及更多的項目，並將這些項目公佈於社群中，以供您用於自有的環境中。 您可以從私人社群 GitHub 存放庫下載範例內容，以建立適用於 Azure Sentinel 的自訂活頁簿、搜捕查詢、筆記本和劇本。  選取 [上線社群內容]。  會隨即開啟新的 GitHub 存放庫索引標籤，您可以在其中下載啟用案例所需的內容。  返回至瀏覽器中的 Azure 索引標籤。
 
-1. 從左側導覽面板，請選取 **分析**。
+1. 從左側導覽面板，請選取 **分析**。  選取 [Advanced Multistage Attack Detection] \(進階多階段攻擊偵測\) 清單中的第一個專案。  記下詳細的資訊。  Microsoft Sentinel 會使用 Fusion (一個以可調整機器學習演算法為基礎的相互關聯引擎) 透過識別在終止鏈結的不同階段中所觀察到異常行為及可疑活動的組合，以自動偵測多階段的攻擊 (也稱為進階持續性威脅)。 以這些探索為基礎，Microsoft Sentinel 就能產生出其他方法難以攔截的事件。
 
-2. 分析頁面將顯示活動規則 (預設情況下啟用進階多階段攻擊偵測)，並提供對規則範本的存取。  請選取 **規則範本** 索引標籤。請注意可用範本的清單以及篩選清單的不同方法。  使用 Microsoft Sentinel 工作區內建的分析警示，可以在發生任何可疑事件時收到通知。
+1. 從左側導覽面板，請選取 **自動化**。  您可以在這裡建立簡單的自動化規則，與現有的劇本整合，或建立新的劇本。  選取 [+ 建立]，然後選取 [自動化規則]。  請留意畫面右側中開啟的視窗，以及可用來建立條件及動作的選項。  選取畫面底部的 [取消]。
 
-3. 在搜尋列中，請輸入 **Azure 入口網站**。  請選取 **嘗試登入 Azure 入口網站失敗**。  
+1. 從左側導覽面板，請選取 **活頁簿**。 從活頁簿頁面中，請選取搜尋方塊上方的 **我的活頁簿** 索引標籤。  會列出您先前儲存的活頁簿，可供您檢視和監視資料。  選取 [Office 365]，然後從畫面右側開啟的視窗中，選取 [檢視已儲存的活頁簿]。  記下與 Office 365 工作負載相關的視覺效果。  
 
-4. 從開啟的視窗中，閱讀說明並檢閱與範本相關的資訊。  請選取頁面底部的 **建立規則**。
+1. 請選取視窗右上角的 [X] 以關閉視窗。
 
-5. 檢閱 [分析規則精靈] 中的資訊，然後選取 [下一步：設定規則邏輯 >]。
+1. 選取視窗左上角藍色列下方的 [首頁]，即可返回 Azure 入口網站的首頁。
 
-6. 設定規則邏輯頁面為定義新分析規則邏輯的位置。 範本已經提供一些邏輯和預先定義的設定。  滾動頁面以查看可用設定。  保留預設值。 選取 [下一步：事件設定 (預覽) >]。
-
-7. Microsoft Sentinel 警示可以透過事件設定，分組到應查看的事件中。 您可以設定此分析規則觸發的警報是否應應該產生事件。  保留預設值設定，然後選取 [下一步：自動回應 >]。
-
-8. 在自動回應索引標籤中，請注意如何新增劇本以進行自動回應。  同樣，您可以建立事件自動化規則。  在事件自動化下，請選取 **+ 新增** 新的。  建立新自動化規則的視窗已開啟。  您在此頁面上建立的任何自動化規則都會由您正在使用的分析規則觸發。請注意，您可以為該規則新增條件和設定動作。   請選取 **取消** 以退出視窗。
-
-9. 選取 [下一步：檢閱 >]，即可視所選範本為何，檢閱與規則相關聯的所有詳細資料。 此時，您可以透過選取建立以 **建立** 規則，或透過選取頁面右上角的 **X** 退出而不建立規則。
-
-10. 請保持此頁面開啟，您將在下個工作中使用它。
-
-#### <a name="task-5--in-the-previous-task-you-created-an-analytics-rule-to-be-alerted-of-suspicious-activities--embedded-in-that-wizard-is-the-option-to-automate-the-response-to-an-incident-based-on-the-specific-rule--but-you-can-also-create-automation-rules-by-going-directly-to-the-automation-configuration-option"></a>工作 5：在上一個工作中，您已建立分析規則，以提醒可疑活動。  該精靈中內嵌基於特定規則自動回應事件的選項。  但是您也可以透過直接前往自動化設定選項來建立自動化規則。
-
-1. 從左側導覽面板，請選取 **自動化**。  
-
-2. 選取 [+ 建立]  。 從下拉式備註中選取如何新增新劇本或新增新規則。  選取 [新增規則]。  
-
-3. 建立新自動化規則的視窗已開啟。  請注意，您可以為規則新增條件和設定動作。  唯一的區別是第一個條件為關聯要套用此自動化規則的分析規則。  這會在上一項工作中以灰階顯示，因為正在為特定規則設定自動化。  請選取 **取消** 以退出建立新的自動化規則視窗。
-
-4. 請保持此頁面開啟，您將在下個工作中使用它。
-
-
-#### <a name="task-6--delete-microsoft-sentinel-resource-group--microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-features-of-capabilities-of-microsoft-sentinel"></a>工作 6：刪除 Microsoft Sentinel 資源群組。  Microsoft Sentinel 的計費方式，取決於 Microsoft Sentinel 中分析所取用的資料量。 雖然此實驗作業所取用的資料量非常小，但仍建議在研究完 Microsoft Sentinel 功能的特性後，刪除 Microsoft Sentinel 資源群組。
+#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>工作 6：Microsoft Sentinel 的計費方式，取決於 Microsoft Sentinel 中分析所取用的資料量。 雖然，這個實驗中所內嵌的資料量很小，但仍建議在完成探索 Microsoft Sentinel 的功能特性之後，刪除 Microsoft Sentinel 資源群組。
 
 1. 請從 Microsoft Sentinel 頁面左上角的 Microsoft Sentinel，選取 [所有服務]。
 
@@ -157,7 +126,6 @@ ms.locfileid: "137893831"
 
 5. 驗證資源群組已刪除後，請關閉瀏覽器頁面。 
 
-
 #### <a name="review"></a>檢閱
 
-在本實驗中，已引導您逐步了解建立 Microsoft Sentinel 執行個體的流程。  您也已經設定了權限，可確保能存取與 Microsoft Sentinel 執行個體相關聯的資源。  建立 Microsoft Sentinel 執行個體後，您已逐步了解將 Sentinel 連線至資料來源的步驟、使用內建分析規則以取得任何可疑事件的通知，最後已探索了自動化功能。 刪除與所建立之 Microsoft Sentinel 執行個體相關聯的資源群組，此示範即結束。
+在本示範中，您已完成將 Microsoft Sentinel 連線至資料來源的各個步驟、設定活頁簿，並已使用 Microsoft Sentinel 中幾個可用的選項。

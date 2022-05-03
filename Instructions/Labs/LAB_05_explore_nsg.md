@@ -2,12 +2,12 @@
 lab:
   title: Azure 網路安全群組 (NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 6921230c178c08c8a6868de49f2f0673a72127fc
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
+ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019268"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "141605421"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>實驗室：探索 Azure 網路安全性群組 (NSG)。
 
@@ -21,25 +21,26 @@ ms.locfileid: "138019268"
 1.  開啟 Microsoft Edge。  在網址列輸入 **portal.azure.com**。
 
 1. 登入管理員認證。
-    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中 ZZZZZZ 是您的實驗託管提供者提供的唯一租用戶 ID)，然後選取 [下一步]。
+    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
 
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。
 1. 在螢幕左上角的 Microsoft Azure 旁邊，請選取 [顯示入口網站功能表] 圖示 (三條水平線，又稱為漢堡圖示)，接著選取 **所有服務**。  
 1. 在主視窗的 [功能] 下方，請選取 [虛擬機器]。  如果未列出 [虛擬機器]，請在搜尋列中輸入，接著在搜尋結果選取。
-1. 從頁面左上角，選取 **+ 建立**，然後選取 **+ 虛擬機器**。
+1. 從頁面左上角，依序選取 [+ 建立] 和 [Azure 虛擬機器]。
 1. 在基本索引標籤中，填寫以下資訊 (對於未列出的內容，保留預設設定)：
     1. 訂用帳戶：驗證預設設定為 Azure Pass – 贊助。
 
     1. 資源群組：選取 [新建]，然後在 [名稱] 欄位中輸入 **LabsSC900**，接著選取 [確定]。
     1. 虛擬機器名稱：輸入 **SC900-WinVM**。
-    1. 映像：從下拉式清單中，選取 [Windows 10 Pro，版本 20H2 – Gen 1]。
-    1. 尺寸：從下拉式清單中選取 **查看所有尺寸**，然後選取 [B2s]，然後按下頁面底部的 [選取]。
-    1. 使用者名稱：輸入您選擇的使用者名稱。  請記下它，因為您需要用它來存取 VM。
-    1. 密碼：輸入您選擇的密碼。  請記下它，因為您需要用它來存取 VM。
-    1. 公用輸入連接埠：選取 [無]。
-    1. 授權：請選取 **本人確認擁有符合條件具有多租用戶託管權限的 Windows 10 授權**，以便方塊中出現核取記號。
-    1. 完成時，選取 [下一步:  磁碟]。 
+    1. 區域：如果區域欄位並未經預先填入，則請選取最接近您位置的區域。
+    3. 映像：從下拉式清單中，選取 [Windows 10 Pro，版本 20H2 – Gen 1]。
+    4. 尺寸：從下拉式清單中選取 **查看所有尺寸**，然後選取 [B2s]，然後按下頁面底部的 [選取]。
+    5. 使用者名稱：輸入您選擇的使用者名稱。  請記下它，因為您需要用它來存取 VM。
+    6. 密碼：輸入您選擇的密碼。  請記下它，因為您需要用它來存取 VM。
+    7. 公用輸入連接埠：選取 [無]。
+    8. 授權：請選取 **本人確認擁有符合條件具有多租用戶託管權限的 Windows 10 授權**，以便方塊中出現核取記號。
+    9. 完成時，選取 [下一步:  磁碟]。 
 1. 您現在位於 VM 設定的 [磁碟] 索引標籤中。  將所有設定保留為預設值，然後選取 [下一步：**網路 >]** 。
 1. 您現在位於 VM 設定的網路索引標籤中。  填寫以下資訊 (對於未列出的內容，保留預設設定)：
     1. NIC 網路安全性群組：選取 [無]。  注意：您在這個步驟選取 [無] 的原因，是因為我們希望從頭開始引導您經過設定 NSG 的步驟，這會在後續工作中說明。

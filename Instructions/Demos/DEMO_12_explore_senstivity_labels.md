@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Microsoft 365 的敏感度標籤
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893867"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614227"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>示範：Microsoft 365 的敏感度標籤
 
@@ -32,7 +32,7 @@ ms.locfileid: "137893867"
 
 1. 從左側導覽面板的解決方案下，選取 **資訊保護**。
 
-1. 在黃色資訊方塊中，表明您的組織尚未啟用處理已套用加密敏感度標籤並儲存在 OneDrive 和 SharePoint 中的 Office 線上檔案中的內容功能。  請選取立即開啟。  執行此操作後，設定在系統中傳播可能會有延遲。
+1. 黃色資訊方塊表示您的組織尚未啟用處理已套用加密敏感度標籤並儲存在 OneDrive 和 SharePoint 其 Office 線上檔案中的內容功能。  請選取立即開啟。  執行此操作後，設定在系統中傳播可能會有延遲。
 
 1. 驗證您是否已選取頁面頂部的 **標籤** 索引標籤 (已畫底線)。
 
