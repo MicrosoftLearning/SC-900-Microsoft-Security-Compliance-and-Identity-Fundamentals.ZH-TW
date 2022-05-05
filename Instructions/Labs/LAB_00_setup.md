@@ -1,12 +1,12 @@
 ---
 lab:
   title: 安裝程式
-ms.openlocfilehash: 29b07bfeb08919349ac982c5a8ee5b3cce254704
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893863"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489244"
 ---
 # <a name="lab-setup"></a>實驗室：安裝程式
 
@@ -56,7 +56,7 @@ ms.locfileid: "137893863"
 
 1. 驗證是否已選取 **搜尋** 索引標籤 (已畫底線)。
 
-1. 一旦進入稽核頁面後，請稍等 2-3 分鐘。  如果未啟用稽核，您將在頁面頂部看到藍色列，上面寫著開始記錄使用者和管理活動。  請選取 **開始記錄使用者和管理活動**。  啟用稽核後，藍色列則會消失。  如果藍色列不存在，則表示已啟用稽核，無需進一步動作。  另一個確認是否啟用稽核的方式是透過 PowerShell，但是這超出此課程的範圍。
+1. 一旦進入稽核頁面後，請稍等 2-3 分鐘。  如果未啟用稽核，您將在頁面頂部看到藍色列，上面寫著開始記錄使用者和管理活動。  請選取 **開始記錄使用者和管理活動**。  若提示您確認必須更新組織設定，請選取 [是]。 啟用稽核後，藍色列則會消失。  如果藍色列不存在，則表示已啟用稽核，無需進一步動作。  另一個確認是否啟用稽核的方式是透過 PowerShell，但是這超出此課程的範圍。
 
 1. 從左側導覽面板中選取 **首頁**，退回 Microsoft 365 合規性中心的首頁。
 
