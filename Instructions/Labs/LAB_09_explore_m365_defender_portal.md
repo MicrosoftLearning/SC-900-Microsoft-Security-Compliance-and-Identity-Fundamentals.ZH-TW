@@ -2,28 +2,30 @@
 lab:
   title: 探索 Microsoft 365 Defender 入口網站
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614407"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557143"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>實驗室：探索 Microsoft 365 Defender 入口網站
 
 ## <a name="lab-scenario"></a>實驗案例
-在本實驗中，您將透過逐步了解登錄頁面顯示的內容，探索 Microsoft 365 Defender 入口網站。 您也將會探索導覽面板上可以快速存取功能的選項，此功能是 Microsoft 的 Extended Detection and Response (XDR) 解決方案的一部分：適用於端點的 Microsoft Defender 及適用於 Office 365 的 Microsoft Defender (電子郵件及共同作業)。  最後，您也將探索 Microsoft 安全分數如何協助組織改善其安全性態勢。
 
+在本實驗中，您將透過逐步了解登錄頁面顯示的內容，探索 Microsoft 365 Defender 入口網站。 您也將會探索導覽面板上可以快速存取功能的選項，此功能是 Microsoft 的 Extended Detection and Response (XDR) 解決方案的一部分：適用於端點的 Microsoft Defender 及適用於 Office 365 的 Microsoft Defender (電子郵件及共同作業)。  最後，您也將探索 Microsoft 安全分數如何協助組織改善其安全性態勢。
 
 **預估時間**：10-15 分鐘
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>工作 1：探索 Microsoft 365 Defender 登錄頁面。
+### <a name="task-1"></a>工作 1
+
+探索 Microsoft 365 Defender 登錄頁面。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
-   
+
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。 這將帶您前往 Microsoft 365 系統管理中心頁面。
 
@@ -43,7 +45,9 @@ ms.locfileid: "142614407"
 
 1. 選取卡片的標題將會引導您至該主題的其他資訊。 您將在下一個工作中探索它。  保持瀏覽器視窗為開啟狀態。
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>工作 2：在本工作中，您將探索 Microsoft 安全分數如何協助組織改善其安全性態勢。
+### <a name="task-2"></a>工作 2
+
+在本工作中，您將探索 Microsoft 安全分數如何協助組織改善其安全性態勢。
 
 1. 在 Microsoft 365 Defender 入口網站的歡迎頁面上，請在卡片的標題列選取 **Microsoft 安全分數** (文字會變成藍色)。  或者，您也可以在左側導覽面板選取 **安全分數**。
 
@@ -63,5 +67,6 @@ ms.locfileid: "142614407"
 
 1. 關閉瀏覽器頁面。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
+
 在本實驗中，您已透過登錄頁面顯示的內容探索 Microsoft 365 Defender 入口網站，也探索了導覽面板上的選項，導覽面板提供功能的快速存取權，這些功能包含一部分 Microsoft 的 Extended Detection and Response (XDR 解決方案)、適用於端點的 Microsoft Defender 及適用於 Office 365 的 Microsoft Defender (電子郵件與共同作業)。  最後，您已探索 Microsoft 安全分數如何協助組織改善其安全性態勢。

@@ -2,16 +2,17 @@
 Demo:
   title: Azure Active Directory 條件式存取
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: b3fd1d1f73c7f807c7a72b258762579bdf0184ac
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 9c981817c195e981ea69dc6bba5f168848d6d084
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893907"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557359"
 ---
 # <a name="demo-azure-active-directory-conditional-access"></a>示範：Azure Active Directory 條件式存取
 
-### <a name="demo-scenario"></a>示範案例
+## <a name="demo-scenario"></a>示範案例
+
 在本示範中，您將逐步了解條件式存取原則的多種可用選項。
 
 1. 前往瀏覽器中開啟的索引標籤 **Contoso – Microsoft Azure**。 如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並選取 Azure Active Directory。 您應以管理員身分登入 Azure 入口網站，如果未登入，請重新登入。

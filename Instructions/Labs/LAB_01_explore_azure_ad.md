@@ -2,12 +2,12 @@
 lab:
   title: 探索 Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893842"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557287"
 ---
 # <a name="lab-explore-azure-active-directory"></a>實驗室：探索 Azure Active Directory
 
@@ -15,17 +15,17 @@ ms.locfileid: "137893842"
 
 在此實驗中，您將會存取 Azure Active Directory。  另外，您將會建立使用者與進行不同設定，包括新增授權。  
 
-
-
 **預估時間**：10-15 分鐘
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>工作 1：身為 Microsoft 365 的訂閱者，您已經在使用 Azure AD。  在此工作中，您將會逐步了解透過 Microsoft 365 系統管理入口網站與 Azure 入口網站存取 Azure AD 的方式。
+### <a name="task-1"></a>工作 1
+
+身為 Microsoft 365 的訂閱者，您已經在使用 Azure AD。  在此工作中，您將會逐步了解透過 Microsoft 365 系統管理入口網站與 Azure 入口網站存取 Azure AD 的方式。
 
 1. 開啟 Microsoft Edge。
 
 2. 在網址列中輸入 **admin.microsoft.com** 存取 Microsoft 365 系統管理中心。
 
-3. 登入管理員認證。 
+3. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。
@@ -44,8 +44,9 @@ ms.locfileid: "137893842"
 
 10. 保持此瀏覽器頁面處於開啟狀態，以供下一個工作使用。
 
+### <a name="task-2"></a>工作 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>工作 2：在本工作中，您將會學習如何在 Azure Active Directory 中建立新的使用者，並探索可在使用者等級管理的部分服務。
+在本工作中，您將會學習如何在 Azure Active Directory 中建立新的使用者，並探索可在使用者等級管理的部分服務。
 
 1. 前往瀏覽器中開啟的索引標籤 Contoso – Microsoft Azure。 如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並選取 Azure Active Directory。  您應以管理員身分登入 Azure 入口網站，如果未登入，請重新登入。
 
@@ -109,7 +110,9 @@ ms.locfileid: "137893842"
 
 20. 按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤登出。 接著關閉所有瀏覽器視窗。
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>工作 3：在此工作中，您將首次以 Sara Perez 身分登入。
+### <a name="task-3"></a>工作 3
+
+在此工作中，您將首次以 Sara Perez 身分登入。
 
 1. 開啟 Microsoft Edge。
 
@@ -127,9 +130,6 @@ ms.locfileid: "137893842"
 
 8. 按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤 **登出**。 接著關閉所有瀏覽器視窗。
 
+### <a name="review"></a>檢閱
 
-
-#### <a name="review"></a>檢閱
 在此實驗中，您初次開始探索 Azure AD。 因為 Microsoft 365 的訂閱者會自動使用 Azure Ad，所以您會發現可透過 Microsoft 365 系統管理入口網站或 Azure 入口網站存取 Azure AD 功能與服務。  無論採取哪一種方式都能發揮同樣功能。  您已了解建立新使用者的流程，以及可以進行的不同設定，包括可指派使用者的群組、角色的顯示狀態與使用者授權指派...
-
-

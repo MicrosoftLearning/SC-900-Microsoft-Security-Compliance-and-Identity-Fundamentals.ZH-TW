@@ -1,27 +1,28 @@
 ---
 lab:
   title: 安裝程式
-ms.openlocfilehash: 5e141b2b29f43e4de741a94e06ef10dbe6cd78e3
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489244"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557300"
 ---
 # <a name="lab-setup"></a>實驗室：安裝程式
 
-### <a name="lab-scenario"></a>實驗案例
+## <a name="lab-scenario"></a>實驗案例
 
 在此實驗中，您將使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得順暢的體驗。 在設定的一部分中，您也會在 Microsoft 365 租用戶中啟用稽核記錄功能，這需要一些時間生效。 Microsoft 365 使用稽核記錄來獲取原則和分析深入解析中識別的使用者深入解析和活動。
 
 **預估時間**：5-10 分鐘
 
-#### <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
+### <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
+
 在此設定工作中，您將使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得更順暢無礙的體驗。
 
 1. 如果您有任何已開啟的瀏覽器視窗，建議您關閉所有瀏覽器。
 
-1. 按右鍵 Microsoft Edge 圖示，然後選取 **新的 InPrivate 視窗** 以開啟新的 In-Private 瀏覽器工作階段。 其他 
+1. 按右鍵 Microsoft Edge 圖示，然後選取 **新的 InPrivate 視窗** 以開啟新的 In-Private 瀏覽器工作階段。
 
 1. 在網址列輸入 **www.microsoftazurepass.com**。  
 
@@ -38,7 +39,8 @@ ms.locfileid: "141489244"
 
 1. 持續開啟 Azure 入口網站首頁的瀏覽器索引標籤，您將在下一個示範中返回。
 
-#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>設定第 2 部分 - 啟用 Microsoft 365 稽核記錄
+### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>設定第 2 部分 - 啟用 Microsoft 365 稽核記錄
+
 在此設定工作中，您將在 Microsoft 365 中啟用稽核記錄功能。  儘管文件表明預設情況下會啟用稽核記錄，但大多數實驗租用戶並未啟用此功能，並且可能需要幾個小時才會生效。  啟用此功能是有效益的，因為 Microsoft 365 使用稽核記錄來獲取原則和分析洞察中識別的使用者洞察和活動。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
@@ -60,6 +62,6 @@ ms.locfileid: "141489244"
 
 1. 從左側導覽面板中選取 **首頁**，退回 Microsoft 365 合規性中心的首頁。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
 
 在此設定工作中，您已使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  您也啟用了 Microsoft 365 中的稽核記錄功能。

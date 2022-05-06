@@ -2,28 +2,30 @@
 lab:
   title: 探索 Azure 原則
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614419"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557515"
 ---
 # <a name="lab-explore-azure-policy"></a>實驗室：探索 Azure 原則
 
 ## <a name="lab-scenario"></a>實驗案例
-Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azure 原則會將這些資源屬性與商務規則做比較，藉此評估 Azure 中的資源。 在本實驗中，您將首先探索 Azure 原則登陸頁面。 在對 Azure 原則頁面進行初步探索後，您將建立原則並查看該原則的影響。
 
+Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azure 原則會將這些資源屬性與商務規則做比較，藉此評估 Azure 中的資源。 在本實驗中，您將首先探索 Azure 原則登陸頁面。 在對 Azure 原則頁面進行初步探索後，您將建立原則並查看該原則的影響。
 
 **預估時間**：20-25 分鐘
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>工作 1：簡略探索 Azure 原則頁面。
+### <a name="task-1"></a>工作 1
+
+簡略探索 Azure 原則頁面。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **portal.microsoft.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
-    
+
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。
 
@@ -53,7 +55,9 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
 
 1. 保持此瀏覽器索引標籤 (原則 – Microsoft Azure) 開啟以進行下一個工作。
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>工作 2：在本工作中，您將建立基本原則指派以要求在資源群組上新增標記。
+### <a name="task-2"></a>工作 2
+
+在本工作中，您將建立基本原則指派以要求在資源群組上新增標記。
 
 1. 開啟瀏覽器索引標籤的 [原則 – Microsoft Azure]。
 
@@ -69,9 +73,9 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
 
 1. 請注意預設指派的名稱。  保留該名稱，並在頁面下方選取 **下一步**。
 
-1. 在標記名稱欄位中，請輸入 **環境**，然後選取 **下一步**。 
+1. 在標記名稱欄位中，請輸入 **環境**，然後選取 **下一步**。
 
-1. 保留預設的補救設定，然後選取 [下一步]。 
+1. 保留預設的補救設定，然後選取 [下一步]。
 
 1. 在非合規性訊息中，輸入 **需要環境標籤**，再選取 **下一步**。 請注意：若資源群組在原則指派前建立且沒有環境標籤，將出現此非合規性原因的訊息。  如果在建立原則後建立資源群組，如果沒有環境標籤，資源群組的建立會遭到拒絕。
 
@@ -81,7 +85,9 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
 
 1. 您現在在 Azure 服務首頁。  保持此頁面開啟，將會在下一個工作中使用。
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>工作 3：在本工作中，透過在 Azure 中建立無標記的資源群組，您將查看 Azure 原則指派的影響，然後查看更新資源群組以包含標記。  注意：在上一個工作中建立的原則可能需要長達 30 分鐘才能生效，但通常會進行得更快。
+### <a name="task-3"></a>工作 3
+
+在本工作中，透過在 Azure 中建立無標記的資源群組，您將查看 Azure 原則指派的影響，然後查看更新資源群組以包含標記。  注意：在上一個工作中建立的原則可能需要長達 30 分鐘才能生效，但通常會進行得更快。
 
 1. 開啟瀏覽器索引標籤的 [首頁 – Microsoft Azure]。
 
@@ -99,7 +105,7 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
 
 1. 您將會看到通過的驗證 (標籤名稱與值不是精靈的必要欄位)，再選取 **建立**。
 
-1. 您會看到螢幕上方出現失敗訊息：「無法建立資源群組。 檢視錯誤詳細資料。」  選取 **檢視錯誤詳細資料**。 未達成部分 Azure 原則的條件，因此資源群組建立是基於非合規性原因而遭到封鎖。 
+1. 您會看到螢幕上方出現失敗訊息：「無法建立資源群組。 檢視錯誤詳細資料。」  選取 **檢視錯誤詳細資料**。 未達成部分 Azure 原則的條件，因此資源群組建立是基於非合規性原因而遭到封鎖。
 
     注意：如果您沒有看到失敗訊息，並且已建立資源群組，這是因為原則尚未生效。  前往 [原則] 頁面，找到您先前的工作建立的原則，當原則生效時您就會看到該資源不符合規範。  詳細資料頁面將顯示非合規性訊息。 如果出現錯誤，下列步驟會示範補救部署的方法。
 
@@ -115,12 +121,11 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
 
 1. 在退出之前，請刪除 Azure 原則。
     1. 從頁面的左上角，請選取 [首頁] 以退回至 Azure 首頁。
-    
+
     1. 在 [Azure 服務] 下方選取 [Azure 原則]。
     1. 在頁面中間，您將看到 Azure 原則/新措施指派的清單。  為原則指派選取省略符號「需要資源群組上的標記」，然後選取 [刪除指派]。
     1. 系統將提示您確認是否要刪除指派。  選取 [是]。
 
-
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
 
 在本實驗中，您已了解 Azure 原則登陸頁面。 在對 Azure 原則頁面進行初步探索後，您已了解建立原則的流程，並且能查看到該原則的影響。

@@ -2,22 +2,26 @@
 lab:
   title: 探索適用於雲端的 Microsoft Defender
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 208e11a7e82497fbb900b4fa024fb6fb367d458e
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 580e84e726a6ba9c7d9109881710e08f059d0818
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893827"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557566"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>實驗室：探索適用於雲端的 Microsoft Defender
 
 ## <a name="lab-scenario"></a>實驗案例
+
 在此實驗中，您將會探索適用於雲端的 Microsoft Defender，以及學習如何利用 Azure 安全分數，改善組織的安全性態勢。
 
 **預估時間**：30 分鐘
 
-#### <a name="task-1-in-this-task-you-will-take-a-brief-tour-of-microsoft-defender-for-cloud"></a>工作 1：在這項工作中，將會簡短介紹適用於雲端的 Microsoft Defender。
-1.  開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com**。
+### <a name="task-1"></a>工作 1
+
+在這項工作中，將會簡短介紹適用於雲端的 Microsoft Defender。
+
+1. 開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
@@ -48,35 +52,36 @@ ms.locfileid: "137893827"
 
 1. 在主頁面中選取 **法規合規性**。 [法規合規性] 頁面提供合規性控制措施清單。  在每個控制措施下方有一組以 Azure 安全性效能評定為基礎的評量，為您提供在 Azure 上保護雲端解決方案的建議。
     1. 選取 [IM 身分識別管理]，然後選取 [IM-6 使用增強式驗證控制]。  此清單顯示可用於改善合規性態勢的客戶責任動作。
-    1. 選取螢幕右上角的 **X** 關閉頁面，並返回 [適用於雲端的 Microsoft Defender 概觀] 頁面。 
+    1. 選取螢幕右上角的 **X** 關閉頁面，並返回 [適用於雲端的 Microsoft Defender 概觀] 頁面。
     1. 將 [適用於雲端的 Microsoft Defender 概觀] 頁面保持開啟，下一項工作將會用到。
 
+### <a name="task-2"></a>工作 2
 
-#### <a name="task-2-in-this-task-you-will-navigate-to-azure-secure-score-and-explore-recommendations-that-can-improve-your-secure-score"></a>工作 2：在此工作中，您將會瀏覽 Azure 安全分數及探索可改善安全分數的建議。 
+在此工作中，您將會瀏覽 Azure 安全分數及探索可改善安全分數的建議。
 
 1. 請從 [適用於雲端的 Microsoft Defender 概觀] 頁面中，選取 [安全分數] 卡片。
 1. 請選取 **Azure Pass – 贊助**。  請注意您的安全分數。
 1. 從 [建議] 頁面上，選取 [實作安全性最佳做法]，展開清單。 請注意，其資源健康狀態會顯示為紅色。
-1. 請選取此項目 **應有一個以上擁有者指派至您的訂用帳戶**，該項目的資源健康狀態是紅色的。 
+1. 請選取此項目 **應有一個以上擁有者指派至您的訂用帳戶**，該項目的資源健康狀態是紅色的。
 1. 在 [受影響的資源] 下，確定已選取狀況不良的資源 (或為其加上底線)，然後選取列出的 Azure 訂閱。
 1. 在存取控制 (IAM) 頁面上方，請選取 **+ 新增**，接著在下拉式功能表選取 **新增角色指派**。
     1. 從頁面左側選取 [擁有者] (應為第一個列出的項目)，資料列如此即會以灰色醒目提示，然後請選取頁面底部的 [下一步]。
-    1. 請選取成員旁邊的 [+ 選取成員]。 
+    1. 請選取成員旁邊的 [+ 選取成員]。
     1. 從畫面右側開啟的 [選取成員] 視窗中，選取 **Alex Wilber**，然後按下頁面底部的 [選取]。  
     1. 在 [新增角色指派] 頁面上，確認 Alex Wilber 已列為成員，然後依序選取 [下一步] 和 [檢閱 + 指派]。
     1. 狀態更新可能需要長達 24 小時，完成後您的安全分數也會進行更新，同時也會滿足 [管理存取與權限] 群組中的所有項目。
     1. 從頁面左上角，選取 Azure Pass 上方的 [適用於雲端的 Microsoft Defender]，返回 [適用於雲端的 Microsoft Defender 概觀] 頁面。
 1. 保持此頁面處於開啟狀態，以供下一個工作使用。
 
+### <a name="task-3"></a>工作 3
 
-#### <a name="task-3--recall-that-microsoft-defender-for-cloud-is-offered-in-two-modes-without-enhanced-security-features-free-and-with-enhanced-security-features-which-are-available-through-the-microsoft-defender-for-cloud-plans-in-this-task-you-discover-how-to-enabledisable-the-various-microsoft-defender-for-cloud-plans"></a>工作 3：請回想一下，適用於雲端的 Microsoft Defender 提供兩種模式：適用於雲端的 Microsoft Defender 方案提供沒有增強式安全性功能 (免費) 和有增強式安全性功能。 在這項工作中，將探索如何啟用/停用各個適用於雲端的 Microsoft Defender 方案。
+請回想一下，適用於雲端的 Microsoft Defender 提供兩種模式：適用於雲端的 Microsoft Defender 方案提供沒有增強式安全性功能 (免費) 和有增強式安全性功能。 在這項工作中，將探索如何啟用/停用各個適用於雲端的 Microsoft Defender 方案。
 
-1.  請從 [適用於雲端的 Microsoft Defender 概觀] 頁面中，選取左側瀏覽面板中的 [環境設定]。
+1. 請從 [適用於雲端的 Microsoft Defender 概觀] 頁面中，選取左側瀏覽面板中的 [環境設定]。
 1. 選取 [租用戶根群組] 旁的大於 **>** 符號，將其展開 (請勿直接選取 [租用戶根群組]，因為如此會將您導向至其他頁面)，然後選取 [Azure Pass - 贊助]
-1.  在 Defender 方案的頁面上，注意可以選取啟用所有，或選取個別的 Defender 方案。 將所有方案設定為 [關閉]，保留原有設定。
-1.  您現在可以關閉瀏覽器索引標籤，結束 Azure 入口網站。
+1. 在 Defender 方案的頁面上，注意可以選取啟用所有，或選取個別的 Defender 方案。 將所有方案設定為 [關閉]，保留原有設定。
+1. 您現在可以關閉瀏覽器索引標籤，結束 Azure 入口網站。
 
+### <a name="review"></a>檢閱
 
-#### <a name="review"></a>檢閱
 在此實驗中，您將會探索適用於雲端的 Microsoft Defender，以及學習如何利用 Azure 安全分數，改善組織的安全性態勢。
-

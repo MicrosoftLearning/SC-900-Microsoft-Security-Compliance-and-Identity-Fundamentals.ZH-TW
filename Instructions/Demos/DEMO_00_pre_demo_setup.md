@@ -1,21 +1,22 @@
 ---
 Pre-Demo Setup:
   title: 示範設定
-ms.openlocfilehash: b44b5fe0c5f01e8cb2364dc426c2ec3a2b1e7029
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893800"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557251"
 ---
 # <a name="pre-demo-setup"></a>預先示範設定：
 
-### <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
+## <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
+
 在此設定工作中，您將使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得更順暢無礙的體驗。
 
 1. 如果您有任何已開啟的瀏覽器視窗，建議您關閉所有瀏覽器。
 
-1. 按右鍵 Microsoft Edge 圖示，然後選取 **新的 InPrivate 視窗** 以開啟新的 In-Private 瀏覽器工作階段。 其他 
+1. 按右鍵 Microsoft Edge 圖示，然後選取 **新的 InPrivate 視窗** 以開啟新的 In-Private 瀏覽器工作階段。
 
 1. 在網址列輸入 **www.microsoftazurepass.com**。  
 
@@ -33,6 +34,7 @@ ms.locfileid: "137893800"
 1. 持續開啟 Azure 入口網站首頁的瀏覽器索引標籤，您將在下一個示範中返回。
 
 ### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>設定第 2 部分 - 啟用 Microsoft 365 稽核記錄
+
 在此設定工作中，您將在 Microsoft 365 中啟用稽核記錄功能。  儘管文件表明預設情況下會啟用稽核記錄，但大多數實驗租用戶並未啟用此功能，並且可能需要幾個小時才會生效。  啟用此功能是有效益的，因為 Microsoft 365 使用稽核記錄來獲取原則和分析洞察中識別的使用者洞察和活動。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
@@ -59,5 +61,3 @@ ms.locfileid: "137893800"
 ### <a name="review"></a>檢閱
 
 在此設定工作中，您已使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  您也啟用了 Microsoft 365 中的稽核記錄功能。
-
-
