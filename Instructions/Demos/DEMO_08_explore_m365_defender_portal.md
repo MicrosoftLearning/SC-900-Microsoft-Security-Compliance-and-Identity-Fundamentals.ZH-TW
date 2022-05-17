@@ -2,19 +2,22 @@
 Demo:
   title: The Microsoft 365 Defender 入口網站
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614359"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557305"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>示範：The Microsoft 365 Defender 入口網站
 
-### <a name="demo-scenario"></a>示範案例
+## <a name="demo-scenario"></a>示範案例
+
 在本示範中，您將透過了解登錄頁面顯示的內容，展示 Microsoft 365 Defender 入口網站。 您也將會逐步了解導覽面板上可以快速存取功能的選項，此功能是 Microsoft 的 Extended Detection and Response (XDR) 解決方案的一部分：適用於端點的 Microsoft Defender 及適用於 Office 365 的 Microsoft Defender (電子郵件及共同作業)。  最後，您將會了解 Microsoft 安全分數如何協助組織改善其安全性態勢。
 
-#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>示範第 1 部分：探索 Microsoft 365 Defender 登錄頁面。
+### <a name="demo-part-1"></a>示範第 1 部分
+
+探索 Microsoft 365 Defender 登錄頁面。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。  您應已經用管理員的身分登入。如果尚未登入，請用管理員認證登入。
 
@@ -36,7 +39,9 @@ ms.locfileid: "142614359"
 
 1. 選取卡片的標題將會引導您至該主題的其他資訊。 您將在下一個工作中探索它。  保持瀏覽器視窗為開啟狀態。
 
-#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>示範第 2 部分：在本示範的這個部分，您將會了解 Microsoft 安全分數如何協助組織改善其安全性態勢。
+### <a name="demo-part-2"></a>示範第 2 部分
+
+在本示範的這個部分，您將會了解 Microsoft 安全分數如何協助組織改善其安全性態勢。
 
 1. 在 Microsoft 365 Defender 入口網站的歡迎頁面上，請在卡片的標題列選取 **Microsoft 安全分數** (文字會變成藍色)。  或者，您也可以在左側導覽面板選取 **安全分數**。
 
@@ -56,6 +61,6 @@ ms.locfileid: "142614359"
 
 1. 關閉瀏覽器頁面。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
 
 在本示範中，您已透過登錄頁面顯示的內容探索 Microsoft 365 Defender 入口網站，也探索了導覽面板上的選項，導覽面板提供功能的快速存取權，這些功能包含一部分 Microsoft 的 Extended Detection and Response (XDR 解決方案)、適用於端點的 Microsoft Defender 及適用於 Office 365 的 Microsoft Defender (電子郵件與共同作業)。  最後，您已了解 Microsoft 安全分數如何協助組織改善其安全性態勢。

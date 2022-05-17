@@ -1,49 +1,53 @@
 ---
 lab:
-  title: "'探索 Microsoft 365 合規性中心與合規性管理員'"
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 4b9e03c6c7826eab3b1de1ddeaa1c9d65dfbdffd
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索 Microsoft Purview 合規性入口網站及合規性管理員
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614215"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557484"
 ---
-# <a name="lab-explore-the-microsoft-365-compliance-center--compliance-manager"></a>實驗室：'探索 Microsoft 365 合規性中心與合規性管理員'
+# <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>實驗室：探索 Microsoft Purview 合規性入口網站及合規性管理員
 
 ## <a name="lab-scenario"></a>實驗案例
-在本實驗中，您將會探索 Microsoft 365 合規性中心首頁，以及合規性管理員如何協助組織改善合規性狀態的能力。
 
+在本實驗中，您將會探索 Microsoft Purview 合規性入口網站首頁，以及合規性管理員具備可協助組織改善其合規性態勢的能力。
 
 **預估時間**：15-20 分鐘
 
-#### <a name="task-1-explore-the-microsoft-365-compliance-center-home-page-and-learn-to-customize-the-card-view-and-the-navigation-panel"></a>工作 1：探索 Microsoft 365 合規性中心首頁，以及學習自訂卡片檢視表與導覽面板。
+### <a name="task-1"></a>工作 1
 
-1.  開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
+探索 Microsoft Purview 合規性入口網站首頁，並學習如何自訂卡片檢視與導覽面板。
+
+1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
-    
+
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。 這將帶您前往 Microsoft 365 系統管理中心頁面。
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
 
-1. 在系統管理中心下，請選取 **合規性**。  全新瀏覽器頁面將開啟前往至 Microsoft 365 合規性的歡迎頁面。  
+1. 在系統管理中心下，請選取 **合規性**。  會在新的瀏覽器頁面中開啟 Microsoft Purview 合規性入口網站的歡迎頁面。  
 1. 首頁的卡片部分供您概覽組織的合規性狀態如何、哪些是組織可用的解決方案等等。
 1. 在主視窗中向下捲動，檢視不同的卡片。 主螢幕可用的卡片及卡片的位置可依照不同管理員的偏好進行變更。  
 1. 將您的游標移動到任何卡片的標題列，將標題列變為灰色。  當您看到游標變為十字形狀，即可將卡片移動到想要的位置。
 1. 在每張卡片的標題列，您將會看到提供可採取的行動的省略符號。  選取 [解決方案目錄] 上的省略符號，並選取 **移除**。
 1. 您可以透過選取 **+ 新增卡片** 來新增卡片。  將會開啟 [在首頁新增卡片] 視窗。  將游標移至視窗中顯示的 [解決方案目錄卡片]，並拖曳至首頁螢幕中希望放置卡片的位置。
-1. 在 Microsoft 365 合規性中心首頁的左側導覽面板中，請注意在「解決方案」下僅顯示「目錄」。  從左側瀏覽面板中，選取 [...顯示全部]。  請注意，所有的新增解決方案皆出現在 [解決方案] 區下方。  
+1. 在 Microsoft Purview 合規性入口網站首頁的左側導覽面板中，請注意在 [解決方案] 下僅顯示 [目錄]。  從左側瀏覽面板中，選取 [...顯示全部]。  請注意，所有的新增解決方案皆出現在 [解決方案] 區下方。  
 1. 選取 **顯示較少** 以隱藏。
 1. 因為您是合規性管理員，所以可能會為組織管理一組解決方案，因此，您可能希望在瀏覽面板中只看到這些解決方案。 若要根據偏好自訂，請選取 **自訂瀏覽**。  
 1. 從標示為 [自訂瀏覽窗格] 的視窗中，注意可如何選取要顯示在瀏覽面板上的項目，以及取消選取不想看到的項目。 為達到實驗目的，請保留所有選取的項目，然後按一下視窗底部的 [儲存]。  
 1. 保持瀏覽器索引標籤為開啟狀態。
 
-#### <a name="task-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>工作 2：透過「合規性管理員」學習組織的合規性狀態。
+### <a name="task-2"></a>工作 2
 
-1. 從 Microsoft 365 系統管理中心的左側導覽面板中，選取 **合規性管理員**。  或者，您可以在「合規性管理員」卡片的標題列上選取「合規性管理員」。
+透過「合規性管理員」學習組織的合規性狀態。
+
+1. 在 Microsoft Purview 合規性入口網站的左側導覽面板中，選取 [合規性管理員]。  或者，您可以在「合規性管理員」卡片的標題列上選取「合規性管理員」。
 
 1. 從「合規性管理員」頁面頂部，確保已選取 **概覽** (已畫底線)。 向下捲動，檢視頁面上所有可用的資訊。  此頁面上的資訊，包含您的合規性分數、已達成的分數，以及已達成的 Microsoft 管理分數。   您將會看到「重要改進動作」、影響您的分數的「解決方案」以及合規性分數明細，根據類別或評量排列。
 
@@ -62,11 +66,11 @@ ms.locfileid: "142614215"
 1. 在頁面左上角 [評量] 的上方 (階層連結)，選取 **評量** 以退回評量頁面。  
 
 1. 在頁面上方選取 **評量範本**。  此頁面列出可用的範本。 您可以使用現有的範本或建立新範本，為您的組織建立評量。
- 
+
 1. 在隨附的範本清單上，選取 **ISO/IEC27001:2013**。 請在頁面右上方選取 **+ 建立評量**。  請注意螢幕左側，從範本建立評量只需要兩個步驟。  請選取頁面底部的「取消」。
 
 1. 關閉已開啟的瀏覽器索引標籤。
 
+### <a name="review"></a>檢閱
 
-#### <a name="review"></a>檢閱
-在本實驗中，您已探索 Microsoft 365 合規性中心首頁，以及合規性管理員如何協助組織改善合規性狀態的能力。
+在本實驗中，您已探索了 Microsoft Purview 合規性入口網站首頁，以及合規性管理員所能協助組織改善其合規性態勢的能力。

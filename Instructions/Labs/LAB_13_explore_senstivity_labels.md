@@ -1,42 +1,43 @@
 ---
 lab:
-  title: 探索 Microsoft 365 的敏感度標籤
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: ab8d44cf92697deb200bf968a1865d328025984b
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索 Microsoft Purview 的敏感度標籤
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614443"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557587"
 ---
-# <a name="lab-explore-sensitivity-labels-in-microsoft-365"></a>實驗室：探索 Microsoft 365 的敏感度標籤
+# <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 的敏感度標籤
 
 ## <a name="lab-scenario"></a>實驗案例
-在本實驗中，您將會探索敏感度標籤的功能。  您將瀏覽已建立的現有敏感度標籤的設定以及發佈標籤的相應原則。   然後，您將從使用者的角度了解如何套用標籤以及標籤的影響。
 
+在本實驗中，您將會探索敏感度標籤的功能。  您將瀏覽已建立的現有敏感度標籤的設定以及發佈標籤的相應原則。   然後，您將從使用者的角度了解如何套用標籤以及標籤的影響。
 
 **預估時間**：20-25 分鐘
 
-#### <a name="task-1-in-this-task-you-will-gain-an-understanding-of-what-sensitivity-labels-can-do-by-going-through-the-settings-for-an-existing-sensitivity-label-that-have-been-created-and-the-corresponding-policy-to-publish-the-label"></a>工作 1：在本工作中，透過已建立的現有敏感度標籤的設定以及發佈標籤的相應原則，您將了解敏感度標籤可以做些什麼。
+### <a name="task-1"></a>工作 1
+
+在本工作中，透過已建立的現有敏感度標籤的設定以及發佈標籤的相應原則，您將了解敏感度標籤可以做些什麼。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
-    
+
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。 這將帶您前往 Microsoft 365 系統管理中心頁面。
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
 
-1. 在系統管理中心下，請選取 **合規性**。  全新瀏覽器頁面將開啟前往至 Microsoft 365 合規性的歡迎頁面。  
+1. 在系統管理中心下，請選取 **合規性**。  會在新的瀏覽器頁面中開啟 Microsoft Purview 合規性入口網站的歡迎頁面。  
 
 1. 從左側導覽面板的解決方案下，選取 **資訊保護**。
 
 1. 選取頁面上方的 [標籤] 索引標籤。
 
-1. 隨即會出現黃色資訊方塊，指出「您的組織對於套用加密敏感度標籤且儲存在 OneDrive 和 SharePoint 中的 Office 線上檔案內容，尚未啟用處理功能...」請選取立即開啟。  執行此操作後，設定在系統中傳播可能會有延遲。
-
+1. 隨即會出現黃色資訊方塊，指出「您的組織對於套用加密敏感度標籤且儲存在 OneDrive 和 SharePoint 中的 Office 線上檔案內容，尚未啟用處理功能...」選取 [立即開啟]。  執行此操作後，設定在系統中傳播可能會有延遲。** **
 
 1. 請注意頁面中間，已建立了標籤。  請選取 **機密 - 財務**。  將開啟提供有關此標籤資訊的視窗。  請注意如何將此標籤設定為同時支援加密和內容標記。  請選取頁面頂部的 [編輯標籤] 以檢視一些基本組態設定。
 
@@ -52,9 +53,9 @@ ms.locfileid: "142614443"
 
 1. 您現在位於檔案和電子郵件的自動加上標籤視窗。  請閱讀頁面頂部的自動加上標籤說明及其下方的資訊方塊。  另請注意，此標籤設定為針對特定條件進行自動加上標籤。 請勿變更任何設定。  請選取頁面底部的 **下一步**。
 
-1. 下一個視窗定義已套用此標籤的團隊、群組和網站的保護設定。 若尚未啟用，請選取頁面底部的 **下一步**。 
+1. 下一個視窗定義已套用此標籤的團隊、群組和網站的保護設定。 若尚未啟用，請選取頁面底部的 **下一步**。
 
-1. 下一個視窗為預覽功能，可自動將此標籤套用於包含您選取的敏感性資訊類型的 Azure 資料庫欄位 (如 SQL、Synapse 等)。  尚未啟用此功能。 請選取頁面底部的 **取消** 退出標籤設定精靈並退回至資訊保護頁面。 
+1. 下一個視窗為預覽功能，可自動將此標籤套用於包含您選取的敏感性資訊類型的 Azure 資料庫欄位 (如 SQL、Synapse 等)。  尚未啟用此功能。 請選取頁面底部的 **取消** 退出標籤設定精靈並退回至資訊保護頁面。
 
 1. 從資訊保護頁面的頂部，選取 **標籤原則**。  只有透過標籤原則，才可以發佈敏感度標籤。  
 
@@ -75,31 +76,31 @@ ms.locfileid: "142614443"
 
 1. 從資訊保護頁面，選取自動加上標籤。  請注意，沒有設定自動加上標籤原則。  請勿變更任何設定。  如果您想知道為什麼此處沒有原則，有鑑於標籤設定已設定為檔案和電子郵件的自動加上標籤，請退回瀏覽標籤組態設定的步驟，並檢閱與檔案和電子郵件的自動加上標籤相關的說明和資訊方塊。  提示：在敏感度實驗的自動加上標籤索引標籤上寫著。  「若要將此標籤自動套用於已儲存的檔案 (在 SharePoint 和 OneDrive 中) 或已由 Exchange 處理的電子郵件，則必須建立自動加上標籤原則。」
 
-1. 從左側導覽面板中，選取首頁以退回 Microsoft 365 合規性中心。
+1. 選取左側導覽面板中的 [首頁]，返回 Microsoft Purview 合規性入口網站。
 
 1. 請保持此頁面開啟，您將在下個工作中使用它。
 
+### <a name="task-2"></a>工作 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>工作 2：在本工作中，您將從使用者 (在本案例中使用者為管理員) 的角度了解套用標籤的流程，並檢視由標籤產生的內容標記。
+在本工作中，您將從使用者 (在本案例中使用者為管理員) 的角度了解套用標籤的流程，並檢視由標籤產生的內容標記。
 
-1. 首先，請確定已在實驗室虛擬機器 (VM) 上進行了 Office 設定。  若要執行此作業，請選取會開啟瀏覽器的 [Microsoft 365 系統管理中心] 索引標籤。  如果先前已關閉該索引標籤，請開啟新的瀏覽器索引標籤，然後輸入 **admin.microsoft.com**。
-    1. 從左側瀏覽面板中，選取 [計費]，檢視所有選項，然後選取 **您的產品**。
-    1. 從您產品的頁面中，選取 [Microsoft 365 E5 試用版]
-    1. 從 [Microsoft 365 E5 試用版] 頁面中，選取 [下載並安裝軟體]，然後依頁面上的指示進行。
+1. 從 Microsoft 365 合規性中心首頁中，選取 Contoso Electronics 旁的 **應用程式啟動器圖示**。 **在 Word 圖示上按一下滑鼠右鍵**，然後選取 [在新索引標籤中開啟]。  
 
-1. 選取實驗室 VM 左下角的 Windows 圖示，然後選取 [Word]，再選取 [空白文件]。  如此將會使用 Word 桌上型電腦版本，開啟新的 Word 文件。
+1. 請選取 **+ 新空白文件**，然後在頁面上輸入一些文字。  在頁面頂部的藍色列上，選取 DocumentXX - Saved 旁邊的向下箭號，然後在檔案名稱方塊中輸入 **測試標籤**。
 
-1. 從頂部功能表列中，選取 **敏感度**。 在下拉式清單中選取 **機密 - 財務**。
+1. 在頂部功能表列中選取 **敏感度**，如果您沒有立即看到此選項，請重新整理頁面。 在下拉式清單中選取 **機密 - 財務**。
 
-1. 請注意文件如何包含浮水印。  浮水印會以淺灰色小型文字，垂直顯示在頁面上。 
+1. 在頂部功能表列中選取 **檢視**，然後選取 **閱讀檢視**。
 
-1. 儲存 Word 檔案。
+1. 請注意文件如何包含浮水印。  
 
 1. 關閉瀏覽器上已開啟的 Microsoft Word 索引標籤以退出 Word。
 
-#### <a name="task-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view--in-this-task-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>工作 3 (可選)：除了內容標記之外，還為加密設定標籤保護設定。 根據以此標籤設定的權限，財務群組中的成員可以共同撰寫套用此標籤的文件，而 Contoso 租用戶中的使用者可以進行檢視。  在本工作中，您將此文件傳送至您有權存取的電子郵件地址 (即個人電子郵件地址)，該地址不屬於 WWLxZZZZ.OnMicrosoft.com 網域，並查看在嘗試開啟附件時發生的情況。  
+### <a name="task-3-optional"></a>工作 3 (選用)
 
-1. 從 Microsoft 365 合規性中心首頁中，選取 Contoso Electronics 旁的 **應用程式啟動器圖示**。 **在 Outlook 圖示上按一下滑鼠右鍵**，然後選取 [在新索引標籤中開啟]。
+除了內容標記之外，還為加密設定標籤保護設定。 根據以此標籤設定的權限，財務群組中的成員可以共同撰寫套用此標籤的文件，而 Contoso 租用戶中的使用者可以進行檢視。  在本工作中，您將此文件傳送至您有權存取的電子郵件地址 (即個人電子郵件地址)，該地址不屬於 WWLxZZZZ.OnMicrosoft.com 網域，並查看在嘗試開啟附件時發生的情況。
+
+1. 在 Microsoft Purview 合規性入口網站首頁中，選取 Contoso Electronics 旁的 **應用程式啟動器圖示**。 **在 Outlook 圖示上按一下滑鼠右鍵**，然後選取 [在新索引標籤中開啟]。
 
 1. 從螢幕左上角選取 **新建郵件**。  輸入您有權存取且不屬於 WWLxZZZZ.OnMicrosoft.com 網域的電子郵件地址，然後在主旨行中輸入 **測試**。
 
@@ -113,6 +114,6 @@ ms.locfileid: "142614443"
 
 1. 關閉已開啟的瀏覽器索引標籤。
 
+### <a name="review"></a>檢閱
 
-#### <a name="review"></a>檢閱
 在本實驗中，您將會探索敏感度標籤的功能。  您將瀏覽已建立的現有敏感度標籤的設定以及發佈標籤的相應原則。   然後，您將從使用者的角度了解如何套用標籤以及標籤的影響。

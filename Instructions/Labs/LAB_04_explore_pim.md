@@ -2,21 +2,24 @@
 lab:
   title: '探索 Azure AD 中 Privileged Identity Management 的身分識別治理。 '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489232"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557263"
 ---
-# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>實驗室：探索 Azure AD 中 Privileged Identity Management 的身分識別治理。
+# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>實驗室：使用 Privileged identity Management 探索 Azure AD 中的身分控管
 
 ## <a name="lab-scenario"></a>實驗案例
+
 在此實驗中，您將會探索 Privileged Identity Management (PIM) 的部分基本功能。 PIM 需要 Azure AD Premium P2。  在此實驗中，您將會以管理員的身分設定其中一位使用者 Diego Siciliani，利用 Azure AD 使用者管理員角色完成 PIM。   Diego 將可利用使用者管理員權限建立使用者與群組管理授權等。  管理員與使用者 Diego 皆必須進行 Azure AD Premium P2 授權設定。
 
 **預估時間**：30-45 分鐘
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>工作 1：在此工作中，您將會以管理員身分重設使用者 Diego Siciliani 的密碼。 您必須進行此步驟，才能在後續工作中初次以使用者身分登入。
+### <a name="task-1"></a>工作 1
+
+在此工作中，您將會以管理員身分重設使用者 Diego Siciliani 的密碼。 您必須進行此步驟，才能在後續工作中初次以使用者身分登入。
 
 1. 開啟 Microsoft Edge。  在網址列輸入 **portal.azure.com**。
 
@@ -43,8 +46,9 @@ ms.locfileid: "141489232"
 
 11. 請保持瀏覽器頁面開啟，您將在下個工作中使用它。
 
+### <a name="task-2"></a>工作 2
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>工作 2：在此工作中，您將以管理員的身分在 Privileged Identity Management 中指派 Diego 一個 Azure AD 角色。
+在此工作中，您將以管理員的身分在 Privileged Identity Management 中指派 Diego 一個 Azure AD 角色。
 
 1. 前往標籤為 Contoso – Microsoft Azure 的瀏覽器索引標籤。   如果您先前曾經關閉瀏覽器索引標籤，請開啟 Microsoft Edge 並在網址列輸入 portal.azure.com，以管理員認證進行登入後，選取 Azure Active Directory。  
 
@@ -62,7 +66,7 @@ ms.locfileid: "141489232"
 
 8. 將 [範圍類型] 保持預設值 [目錄]。  
 
-9. 在 [選取成員] 下方，請選取 **未選取成員**。 這將會開啟 [選取成員] 視窗。 
+9. 在 [選取成員] 下方，請選取 **未選取成員**。 這將會開啟 [選取成員] 視窗。
 
 10. 在搜尋列輸入 **Diego**。  在搜尋結果中，請選取 **Diego Siciliani**，接著在頁面底部按一下 **選取**。  
 
@@ -84,8 +88,9 @@ ms.locfileid: "141489232"
 
 19. 若要登出，請選取螢幕右上角電子郵件地址旁的使用者圖示，並選取 **登出**。接著關閉所有瀏覽器視窗。
 
+### <a name="task-3"></a>工作 3
 
-#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>工作 3：在此工作中，您將以 Diego Siciliani 的身分登入 Azure 入口網站，存取 Azure Active Directory 的 Privileged Identity Management 功能，以使用者管理員的身份啟用您的指派。  完成啟用後，您將會對現有使用者進行某些設定變更。 注意：在此工作中，您將需要可以立即存取與接收簡訊的行動裝置。
+在此工作中，您將以 Diego Siciliani 的身分登入 Azure 入口網站，存取 Azure Active Directory 的 Privileged Identity Management 功能，以使用者管理員的身份啟用您的指派。  完成啟用後，您將會對現有使用者進行某些設定變更。 注意：在此工作中，您將需要可以立即存取與接收簡訊的行動裝置。
 
 1. 開啟 Microsoft Edge。  在瀏覽器的網址列中，請輸入 **portal.azure.com**。
 
@@ -107,24 +112,25 @@ ms.locfileid: "141489232"
 1. 在 Microsoft Authenticator 視窗的左下方，請選取 **我想設定不同的方法**。
 1. 您已收到 [選取不同方法] 的提示。  在 [Authenticator 應用程式] 旁，請選取向下的方向鍵。   請選取 **電話**，接著選取 **確認**。
 1. 您已收到提示，請輸入希望使用的電話號碼。 請確保電話號碼的國碼 (地區碼) 是正確的國家。  請輸入您的電話號碼，確保已選取 **傳送代碼給我**，接著請選取 **下一步**。
-1. 請輸入電話接收的 6 位數代碼，並選取 **下一步**。 
+1. 請輸入電話接收的 6 位數代碼，並選取 **下一步**。
 1. 您將會收到電話成功登錄的通知。 請選取 **下一步**，接著請選取 **完成**。
 1. 系統會詢問您是否希望保持登入狀態。  選取 [是]  。
 1. 出現 [啟用使用者管理員] 視窗。  您必須輸入啟用原因。  在出現的方框中，請輸入任何理由 (不可超過 500 字元)，接著選取 **啟用**。
 1. 您將會在啟用的處理過程中檢視其狀態 (流程的 3 個階段)。
-1. 啟用完成後會返回 [我的角色] | [Azure AD 角色] 頁面。您會看到一則通知，指出您剛剛啟用了一個角色。  請選取 **按一下這裡** 來檢視您的使用中角色。  如果您注意到結束時間與最初設定的時間不同，請選取頁面上方的 [重新整理] 鍵 (可能需要幾分鐘重新整理)。 
+1. 啟用完成後會返回 [我的角色] | [Azure AD 角色] 頁面。您會看到一則通知，指出您剛剛啟用了一個角色。  請選取 **按一下這裡** 來檢視您的使用中角色。  如果您注意到結束時間與最初設定的時間不同，請選取頁面上方的 [重新整理] 鍵 (可能需要幾分鐘重新整理)。
 1. 請選取螢幕右上角的 **X** 關閉此視窗。
 1. 選取螢幕右上角的 **X**，關閉 [Privileged Identity Management] | [快速入門] 視窗。
 1. 請選取螢幕右上角的 **X** 關閉 [身分識別治理] 視窗。
 1. 您現在已回到 Contoso Azure Active Directory 頁面。  身為 Azure AD 使用者管理員，您可以建立使用者與群組、管理授權等。   在左側導覽面板中選取 **使用者**。
 1. 在使用者清單中，選取 **Bianca Pisani**。
 1. 在左側導覽面板中，選取 **授權**。
-1. 請注意 Bianca 沒有指派的授權。  請在頁面上方選取 **+ 指派**。 
+1. 請注意 Bianca 沒有指派的授權。  請在頁面上方選取 **+ 指派**。
 1. 請在選取授權清單中，選取 **Office 365 E3** 及 **Windows 10 Enterprise E3**。
 1. 請在頁面底部選取 **儲存**。  您將會看到頁面右上角有簡短的通知，顯示已成功指派授權。
 1. 請選取頁面右上角的 **X** 關閉更新的授權指派頁面。
 1. 若要登出，請選取螢幕右上角電子郵件地址旁的使用者圖示，並選取 **登出**。接著關閉所有瀏覽器視窗。
 1. 使用者管理員角色的期間限制為進行設定的時間。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
+
 在此實驗中，您探索了 PIM。  您以管理員的身分為 Diego 設定在特定時間內的使用者管理員權限。  接著，您以 Diego 的身分進行啟動使用者管理員權限及進行使用者設定的流程。  請回顧一下，PIM 需要 Azure AD Premium P2 授權。

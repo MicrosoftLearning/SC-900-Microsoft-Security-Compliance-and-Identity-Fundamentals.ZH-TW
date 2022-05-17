@@ -1,21 +1,23 @@
 ---
 Demo:
-  title: Microsoft 365 的敏感度標籤
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Microsoft Purview 的敏感度標籤
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614227"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557191"
 ---
-# <a name="demo-sensitivity-labels-in-microsoft-365"></a>示範：Microsoft 365 的敏感度標籤
+# <a name="demo-sensitivity-labels-in-microsoft-purview"></a>示範：Microsoft Purview 的敏感度標籤
 
-### <a name="demo-scenario"></a>示範案例
+## <a name="demo-scenario"></a>示範案例
+
 在本示範中，您將展示敏感度標籤的功能。  您將瀏覽已建立的現有敏感度標籤的設定以及發佈標籤的相應原則。   然後，您將從使用者的角度了解如何套用標籤以及標籤的影響。
 
+### <a name="demo-part-1"></a>示範第 1 部分
 
-#### <a name="demo-part-1-in-this-demo-you-show-the-settings-for-an-existing-sensitivity-label-and-the-corresponding-policy-to-publish-the-label"></a>示範第 1 部分：在本示範中，您將展示現有敏感度標籤的設定以及發佈標籤的相應原則。
+在本示範中，您將展示現有敏感度標籤的設定以及發佈標籤的相應原則。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
 
@@ -26,15 +28,15 @@ ms.locfileid: "142614227"
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
 
-1. 在系統管理中心下，請選取 **合規性**。  全新瀏覽器頁面將開啟前往至 Microsoft 365 合規性的歡迎頁面。  
+1. 在系統管理中心下，請選取 **合規性**。  會在新的瀏覽器頁面中開啟 Microsoft Purview 合規性入口網站的歡迎頁面。  
 
-1. 從 Microsoft 365 系統管理中心的左側導覽面板中，選取 **顯示全部**。
+1. 在 Microsoft Purview 合規性入口網站的左側導覽窗格中，選取 [全部顯示]。
 
 1. 從左側導覽面板的解決方案下，選取 **資訊保護**。
 
-1. 黃色資訊方塊表示您的組織尚未啟用處理已套用加密敏感度標籤並儲存在 OneDrive 和 SharePoint 其 Office 線上檔案中的內容功能。  請選取立即開啟。  執行此操作後，設定在系統中傳播可能會有延遲。
+1. 黃色資訊方塊表示您的組織尚未啟用處理已套用加密敏感度標籤並儲存在 OneDrive 和 SharePoint 其 Office 線上檔案中的內容功能。  選取 [立即開啟]。  執行此操作後，設定在系統中傳播可能會有延遲。
 
-1. 驗證您是否已選取頁面頂部的 **標籤** 索引標籤 (已畫底線)。
+1. 確認已選取頁面頂部的 [標籤] 索引標籤 (有加底線)。
 
 1. 在頁面中間，請注意已建立三個標籤。  請選取 **機密 - 財務**。  將開啟提供有關此標籤資訊的視窗。  請注意如何將此標籤設定為同時支援加密和內容標記。  請選取頁面頂部的 **編輯標籤** 以檢視一些基本組態設定。
 
@@ -50,9 +52,9 @@ ms.locfileid: "142614227"
 
     1. 您現在位於檔案和電子郵件的自動加上標籤視窗。  請閱讀頁面頂部的自動加上標籤說明及其下方的資訊方塊。  另請注意，此標籤設定為針對特定條件進行自動加上標籤。 請勿變更任何設定。  請選取頁面底部的 **下一步**。
 
-    1. 下一個視窗定義已套用此標籤的團隊、群組和網站的保護設定。 若尚未啟用，請選取頁面底部的 **下一步**。 
+    1. 下一個視窗定義已套用此標籤的團隊、群組和網站的保護設定。 若尚未啟用，請選取頁面底部的 **下一步**。
 
-    1. 下一個視窗為預覽功能，可自動將此標籤套用於包含您選取的敏感性資訊類型的 Azure 資料庫欄位 (如 SQL、Synapse 等)。  尚未啟用此功能。 請選取頁面底部的 **取消** 退出標籤設定精靈並退回至資訊保護頁面。 
+    1. 下一個視窗為預覽功能，可自動將此標籤套用於包含您選取的敏感性資訊類型的 Azure 資料庫欄位 (如 SQL、Synapse 等)。  尚未啟用此功能。 請選取頁面底部的 **取消** 退出標籤設定精靈並退回至資訊保護頁面。
 
 1. 從資訊保護頁面的頂部，選取 **標籤原則**。  只有透過標籤原則，才可以發佈敏感度標籤。  
 
@@ -70,18 +72,19 @@ ms.locfileid: "142614227"
 
 1. 從資訊保護頁面，選取自動加上標籤。  請注意，沒有設定自動加上標籤原則。  請勿變更任何設定。  如果您想知道為什麼此處沒有原則，有鑑於標籤設定已設定為檔案和電子郵件的自動加上標籤，請退回瀏覽標籤組態設定的步驟，並檢閱與檔案和電子郵件的自動加上標籤相關的說明和資訊方塊。  提示：在敏感度實驗的自動加上標籤索引標籤上寫著。  「若要將此標籤自動套用於已儲存的檔案 (在 SharePoint 和 OneDrive 中) 或已由 Exchange 處理的電子郵件，則必須建立自動加上標籤原則。」
 
-1. 從左側導覽面板中，選取首頁以退回 Microsoft 365 合規性中心。
+1. 選取左側導覽面板中的 [首頁]，返回 Microsoft Purview 合規性入口網站。
 
 1. 請保持此頁面開啟，您將在下個工作中使用它。
 
+### <a name="demo-part-2"></a>示範第 2 部分
 
-#### <a name="demo-part-2--in-this-step-you-will-show-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>示範第 2 部分：在此步驟中，您將從使用者 (在本案例中使用者為管理員) 的角度展示套用標籤的流程，並檢視由標籤產生的內容標記。
+在此步驟中，您將從使用者 (在本案例中使用者為管理員) 的角度展示套用標籤的流程，並檢視由標籤產生的內容標記。
 
-1. 從 Microsoft 365 合規性中心首頁中，選取 Contoso Electronics 旁的 **應用程式啟動器圖示**。 **在 Word 圖示上按一下滑鼠右鍵**，然後選取 [在新索引標籤中開啟]。  
+1. 在 Microsoft Purview 合規性入口網站首頁中，選取 Contoso Electronics 旁的 **應用程式啟動器圖示**。 **在 Word 圖示上按一下滑鼠右鍵**，然後選取 [在新索引標籤中開啟]。  
 
 1. 請選取 **+ 新空白文件**，然後在頁面上輸入一些文字。  在頁面頂部的藍色列上，選取 DocumentXX - Saved 旁邊的向下箭號，然後在檔案名稱方塊中輸入 **測試標籤**。
 
-1. 在頂部功能表列中選取 **敏感度**，如果您沒有立即看到此選項，請重新整理頁面。 在下拉式清單中選取 **機密 - 財務**。 
+1. 在頂部功能表列中選取 **敏感度**，如果您沒有立即看到此選項，請重新整理頁面。 在下拉式清單中選取 **機密 - 財務**。
 
 1. 在頂部功能表列中選取 **檢視**，然後選取 **閱讀檢視**。
 
@@ -89,9 +92,11 @@ ms.locfileid: "142614227"
 
 1. 關閉瀏覽器上已開啟的 Microsoft Word 索引標籤以退出 Word。
 
-#### <a name="demo-part-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view-or-any-documentemail-with-the-label-applied--in-this-section-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-or-your-microsoft-email-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>示範第 3 部分 (可選)：除了內容標記之外，還為加密設定標籤保護設定。 根據使用此標籤設定的權限，財務群組中的成員可以共同撰寫套用此標籤的文件，並且 Contoso 租用戶中的使用者可以進行檢視 (或套用此標籤的任何文件/電子郵件)。  在這個部分，您將把此文件傳送至您有權存取的電子郵件地址 (即個人電子郵件地址或您的 Microsoft 電子郵件)，然而其不屬於 WWLxZZZZ.OnMicrosoft.com 網域，並查看在嘗試開啟附件時發生的情況。  
+### <a name="demo-part-3-optional"></a>示範第 3 部分 (選用)
 
-1. 從 Microsoft 365 合規性中心首頁中，選取 Contoso Electronics 旁的 **應用程式啟動器圖示**。 **在 Outlook 圖示上按一下滑鼠右鍵**，然後選取 [在新索引標籤中開啟]。
+除了內容標記之外，還為加密設定標籤保護設定。 根據使用此標籤設定的權限，財務群組中的成員可以共同撰寫套用此標籤的文件，並且 Contoso 租用戶中的使用者可以進行檢視 (或套用此標籤的任何文件/電子郵件)。  在這個部分，您將把此文件傳送至您有權存取的電子郵件地址 (即個人電子郵件地址或您的 Microsoft 電子郵件)，然而其不屬於 WWLxZZZZ.OnMicrosoft.com 網域，並查看在嘗試開啟附件時發生的情況。  
+
+1. 在 Microsoft Purview 合規性入口網站首頁中，選取 Contoso Electronics 旁的 **應用程式啟動器圖示**。 **在 Outlook 圖示上按一下滑鼠右鍵**，然後選取 [在新索引標籤中開啟]。
 
 1. 從螢幕左上角選取 **新建郵件**。  輸入您有權存取且不屬於 WWLxZZZZ.OnMicrosoft.com 網域的電子郵件地址，然後在主旨行中輸入 **測試**。
 
@@ -105,6 +110,6 @@ ms.locfileid: "142614227"
 
 1. 關閉已開啟的瀏覽器索引標籤。
 
+### <a name="review"></a>檢閱
 
-#### <a name="review"></a>檢閱
 在本示範中，您已展示敏感度標籤。  您展示已建立的現有敏感度標籤的設定以及發佈標籤的相應原則。 然後，已從使用者的角度了解如何套用標籤以及標籤的影響。

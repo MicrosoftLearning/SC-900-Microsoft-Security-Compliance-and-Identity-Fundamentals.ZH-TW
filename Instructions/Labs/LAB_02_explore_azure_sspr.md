@@ -2,12 +2,12 @@
 lab:
   title: 以自助式密碼重設探索 Azure AD 驗證
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489268"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557467"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>實驗室：以自助式密碼重設探索 Azure AD 驗證
 
@@ -17,8 +17,9 @@ ms.locfileid: "141489268"
 
 **預估時間**：15-20 分鐘
 
+### <a name="task-1"></a>工作 1
 
-#### <a name="task-1--in-this-task-you-as-the-admin-will-add-an-existing-user-adele-vance-into-the-ssprsecurityusers-group--also-you-will-also-need-to-do-a-reset-of-the-users-password-so-that-you-can-do-a-first-time-login-as-the-user-and-register-for-sspr"></a>工作 1：在此工作中，您將會以管理員的身分將現有使用者 Adele Vance 新增至 SSPRSecurityUsers 群組。  另外，您也會需要重設使用者的密碼，如此一來才能以使用者的身分進行初次登入，並登錄 SSPR。
+在此工作中，您將會以管理員的身分將現有使用者 Adele Vance 新增至 SSPRSecurityUsers 群組。  另外，您也會需要重設使用者的密碼，如此一來才能以使用者的身分進行初次登入，並登錄 SSPR。
 
 1. 開啟 Microsoft Edge。
 
@@ -59,35 +60,38 @@ ms.locfileid: "141489268"
 
 18. 請保持 Contoso Overview 視窗開啟，您將在下個工作中使用它。
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-learn-how-to-configure-password-reset-for-users-including-configuration-of-the-types-of-authentication-methods-to-use"></a>工作 2：在此工作中，您將會以管理員身分了解如何為使用者進行密碼重設，包括設定要使用的驗證方法類型。
+### <a name="task-2"></a>工作 2
+
+在此工作中，您將會以管理員身分了解如何為使用者進行密碼重設，包括設定要使用的驗證方法類型
 
 1. 前往瀏覽器中開啟的索引標籤 Contoso – Microsoft Azure。 如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並選取 Azure Active Directory。  您應以管理員身分登入 Azure 入口網站，如果未登入，請重新登入。
 
-2. 在左側導覽窗格中選取 **密碼重設**。  
+1. 在左側導覽窗格中選取 **密碼重設**。  
 
-3. 已顯示自助式密碼重設屬性。  確定已為列出的群組 **SSPRSecurityUsers**，**選取了** **自助式服務重設**。  將游標移到 [選取群組] 旁的資訊圖示，並留意 [定義這些經允許可重設自己的密碼的使用者群組]。 請務必將使用者納入群組中，不可單獨選取使用者。  另外，如果您變更群組，則選取的群組會取代目前列出的群組。  因此，建議您只要將使用者新增至 SSPR 群組即可。  最後，請注意藍色資訊方塊，「這些設定僅套用於組織內的終端使用者。 管理員可以進行自助式密碼重設，且必須使用兩種驗證方法來重設其密碼。」
+1. 已顯示自助式密碼重設屬性。  確定已為列出的群組 **SSPRSecurityUsers**，**選取了** **自助式服務重設**。  將游標移到 [選取群組] 旁的資訊圖示，並留意 [定義這些經允許可重設自己的密碼的使用者群組]。 請務必將使用者納入群組中，不可單獨選取使用者。  另外，如果您變更群組，則選取的群組會取代目前列出的群組。  因此，建議您只要將使用者新增至 SSPR 群組即可。  最後，請注意藍色資訊方塊，「這些設定僅套用於組織內的終端使用者。 管理員可以進行自助式密碼重設，且必須使用兩種驗證方法來重設其密碼。」
 
-5. 在左側的 [密碼重設] 導覽面板中選取 **驗證方法**。
+1. 在左側的 [密碼重設] 導覽面板中選取 **驗證方法**。
 
-6. 在需要重設的方法編號中，選取 **1**。 請注意螢幕上的資訊方塊。
+1. 在需要重設的方法編號中，選取 **1**。 請注意螢幕上的資訊方塊。
 
-7. 請注意使用者可用的不同方法。  如未選取 **電子郵件** 及 **行動電話 (僅限簡訊)** ，請勾選這些選項。
+1. 請注意使用者可用的不同方法。  如未選取 **電子郵件** 及 **行動電話 (僅限簡訊)** ，請勾選這些選項。
 
-8. 在左側的 [密碼重設] 導覽面板中選取 **註冊**。  
+1. 在左側的 [密碼重設] 導覽面板中選取 **註冊**。  
 
-9. 登入時，請確保 [要求使用者登錄] 的設定為 **是**。  在使用者被要求重新確認驗證資訊前，保留 [天數] 為預設的 180 天。   請記下頁面上的資訊方塊。
+1. 登入時，請確保 [要求使用者登錄] 的設定為 **是**。  在使用者被要求重新確認驗證資訊前，保留 [天數] 為預設的 180 天。   請記下頁面上的資訊方塊。
 
-10. 在左側的 [密碼重設] 導覽面板中選取 **通知**。  
+1. 在左側的 [密碼重設] 導覽面板中選取 **通知**。  
 
-11. 請確保 [通知使用者重設密碼] 的設定為 **是**。  將 [其他管理員重設密碼時，通知所有管理員] 設定為 [否]。
+1. 請確保 [通知使用者重設密碼] 的設定為 **是**。  將 [其他管理員重設密碼時，通知所有管理員] 設定為 [否]。
 
-12. 請注意，[密碼重設] 導覽窗格也包含檢視稽核記錄及 [使用方式與深入解析] 選項。
+1. 請注意，[密碼重設] 導覽窗格也包含檢視稽核記錄及 [使用方式與深入解析] 選項。
 
-13. 按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤 **登出**。 接著關閉所有瀏覽器視窗。
+1. 按一下螢幕右上角電子郵件地址旁的使用者圖示，從所有瀏覽器索引標籤 **登出**。 接著關閉所有瀏覽器視窗。
 
+### <a name="task-3"></a>工作 3
 
-#### <a name="task-3--in-this-task-you-as-user-adele-vance-will-go-through-the-registration-process-for-self-service-password-reset--this-task-requires-that-you-have-access-to-a-mobile-device-where-you-can-receive-text-messages-or-a-personal-email-account-that-you-can-access"></a>工作 3：在此工作中，您將以 Adele Vance 的身分了解自助式密碼重設的流程。  此工作需要您存取行動裝置，接收簡訊或可存取的個人電子郵件帳戶。
- 
+在此工作中，您將以 Adele Vance 的身分了解自助式密碼重設的流程。  此工作會需要您可以存取行動裝置、接收簡訊，或可存取的個人電子郵件帳戶
+
 1. 開啟 Microsoft Edge。
 
 2. 在網址列輸入 **login.microsoftonline.com**。
@@ -107,23 +111,25 @@ ms.locfileid: "141489268"
 
 8. 您現在已完成登入。  應該會位於 Azure 入口網站登陸頁面上。  如果您發現登入時間已過期，請重新輸入密碼 SC900-Lab。
 
-9. 登出 Azure 入口網站，並關閉瀏覽器視窗。 
+9. 登出 Azure 入口網站，並關閉瀏覽器視窗。
 
-#### <a name="task-4-optional-in-this-task-you-as-user-adele-vance-will-go-through-the-process-of-resetting-your-password"></a>工作 4 (選用)：在此工作中，您將以 Adele Vance 的身分了解密碼重設的流程。
+### <a name="task-4-optional"></a>工作 4 (選用)
+
+在此工作中，您將會以 Adele Vance 的身分了解密碼重設的流程
 
 1. 開啟 Microsoft Edge。
 
-2. 在網址列輸入 login.microsoftonline.com。
+2. 在網址列輸入 **login.microsoftonline.com**。
 
 3. 輸入您的電子郵件 **AdeleV@WWLxZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是您實驗室代管提供者提供的唯一租用戶識別碼)，然後選取 [下一步] 按鈕，以 Adele Vance 的身分登入。 您可能會看到 [挑選一個帳戶] 的視窗開啟，請選取 Adele Vance 的視窗。
 
-4. 在 [輸入密碼] 視窗，請選取 **忘記我的密碼**。 
+4. 在 [輸入密碼] 視窗，請選取 **忘記我的密碼**。
 
 5. 將開啟 [回到您的帳戶] 視窗。   確認 Adele Vance 的電子郵件 AdeleV@WWLxZZZZ.onmicrosoft.com 出現在 [電子郵件] 或 [使用者名稱] 方塊中。  如果未顯示，請自行輸入。  
 
 6. 在空白方塊中，輸入映象顯示的字元或音訊播放的單字。 輸入完成後，請選取 **下一步**。
 
-7. 螢幕會顯示 [退回您的帳戶]，接著顯示 [驗證步驟 1 > 選取新密碼]。 保持預設設定 **傳送簡訊至我的行動電話**。  您會收到輸入行動電話號碼的提示。  輸入完成後，請選取 **傳送簡訊** 按鈕。  在選取電子郵件的登錄過程中，[退回您的帳戶] 視窗將顯示 [您將在備用電子郵件地址接收含有驗證碼的電子郵件]。  選取 [電子郵件]。 
+7. 螢幕會顯示 [退回您的帳戶]，接著顯示 [驗證步驟 1 > 選取新密碼]。 保持預設設定 **傳送簡訊至我的行動電話**。  您會收到輸入行動電話號碼的提示。  輸入完成後，請選取 **傳送簡訊** 按鈕。  在選取電子郵件的登錄過程中，[退回您的帳戶] 視窗將顯示 [您將在備用電子郵件地址接收含有驗證碼的電子郵件]。  選取 [電子郵件]。
 
 8. 輸入驗證碼，接著請按一下 **下一步**。
 
@@ -137,11 +143,13 @@ ms.locfileid: "141489268"
 
 13. 若要登出，請選取螢幕右上角電子郵件地址旁的使用者圖示，並選取 **登出**。接著關閉所有瀏覽器視窗
 
-#### <a name="task-5-optional--in-this-task-you-as-the-administrator-will-briefly-view-the-audit-logs-and-the-usage--insights-data-associated-with-password-reset"></a>工作 5 (選用)：在此工作中，您會以管理員身分快速檢視與重設密碼相關的 [稽核記錄] 與 [使用方式與深入解析]。
+### <a name="task-5-optional"></a>工作 5 (選用)
+
+在此工作中，您會以管理員身分快速檢視與重設密碼建立關聯的 [稽核記錄] 和 [使用方式與見解] 資料
 
 1. 開啟 Microsoft Edge。
 
-2. 在網址列輸入 **portal.azure.com** 
+2. 在網址列輸入 **portal.azure.com**
 
 3. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
@@ -164,6 +172,6 @@ ms.locfileid: "141489268"
 
 11. 關閉已開啟的瀏覽器索引標籤。
 
+### <a name="review"></a>檢閱
 
-#### <a name="review"></a>檢閱
 在此實驗中，您已經以管理員的身分了解啟用自助式密碼重設的流程。 啟用 SSPR 後，您可以接著扮演使用者角色，並了解 SSPR 登錄與重設密碼的流程。  最後，您以管理員的身分檢視稽核記錄與 SSPR 的使用方式資料與深入解析。

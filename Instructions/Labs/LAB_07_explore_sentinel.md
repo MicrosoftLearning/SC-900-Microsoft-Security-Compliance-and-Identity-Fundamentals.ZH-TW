@@ -2,21 +2,24 @@
 lab:
   title: 探索 Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614335"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557155"
 ---
-# <a name="lab-explore-microsoft-sentinel"></a>實驗室：探索 Microsoft Sentinel 
+# <a name="lab-explore-microsoft-sentinel"></a>實驗室：探索 Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>實驗案例
+
 在此示範中，將引導您逐步了解建立 Microsoft Sentinel 執行個體的流程。  您也將會設定權限，確保可存取將會部署的資源，以支援 Microsoft Sentinel。  完成此基本設定之後，會逐步引導您進行將 Microsoft Sentinel 連線至資料來源、設定活頁簿的步驟，並會對 Microsoft Sentinel 中所提供的部分主要功能逐一解說。  
 
 **預估時間**：45-60 分鐘
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>工作 1：建立 Microsoft Sentinel 執行個體
+### <a name="task-1"></a>工作 1
+
+建立 Microsoft Sentinel 執行個體
 
 1. 開啟瀏覽器索引標籤的 **首頁-Microsoft Azure**。  如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並重新登入。
 
@@ -31,7 +34,7 @@ ms.locfileid: "142614335"
     1. 資源群組：請選取 **建立新的**，並輸入名稱 **SC900-Sentinel-RG**，然後選取 **確定**。
     1. 名稱：**SC900-LogAnalytics-workspace**。
     1. 地區：**美國東部** (可能會根據您所在的位置選取不同預設區域)
-    1. 選取 [下一步：**標記 >]**
+    1. 選取 [下一步：**標籤 >]**
 
 1. 對於標記，您可以將其留為空白，然後選取 **檢閱 + 建立**。
 
@@ -43,11 +46,13 @@ ms.locfileid: "142614335"
 
 1. 請保持此頁面開啟，您將在下個工作中使用它。
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>工作 2：建立 Microsoft Sentinel 執行個體後，需要確保對部署的資源具有必要的存取權，以支援 Microsoft Sentinel。  
+### <a name="task-2"></a>工作 2
+
+建立 Microsoft Sentinel 執行個體後，需要確保對部署的資源具有必要的存取權，以支援 Microsoft Sentinel。
 
 1. 在搜尋方塊中，在頁面頂部 Microsoft Azure 旁邊的藍色列中，輸入 **資源群組**，然後從搜尋結果中選取 **資源群組**。 指派資源群組等級的角色，可確保該角色將套用於為支援 Azure Sentinel 而部署的所有資源。
 
-1. 從資源群組頁面中，選取以 Microsoft Sentinel 所建立的資源群組 **SC900-Sentinel-RG**。 
+1. 從資源群組頁面中，選取以 Microsoft Sentinel 所建立的資源群組 **SC900-Sentinel-RG**。
 
 1. 在 SC900-Sentinel-RG 頁面中，從左側導覽面板中選取 **存取控制 (IAM)** 。
 
@@ -55,14 +60,16 @@ ms.locfileid: "142614335"
 
     1. 在存取控制頁面中，請選取 **+ 新增**，然後選取 **新增角色指派**。
 
-    1. 新增角色指派視窗已開啟。  在搜尋方塊中，輸入 **Microsoft Sentinel** 以檢視與 Microsoft Sentinel 建立關聯的 4 個角色。 
+    1. 新增角色指派視窗已開啟。  在搜尋方塊中，輸入 **Microsoft Sentinel** 以檢視與 Microsoft Sentinel 相關的 4 個角色。
     1. 從列出的任何角色中，選取 [檢視] 以檢視該角色的詳細資料。  作為最佳做法，您應該為角色指派最少的權限。  
 
     1. 請選取視窗右上角的 [X] 以關閉視窗。
 
 1. 從存取控制頁面，選取視窗右上角的 [X] 以關閉視窗。
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>工作 3：在此作業中，將引導您逐步了解將 Microsoft Sentinel 連線至資料來源以開始收集資料的流程。
+### <a name="task-3"></a>工作 3
+
+在此作業中，將引導您逐步了解將 Microsoft Sentinel 連線至資料來源以開始收集資料的流程。
 
 1. 在頁面頂端 Microsoft Azure 旁藍色列的搜尋方塊中，輸入 **Microsoft Sentinel**，然後從搜尋結果中選取 **Microsoft Sentinel**。
 
@@ -84,19 +91,23 @@ ms.locfileid: "142614335"
 
 1. 請保持此頁面開啟，您將在下個工作中使用它。
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>工作 4：在這項工作中，會逐步引導您進行 Office 365 活頁簿的設定流程，以視覺化和監視您的資料。
+### <a name="task-4"></a>工作 4
+
+在這項工作中，會逐步引導您進行 Office 365 活頁簿的設定流程，以視覺化和監視您的資料。
 
 1. 從左側導覽面板，請選取 **活頁簿**。
 
-1. 在搜尋方塊中，輸入 Office 365，然後選取 [Office 365]。
+1. 在搜尋方塊中，輸入 Office 365，然後選取 **Office 365**。
 
 1. 從畫面右側開啟的視窗，檢閱說明後再選取畫面底部的 [儲存]，然後選取 [確定] 以將活頁簿儲存到預設位置。  現在，選取 [檢視已儲存的活頁簿]。
 
-1. 會隨即開啟 [Office 365 活頁簿] 頁面。  選取 [作業: 取消設定] 旁的下拉式箭號，然後選取 [全部]。  現在，選取 [使用者: 查詢擱置中] 旁的下拉式箭號，然後選取 [全部]。  選取 **儲存 (磁片) 圖示**。 請選取視窗右上角的 [X] 以關閉視窗。 資料可能會需要花數分鐘的時間才會在活頁簿中顯示，您可以稍後再回到活頁簿。
+1. 會隨即開啟 [Office 365 活頁簿] 的頁面。  選取 [作業: 取消設定] 旁的下拉式箭號，然後選取 [全部]。  現在，選取 [使用者: 查詢擱置中] 旁的下拉式箭號，然後選取 [全部]。  選取 **儲存 (磁片) 圖示**。 請選取視窗右上角的 [X] 以關閉視窗。 資料可能會需要花數分鐘的時間才會在活頁簿中顯示，您可以稍後再回到活頁簿。
 
 1. 從 [活頁簿] 頁面左上角的 [活頁簿]，選取 Microsoft Sentinel。 這會將您帶回到 [概觀] 頁面。
 
-#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>工作 5：在此工作中，會逐步解說 Microsoft Sentinel 中部分可用的選項。
+### <a name="task-5"></a>工作 5
+
+在此工作中，會逐步解說 Microsoft Sentinel 中部分可用的選項。
 
 1. 從左側導覽面板選取 [搜捕]。  在已選取 (加上底線) 的 [查詢] 索引標籤中，選取清單中任何一個查詢。  選取查詢之後，請記下該查詢的相關資訊，包括查詢的程式碼，以及執行查詢的選項，並查看結果。  請勿選取任何項目。
 
@@ -106,7 +117,7 @@ ms.locfileid: "142614335"
 
 1. 從左側導覽面板，請選取 **分析**。  選取 [Advanced Multistage Attack Detection] \(進階多階段攻擊偵測\) 清單中的第一個專案。  記下詳細的資訊。  Microsoft Sentinel 會使用 Fusion (一個以可調整機器學習演算法為基礎的相互關聯引擎) 透過識別在終止鏈結的不同階段中所觀察到異常行為及可疑活動的組合，以自動偵測多階段的攻擊 (也稱為進階持續性威脅)。 以這些探索為基礎，Microsoft Sentinel 就能產生出其他方法難以攔截的事件。
 
-1. 從左側導覽面板，請選取 **自動化**。  您可以在這裡建立簡單的自動化規則，與現有的劇本整合，或建立新的劇本。  選取 [+ 建立]，然後選取 [自動化規則]。  請留意畫面右側中開啟的視窗，以及可用來建立條件及動作的選項。  選取畫面底部的 [取消]。
+1. 從左側導覽面板，請選取 **自動化**。  您可以在這裡建立簡單自動化規則，與現有的劇本整合，或建立新的劇本。  選取 [+ 建立]，然後選取 [自動化規則]。  請留意畫面右側中開啟的視窗，以及可用來建立條件及動作的選項。  選取畫面底部的 [取消]。
 
 1. 從左側導覽面板，請選取 **活頁簿**。 從活頁簿頁面中，請選取搜尋方塊上方的 **我的活頁簿** 索引標籤。  會列出您先前儲存的活頁簿，可供您檢視和監視資料。  選取 [Office 365]，然後從畫面右側開啟的視窗中，選取 [檢視已儲存的活頁簿]。  記下與 Office 365 工作負載相關的視覺效果。  
 
@@ -114,7 +125,9 @@ ms.locfileid: "142614335"
 
 1. 選取視窗左上角藍色列下方的 [首頁]，即可返回 Azure 入口網站的首頁。
 
-#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>工作 6：Microsoft Sentinel 的計費方式，取決於 Microsoft Sentinel 中分析所取用的資料量。 雖然，這個實驗中所內嵌的資料量很小，但仍建議在完成探索 Microsoft Sentinel 的功能特性之後，刪除 Microsoft Sentinel 資源群組。
+### <a name="task-6"></a>工作 6
+
+Microsoft Sentinel 的計費方式，取決於 Microsoft Sentinel 中分析所取用的資料量。 雖然，這個實驗中所內嵌的資料量很小，但仍建議在完成探索 Microsoft Sentinel 的功能特性之後，刪除 Microsoft Sentinel 資源群組。
 
 1. 請從 Microsoft Sentinel 頁面左上角的 Microsoft Sentinel，選取 [所有服務]。
 
@@ -124,8 +137,8 @@ ms.locfileid: "142614335"
 
 4. 從頁面的頂部中心，請選取 **刪除資源群組**。  檢閱警告。  輸入資源群組名稱 **SC900-ResourceGroup**，然後從頁面底部選取 **刪除**。  刪除資源群組需要幾分鐘的時間。
 
-5. 驗證資源群組已刪除後，請關閉瀏覽器頁面。 
+5. 驗證資源群組已刪除後，請關閉瀏覽器頁面。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
 
 在本示範中，您已完成將 Microsoft Sentinel 連線至資料來源的各個步驟、設定活頁簿，並已使用 Microsoft Sentinel 中幾個可用的選項。

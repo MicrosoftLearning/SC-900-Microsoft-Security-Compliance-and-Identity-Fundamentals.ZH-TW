@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893878"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557167"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>示範：Microsoft Defender for Cloud Apps
 
-### <a name="demo-scenario"></a>示範案例
+## <a name="demo-scenario"></a>示範案例
+
 在本示範中，您將展示 Microsoft Defender for Cloud Apps 的功能。  您將會帶領學員了解 Cloud Discovery 儀表板上的可用資訊以及用來調查結果的可用功能，並透過原則控制對組織造成的影響。  注意：組織必須要有授權，才可使用以使用者訂閱數計費的服務 Microsoft Defender for Cloud Apps。  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>示範第 1 部分：探索 Cloud Discovery。
+### <a name="demo-part-1-explore-cloud-discovery"></a>示範第 1 部分：探索 Cloud Discovery
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。  您應已經用管理員的身分登入。如果尚未登入，請用管理員認證登入。
 
@@ -54,7 +55,9 @@ ms.locfileid: "137893878"
 
 1. 請保持此頁面開啟，您將在下個工作中使用它。
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>示範第 2 部分：探索調查記錄活動的方式。
+### <a name="demo-part-2"></a>示範第 2 部分
+
+探索調查記錄活動的方式。
 
 1. 從左側導覽面板的 **調查** 下方，選取 **活動記錄**。  您可以在此檢視已連線應用程式的所有活動。   因為您已經完成 Office 365 連接器的連線，應可檢視部分資料。 當您將 Cloud App Security 連線到使用應用程式連線程式的應用程式後，Cloud App Security 會掃描發生的所有活動 (每個應用程式的追溯掃描時段都不相同)，再以新的活動不斷更新。  
 
@@ -66,8 +69,9 @@ ms.locfileid: "137893878"
 
 1. 請保持此頁面開啟，您將在下個工作中使用它。
 
+### <a name="demo-part-3"></a>示範第 3 部分
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>示範第 3 部分：在此工作中，您將會探索 Microsoft Defender for Cloud Apps 中的原則與警示頁面。
+在此工作中，您將會探索 Microsoft Defender for Cloud Apps 中的原則與警示頁面
 
 1. 從左側導覽面板的「控制」下方，選取 **原則**。  所列出的原則提供有關該原則、嚴重性等所產的警示數目相關資訊。選取任何條項，都可提供有關該原則更詳細的資訊。 選取一個清單項目，例如 **風險性登入**。  
 
@@ -75,5 +79,6 @@ ms.locfileid: "137893878"
 
 1. 關閉瀏覽器視窗。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
+
 在本示範中，您將展示 Microsoft Defender for Cloud Apps 的功能。  您已展示 Cloud Discovery 儀表板上的可用資訊以及用來調查結果的可用功能，並透過原則控制對組織造成的影響。

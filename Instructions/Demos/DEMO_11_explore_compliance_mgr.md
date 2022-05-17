@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: "'探索 Microsoft 365 合規性中心與合規性管理員'"
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索 Microsoft Purview 合規性入口網站及合規性管理員
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614203"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557239"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>示範：'探索 Microsoft 365 合規性中心與合規性管理員'
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>示範：探索 Microsoft Purview 合規性入口網站及合規性管理員
 
 ## <a name="demo-scenario"></a>示範案例
-在本示範中，您將了解 Microsoft 365 合規性中心首頁，以及合規性管理員如何協助組織改善合規性狀態的能力。
 
-## <a name="instructions"></a>指示
+在本示範中，您將會了解 Microsoft Purview 合規性入口網站首頁，以及合規性管理員具備可協助組織改善其合規性態勢的能力。
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>示範第 1 部分：了解 Microsoft 365 合規性中心首頁，以及如何自訂卡片檢視表與導覽面板。
+### <a name="demo-part-1"></a>示範第 1 部分
+
+顯示 Microsoft Purview 合規性入口網站首頁，以及如何自訂卡片檢視與導覽面板。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。 您應已經用管理員的身分登入。如果尚未登入，請用管理員認證登入。
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
 
-1. 在系統管理中心下，請選取 **合規性**。  全新瀏覽器頁面將開啟前往至 Microsoft 365 合規性的歡迎頁面。  
+1. 在系統管理中心下，請選取 **合規性**。  會在新的瀏覽器頁面中開啟 Microsoft Purview 合規性入口網站的歡迎頁面。  
 
 1. 首頁的卡片部分供您概覽組織的合規性狀態如何、哪些是組織可用的解決方案等等。
 
@@ -34,7 +35,7 @@ ms.locfileid: "142614203"
 
 1. 您可以透過選取 **+ 新增卡片** 來新增卡片。  將會開啟 [在首頁新增卡片] 視窗。  將游標移至視窗中顯示的 [解決方案目錄卡片]，並拖曳至首頁螢幕中希望放置卡片的位置。
 
-1. 在 Microsoft 365 合規性中心首頁的左側導覽面板中，項目列在 [解決方案] 下方。  如果僅顯示了 [目錄]，則請在左側瀏面板中選取 [...顯示全部]。  請注意，所有的新增解決方案皆出現在 [解決方案] 區下方。  
+1. 在 Microsoft Purview 合規性入口網站首頁的左側導覽面板中，項目會列於 [解決方案] 的下方。  如果僅顯示了 [目錄]，則請在左側瀏面板中選取 [...顯示全部]。  請注意，所有的新增解決方案皆出現在 [解決方案] 區下方。  
 
 1. 身為合規性管理員，您可能會有為組織管理的一組解決方案，且希望隨時列於導覽面板上。  若要根據偏好自訂，請選取 **自訂瀏覽**。  
 
@@ -42,9 +43,11 @@ ms.locfileid: "142614203"
 
 1. 保持瀏覽器索引標籤為開啟狀態。
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>示範第 2 部分：透過「合規性管理員」學習組織的合規性狀態。
+### <a name="demo-part-2"></a>示範第 2 部分
 
-1. 從 Microsoft 365 系統管理中心的左側導覽面板中，選取 **合規性管理員**。  或者，您可以在「合規性管理員」卡片的標題列上選取「合規性管理員」。
+透過「合規性管理員」學習組織的合規性狀態。
+
+1. 在 Microsoft Purview 合規性入口網站的左側導覽面板中，選取 [合規性管理員]。  或者，您可以在「合規性管理員」卡片的標題列上選取「合規性管理員」。
 
 1. 從「合規性管理員」頁面頂部，確保已選取 **概覽** (已畫底線)。 向下捲動，檢視頁面上所有可用的資訊。  此頁面上的資訊包含您的合規性分數，以百分位數顯示，並且依據您達成的分數以及達成的 Microsoft 管理分數。   您將會看到「重要改進動作」、影響您的分數的「解決方案」以及合規性分數明細，根據類別或評量排列。
 
@@ -66,7 +69,8 @@ ms.locfileid: "142614203"
 
 1. 在隨附的範本清單上，選取 **ISO/IEC27001:2013**。 請在頁面右上方選取 **+ 建立評量**。  請注意螢幕左側，從範本建立評量只需要兩個步驟。  請選取頁面底部的「取消」。
 
-1. 從左側導覽面板中，選取 **首頁** 以退回 Microsoft 365 合規性中心的「首頁」。  保持此瀏覽器頁面處於開啟狀態，以供後續示範使用。
+1. 在左側導覽面板中，選取 [首頁] 以返回 Microsoft Purview 合規性入口網站的首頁。  保持此瀏覽器頁面處於開啟狀態，以供後續示範使用。
 
-#### <a name="review"></a>檢閱
-在本示範中，您將了解 Microsoft 365 合規性中心首頁，以及合規性管理員如何協助組織改善合規性狀態的能力。
+### <a name="review"></a>檢閱
+
+在本示範中，您已對 Microsoft Purview 合規性入口網站首頁有所了解，以及合規性管理員所具備可協助組織改善其合規性態勢的能力。

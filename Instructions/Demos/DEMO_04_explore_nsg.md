@@ -2,20 +2,21 @@
 Demo:
   title: Azure 網路安全性群組 (Network Security Group, NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019280"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557526"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>示範：Azure 網路安全性群組 (Network Security Group, NSG)
 
-### <a name="demo-scenario"></a>示範案例
+## <a name="demo-scenario"></a>示範案例
+
 在本示範中，您將展示 Azure 網路安全性群組 (NSG) 的功能。  作為預先示範設定的一部分，您將首先建立沒有任何 NSG 的虛擬機器 (Virtual Machine, VM)。 您還將建立沒有任何關聯介面或子網路的 NSG。  作為示範的一部分，您將展示 NSG 的預設輸入和輸出規則。 然後，您將完成將 VM 的介面指派給 NSG 的流程。  設定完成後，您將使用預設的 NSG 規則以及您將建立的規則測試與 VM 的連線。
   
+### <a name="pre-demo-setup-part-1"></a>預先示範設定第 1 部分
 
-#### <a name="pre-demo-setup-part-1"></a>預先示範設定第 1 部分
  講師建議您在上課 **前** 進行此操作，因為建立 VM 可能需要幾分鐘的時間。 在本設定中，您將建立 Windows 10 虛擬機器。
 
 1. 在瀏覽器上開啟 **首頁 – Microsoft Azure** 索引標籤。  如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並重新登入。
@@ -29,7 +30,7 @@ ms.locfileid: "138019280"
     1. **資源群組**：請選取 **建立新群組**，然後在名稱欄位中輸入 **LabsSC900-RG**，然後選取 **確定**。
     1. **虛擬機器名稱**：輸入 **SC900-WinVM**。
     1. **區域**：保留預設值。
-    1. **顯示狀態選項**：請務必選取 **無需基礎結構備援**。  備註：將 [顯示狀態選項] 設定為 [無需基礎結構備援] 非常重要，否則示範將無法如預期執行。  擁有顯示狀態選項需要 NSG，而我們刻意在無 NSG 的情況下建立 VM。
+    1. **顯示狀態選項**：請務必選取 **無需基礎結構備援**。  備註：將 [顯示狀態選項] 設定為 [無需基礎結構備援] 非常重要，否則示範將無法如預期執行。  擁有 [可用性] 選項會需要 NSG，而我們則是刻意在沒有 NSG 的情況下建立 VM。
     1. **映像**：從下拉式清單中，選取 **Windows 10 Pro，版本 20H2 – Gen 1**。
     1. **尺寸**：從下拉式清單中選取 **查看所有尺寸**，然後選取 **B2s**，然後按下頁面底部的 [選取]。
     1. **使用者名稱**：輸入您選擇的使用者名稱。  請記下它，因為您需要用它來存取 VM。
@@ -62,7 +63,8 @@ ms.locfileid: "138019280"
 
 1. 您現在將退回 Azure 入口網站中的 SC900-WinVM 頁面。  保持此瀏覽器索引標籤處於開啟狀態，以供下一個工作使用。
 
-#### <a name="pre-demo-setup-part-2"></a>預先示範設定第 2 部分
+### <a name="pre-demo-setup-part-2"></a>預先示範設定第 2 部分
+
 建立網路安全性群組，不要將 VM 的網路介面指派給 NSG。  
 
 1. 在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。
@@ -80,8 +82,9 @@ ms.locfileid: "138019280"
 
 1. 部署完成後，請選取 **前往資源** 並確保一切正確。  應該有 3 個預設輸入規則、3 個預設輸出規則，並且沒有與 NSG 關聯的子網路和介面。  退回至 Azure 入口網站的 **首頁**  
 
-#### <a name="demo"></a>示範
-逐步了解 NSG 的設定。  在本案例中，您將對尚未指派給 VM 介面的現有 NSG (您在上述設定中建立的 NSG) 進行瀏覽。 然後，您將展示將介面關聯至 NSG 的流程以及建立輸入和輸出規則的流程。
+### <a name="demo"></a>示範
+
+逐步了解 NSG 的設定。  在本案例中，您將對尚未指派給 VM 介面的現有 NSG (您在上述設定中建立的 NSG) 進行瀏覽。 然後，您將會展示將介面關聯至 NSG 的流程，以及建立輸入和輸出規則的流程。
 
 1. 開啟瀏覽器索引標籤的 **首頁-Microsoft Azure**。  如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並重新登入。
 
@@ -143,13 +146,14 @@ ms.locfileid: "138019280"
 
 1. 現在測試輸出 NSG 規則
     1. 開啟 VM 中的 Edge 瀏覽器。
-    1. 輸入 **https://www.bing.com** 。 該頁面不應顯示。 請注意：如果您能夠連線至網際網路並驗證輸出規則的所有參數都已正確設定，則可能是因為該規則需要幾分鐘才會生效。 請等候幾分鐘後再試。
+    1. 輸入 **www.bing.com**。 該頁面不應顯示。 請注意：如果您能夠連線至網際網路並驗證輸出規則的所有參數都已正確設定，則可能是因為該規則需要幾分鐘才會生效。 請等候幾分鐘後再試。
 
 1. 透過選取顯示 IP 位址的頁面頂部中心的 **X**，關閉遠端桌面連線。 快顯示窗顯示您的遠端工作階段將會中斷連線。 選取 [確定]  。
 
 1. 透過在頁面頂部的藍色列上選取 **Microsoft Azure**，退回至 Azure 入口網站的首頁。
 
-#### <a name="tear-down"></a>卸除
+### <a name="tear-down"></a>卸除
+
 **重要**：在此工作中，您將刪除資源群組及其包含的所有資源。   這對於避免額外收費非常重要。
 
 1. 在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。

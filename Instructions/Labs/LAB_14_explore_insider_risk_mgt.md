@@ -1,39 +1,41 @@
 ---
 lab:
-  title: 探索 Microsoft 365 的測試人員風險管理解決方案
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
-ms.openlocfilehash: 2fb0e58f92070ce375d27b44bf298a7748db3f40
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索 Microsoft Purview 中測試人員的風險管理
+  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
+ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614383"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557539"
 ---
-# <a name="lab-explore-insider-risk-management-in-microsoft-365"></a>實驗室：探索 Microsoft 365 的測試人員風險管理解決方案
+# <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 中測試人員的風險管理
 
 ## <a name="lab-scenario"></a>實驗案例
-在本實驗中，您將逐步了解設定內部風險管理原則的流程，以及設定和使用內部風險管理原則的基本先決條件。  注意：本實驗將僅提供設定內部風險管理所需的內容，以及與建立原則相關的選項。  本實驗不包括觸發原則的工作，因為觸發原則需要發生的事件數量超出此練習的範圍。
 
+在本實驗中，您將逐步了解設定內部風險管理原則的流程，以及設定和使用內部風險管理原則的基本先決條件。  注意：本實驗將僅提供設定內部風險管理所需的內容，以及與建立原則相關的選項。  本實驗不包括觸發原則的工作，因為觸發原則需要發生的事件數量超出此練習的範圍。
 
 **預估時間**：25-30 分鐘
 
-#### <a name="task-1-in-this-task-you-as-the-global-administrator-will-enable-permissions-for-insider-risk-management--specifically-you-will-add-users-to-the-insider-risk-management-role-group-to-ensure-that-designated-users-can-access-and-manage-insider-risk-management-features--it-may-take-up-to-30-minutes-for-the-role-group-permissions-to-apply-to-users-across-the-organization"></a>工作 1：在本工作中，您作為全域管理員將啟用「內部風險管理」權限。  具體而言，您將向「內部風險管理」角色群組新增使用者，以確保指定使用者可以存取和管理內部風險管理功能。  將角色群組權限套用於整個組織的使用者可能需要 30 分鐘的時間。 
+### <a name="task-1"></a>工作 1
+
+在本工作中，您作為全域管理員將啟用「內部風險管理」權限。  具體而言，您將向「內部風險管理」角色群組新增使用者，以確保指定使用者可以存取和管理內部風險管理功能。  將角色群組權限套用於整個組織的使用者可能需要 30 分鐘的時間。
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
-    
+
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。 這將帶您前往 Microsoft 365 系統管理中心頁面。
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
 
-1. 在系統管理中心下，請選取 **合規性**。  全新瀏覽器頁面將開啟前往至 Microsoft 365 合規性的歡迎頁面。  
+1. 在系統管理中心下，請選取 **合規性**。  會在新的瀏覽器頁面中開啟 Microsoft Purview 合規性入口網站的歡迎頁面。  
 
-1. 從 Microsoft 365 合規性中心左側的瀏覽面板中，選取 [權限]。
+1. 在 Microsoft Purview 合規性入口網站的左側導覽窗格中，選取 [權限]。
 
-1. 從合規性中心下的 [權限和角色] 頁面中，選取 [角色]。
+1. 在合規性入口網站下方的 [權限和角色] 頁面中，選取 [角色]。
 
 1. 在搜尋欄位，輸入 **內部風險**，然後選取搜尋圖示 (放大鏡)。  請注意顯示的許多角色。  每一個都有不同的存取等級。  請選取 **內部風險管理**。
 
@@ -49,12 +51,13 @@ ms.locfileid: "142614383"
 
 1. 從「內部風險管理」視窗的底部，選取 **關閉**。
 
-1. 從左側瀏覽面板中，選取 [首頁]，返回 [Microsoft 365 合規性中心] 頁面。
+1. 在左側導覽面板中，選取 [首頁] 以返回 Microsoft Purview 合規性入口網站頁面。
 
 1. 請保留此瀏覽器索引標籤為開啟狀態，因為您將在後續工作中回到這裡。
 
+### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log"></a>工作 2 (如果您已執行設定實驗工作以啟用稽核記錄，請跳過)
 
-#### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log-insider-risk-management-uses-microsoft-365-audit-logs-for-user-insights-and-activities-identified-in-policies-and-analytics-insights-in-this-task-you-will-enable-the-audit-log-search-capability-note--it-may-take-several-hours-after-you-turn-on-audit-log-search-before-you-can-return-results-when-you-search-the-audit-log--although-it-can-take-several-hours-before-you-can-search-the-audit-log-it-will-not-impact-the-ability-to-complete-other-tasks-in-this-lab"></a>工作 2 (如果您已執行設定實驗工作以啟用稽核記錄，請跳過)：內部風險管理使用 Microsoft 365 稽核記錄來獲取原則和分析洞察中識別的使用者洞察和活動。 在本工作中，您將啟用稽核記錄搜尋功能。 注意：開啟稽核記錄搜尋後，可能需要幾個小時才能在搜尋稽核記錄時退回結果。  儘管在搜尋稽核記錄之前可能需要幾個小時，但它不會影響完成此實驗中其他功能的能力。
+內部風險管理使用 Microsoft 365 稽核記錄來獲取原則和分析洞察中識別的使用者洞察和活動。 在本工作中，您將啟用稽核記錄搜尋功能。 注意：開啟稽核記錄搜尋後，可能需要幾個小時才能在搜尋稽核記錄時退回結果。  儘管在搜尋稽核記錄之前可能需要幾個小時，但它不會影響完成此實驗中其他功能的能力。
 
 1. 請選取標示為 **Home-Microsoft 365 compliance** 的瀏覽器索引標籤。  如果先前關閉過此瀏覽器索引標籤，請開啟 Microsoft Edge 並在網址列輸入 **compliance.microsoft.com**，然後以系統管理員認證登入。
 
@@ -64,19 +67,21 @@ ms.locfileid: "142614383"
 
 1. 一旦進入稽核頁面後，請稍等 2-3 分鐘。  如果未啟用稽核，您將在頁面頂部看到藍色列，上面寫著開始記錄使用者和管理活動。  請選取 **開始記錄使用者和管理活動**。  啟用稽核後，藍色列則會消失。  如果藍色列不存在，則表示已啟用稽核，無需進一步動作。
 
-1. 從左側導覽面板中選取 **首頁**，退回 Microsoft 365 合規性中心的首頁。
+1. 藉由選取左側導覽面板中的 [首頁]，返回 Microsoft Purview 合規性入口網站的首頁。
 
 1. 請保持此索引標籤開啟，您將在下個工作中使用它。
 
-#### <a name="task-3-in-this-task-you-will-walk-through-the-settings-associated-with-the-insider-risk-management-solution--insider-risk-management-settings-apply-to-all-insider-risk-management-policies-regardless-of-the-template-you-choose-when-creating-a-policy"></a>工作 3：在本工作中，您將逐步了解與「內部風險管理」解決方案相關的設定。  內部風險管理設定適用於所有內部風險管理原則，無論您在建立原則時選取何種範本。 
+### <a name="task-3"></a>工作 3
 
-1. 您應該位於 Microsoft 365 合規性中心首頁上。 如果無，請開啟瀏覽器索引標籤 **首頁 - Microsoft 365 合規性**。
+在本工作中，您將逐步了解與「內部風險管理」解決方案相關的設定。  內部風險管理設定適用於所有內部風險管理原則，無論您在建立原則時選取何種範本。
+
+1. 您應該會在 Microsoft Purview 合規性入口網站首頁上。 如果無，請開啟瀏覽器索引標籤 **首頁 - Microsoft 365 合規性**。
 
 1. 從左側導覽面板的解決方案下方，選取 **內部風險管理**。
 
 1. 在開始設定原則之前，需要設定一些設定。  從「內部風險管理」頁面，請選取頁面右上角的 **設定齒輪圖示** 以存取「內部風險」設定。  
     1. 確認您位於 [隱私權] 索引標籤中：對於執行與您內部風險原則相符的活動之使用者，此設定將確定會顯示其實際姓名，或是使用匿名版本掩蓋其身分識別。  請選取 **不顯示使用者名稱的匿名版本**，然後選取 **儲存**。
-    
+
     1. 選取 [原則指標] 索引標籤。一旦發生原則觸發程序事件，對應至所選指標的活動將用於為使用者確定風險分數。 此處所選的原則指標包含內部風險原則範本。  捲動以檢視所有可用指標以及任何相關資訊。 在 **Office 指標** 下，請選取 **選取全部**，然後選取 **儲存**。
     1. 請選取 **原則時間範圍** 索引標籤。您在此處所選的時間範圍在使用者觸發內部風險原則相符時對其生效。   啟用視窗確定原則將主動偵測使用者活動的時間，並在使用者執行相符原則的第一個活動時觸發。 過去的活動偵測確定原則應該回溯多遠以偵測使用者活動，並在使用者執行相符原則的第一個活動時觸發。  請保留預設值。  請選取 **智慧型偵測** 索引標籤。
     1. 請選取 **智慧型偵測** 索引標籤。檢閱此處選項。  請注意網域設定以及它們與指標的關係。
@@ -86,28 +91,31 @@ ms.locfileid: "142614383"
 
 1. 請保持此索引標籤開啟，您將在下個工作中使用它。
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-creation-of-a-policy"></a>工作 4：在此工作中，您將逐步了解原則的建立。
+### <a name="task-4"></a>工作 4
+
+在此工作中，您將逐步了解原則的建立。
 
 1. 您應該位於內部風險管理頁面。  如果尚未到此頁面，請開啟標籤為 **內部風險管理 - Microsoft 365 合規性** 的瀏覽器索引標籤。
 
 1. 從 [內部風險管理概觀] 頁面中，選取 [原則] 索引標籤，然後選取 [+ 建立原則]。  設定以下每個原則索引標籤。
 
     1. 原則範本：從類別清單中，請選取 **資料外洩**，然後選取 **一般資料外洩**。  請注意，類別中的範本可能具有其他先決條件。  閱讀與範本相關的詳細資料，然後選取 **下一步**。
-    
+
     1. 名稱與描述：輸入名稱 **SC900-InsiderRiskPolicy**，然後選取 [下一步]。
     1. 使用者和群組：檢閱資訊方塊。  保留預設值，**包含所有使用者和群組**。  選取 [下一步] 。
     1. 需優先考慮的內容：讀取說明。 請選取 **我想將 SharePoint 網站、敏感度標籤和/或敏感性資訊類型指定為優先內容**，然後選取 **下一步**。
         1. SharePoint 網站：對於此原則範例，將此留為空白，然後選取 **下一步**。
-        1. 敏感性資訊類型：對於此原則範例，將此留為空白，然後選取 **下一步**。 
+        1. 敏感性資訊類型：對於此原則範例，將此留為空白，然後選取 **下一步**。
         1. 敏感度標籤：請選取 **+ 新增或編輯敏感度標籤**。  選取已列出的標籤：**機密財務** 和 **高度機密\項目 – Falcon**，請選取 **新增**，然後選取 **下一步**。
     1. 觸發程序：檢閱詳細資訊。  該原則由使用者執行定義的外流活動 (為每個項目符號選取 [資訊圖示] 以獲取更詳細的資訊)，或者與現有資料外洩防護 (Data Loss Prevention, DLP) 原則相符的使用者觸發。  由於在這部分的練習中沒有設定任何 DLP 原則，因此請選取 **使用者執行外流活動**。  請注意，您在上一個工作中已啟用的指標已進行檢查。   回顧一下，這些指標只有在觸發原則後才會啟用，並且對應至這些指標的任何活動都將用於計算使用者的風險分數。 選取 [下一步] 。
     1. 指標閾值：您可在此處指定與指標相關聯的預設值或自訂閾值。  回顧一下，這些指標僅在原則觸發程序發生後才會進行啟用，因此這些閾值不會影響原則觸發的時間。 請選取 **指定自訂閾值**，透過選取此選項，您可以看到目前的預設值。 保留預設值，然後選取 **下一步：**  
-    1. 指標：請注意，在前一工作選取的所有 Office 指標，皆會選取。  捲動頁面即可查看其他可用的原則指標與其他自動選取的項目。   序列偵測已啟用。  如果偵測到一系列活動 (如定義所示)，則表明風險更大。  將滑鼠游標停留在資訊圖示上，可取得詳細的資訊。  這些項目要求要選取某些特定的指標，而且要啟動裝置。  為簡單起見，而且我們在此租用戶中未啟動任何裝置，所以請取消選取 [選取全部]。 
+    1. 指標：請注意，在前一工作選取的所有 Office 指標，皆會選取。  捲動頁面即可查看其他可用的原則指標與其他自動選取的項目。   序列偵測已啟用。  如果偵測到一系列活動 (如定義所示)，則表明風險更大。  將滑鼠游標停留在資訊圖示上，可取得詳細的資訊。  這些項目要求要選取某些特定的指標，而且要啟動裝置。  為簡單起見，而且我們在此租用戶中未啟動任何裝置，所以請取消選取 [選取全部]。
     1. 結尾：檢閱設定，選取 [提交]，然後選取 [完成]。
 
 1. 您將退回內部風險管理頁面的「原則」索引標籤。  將會列出您剛剛已建立的原則。  
 
 1. 在您剛剛建立的原則中，「範圍內的使用者」欄位表示目前由原則指派風險分數的使用者。  觸發原則時會為使用者指派風險分數，這就是該值顯示為 0 的原因。  管理員可以設定原則以開始根據您所選的原則偵測到的活動將風險分數指派給特定使用者，這樣可以繞過先偵測觸發事件的要求。  若要執行此操作，請選取原則名稱旁邊的空心圓形以選取原則，然後選取 **為使用者開始評分活動**，如原則資料表上方所示。  填入每個欄位，然後選取 **開始評分活動**。  使用者可能需要 24 小時才會出現在 '使用者' 索引標籤上。在那之後，您可以從該索引標籤中選取使用者以檢閱偵測到的活動。  選取視窗底部的 [關閉]。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
+
 在本實驗中，您已逐步了解設定內部風險管理原則的流程，以及設定和使用內部風險管理原則的基本先決條件。

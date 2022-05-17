@@ -2,12 +2,12 @@
 lab:
   title: 瀏覽服務信任入口網站
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e26a0d4eaaaabba7027215db53c3ebd0ccb0ad6c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614191"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557203"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>實驗室：瀏覽服務信任入口網站
 
@@ -17,12 +17,13 @@ ms.locfileid: "142614191"
 
 **預估時間**：10-15 分鐘
 
+### <a name="task-1"></a>工作 1
 
-#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>工作 1：在本工作中，您將會探索服務信任入口網站和不同類型的可用內容，您將了解如何存取報告以及如何將報告儲存至您的資料庫。 
+在本工作中，您將會探索服務信任入口網站和不同類型的可用內容，您將了解如何存取報告以及如何將報告儲存至您的資料庫。
 
 1. 開啟 Microsoft Edge。
 
-1. 在網址列中輸入 **https://aka.ms/STP** 。  這將帶您進入服務信任入口網站的登陸頁面。 服務信任入口網站包含相關 Microsoft 實作控制和流程的詳細資訊，以保護我們的雲端服務和其中的客戶資料。 
+1. 在網址列輸入 **aka.ms/STP**。  這將帶您進入服務信任入口網站的登陸頁面。 服務信任入口網站包含相關 Microsoft 實作控制和流程的詳細資訊，以保護我們的雲端服務和其中的客戶資料。
 
 1. 若要存取服務信任入口網站上的某些資源，您必須使用 Microsoft Cloud Service 帳戶以經過驗證的使用者身份登入，並檢閱和接受 Microsoft 保密合約中的合規性資料。 在登陸頁面右上角的服務信任入口網站中，會看到登入的選項。  請使用系統管理員認證 **登入**，如果出現提示，請選取 [同意] 接受合規性資料的 Microsoft 保密合約。
 
@@ -46,7 +47,9 @@ ms.locfileid: "142614191"
 
 1. 您可以從不同的類別中進行選取。  包含 GRC 評定報告、合規性指南等。  與上一個工作一樣，您可以篩選已顯示的文件清單，並可以選取要下載的文件或將文件儲存至資料庫中。
 
-#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>工作 2：在本工作中，您將造訪信任中心並導覽至 Microsoft 的六項關鍵隱私權原則。
+### <a name="task-2"></a>工作 2
+
+在本工作中，您將造訪信任中心並導覽至 Microsoft 的六項關鍵隱私權原則。
 
 1. 從服務信任入口網站頁面的頂部，請選取 **信任中心** 然後選取 **首頁**。 這將開啟新的瀏覽器索引標籤並將您導向信任中心，而在此可以找到相關 Microsoft 雲端中的安全性、合規性和隱私權等更多資訊。
 
@@ -60,6 +63,6 @@ ms.locfileid: "142614191"
 
 1. 關閉瀏覽器視窗以退出服務信任入口網站和信任中心。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
 
 在此實驗中，您已探索服務信任入口網站下的一些可用選項、如何存取報告以及如何使用我的資料庫儲存文件以供將來檢閱。  此外，您造訪了信任中心以存取和檢閱 Microsoft 的隱私權原則。

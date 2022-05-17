@@ -2,23 +2,26 @@
 lab:
   title: Azure 網路安全群組 (NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
-ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
+ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "141605421"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557503"
 ---
-# <a name="lab-explore-azure-network-security-groups-nsgs"></a>實驗室：探索 Azure 網路安全性群組 (NSG)。
+# <a name="lab-explore-azure-network-security-groups-nsgs"></a>實驗室：Azure 網路安全群組 (NSGs)
 
 ## <a name="lab-scenario"></a>實驗案例
+
 在本實驗中，您將探索 Azure 中的網路安全性群組的功能。  您將透過建立不需要任何網路安全性群組 (NSG) 的 VM 來進行。  在沒有任何篩選流量的 NSG 的情況下，VM 中所有連接埠皆披露於公共網際網路中。  然後，您將完成建立 NSG 並將 VM 的介面指派給 NSG 的流程。  設定完成後，您將使用預設的 NSG 規則以及您將建立的規則測試與 VM 的連線。
   
-
 **預估時間**：15-20 分鐘
 
-#### <a name="task-1--in-this-task-you-will-create-a-windows-10-virtual-machine"></a>工作 1：在本工作中，您將建立 Windows 10 虛擬機器。    
-1.  開啟 Microsoft Edge。  在網址列輸入 **portal.azure.com**。
+### <a name="task-1"></a>工作 1
+
+在本工作中，您將建立 Windows 10 虛擬機器。
+
+1. 開啟 Microsoft Edge。  在網址列輸入 **portal.azure.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
@@ -34,13 +37,13 @@ ms.locfileid: "141605421"
     1. 資源群組：選取 [新建]，然後在 [名稱] 欄位中輸入 **LabsSC900**，接著選取 [確定]。
     1. 虛擬機器名稱：輸入 **SC900-WinVM**。
     1. 區域：如果區域欄位並未經預先填入，則請選取最接近您位置的區域。
-    3. 映像：從下拉式清單中，選取 [Windows 10 Pro，版本 20H2 – Gen 1]。
-    4. 尺寸：從下拉式清單中選取 **查看所有尺寸**，然後選取 [B2s]，然後按下頁面底部的 [選取]。
-    5. 使用者名稱：輸入您選擇的使用者名稱。  請記下它，因為您需要用它來存取 VM。
-    6. 密碼：輸入您選擇的密碼。  請記下它，因為您需要用它來存取 VM。
-    7. 公用輸入連接埠：選取 [無]。
-    8. 授權：請選取 **本人確認擁有符合條件具有多租用戶託管權限的 Windows 10 授權**，以便方塊中出現核取記號。
-    9. 完成時，選取 [下一步:  磁碟]。 
+    1. 映像：從下拉式清單中，選取 [Windows 10 Pro，版本 20H2 – Gen 1]。
+    1. 尺寸：從下拉式清單中選取 **查看所有尺寸**，然後選取 [B2s]，然後按下頁面底部的 [選取]。
+    1. 使用者名稱：輸入您選擇的使用者名稱。  請記下它，因為您需要用它來存取 VM。
+    1. 密碼：輸入您選擇的密碼。  請記下它，因為您需要用它來存取 VM。
+    1. 公用輸入連接埠：選取 [無]。
+    1. 授權：請選取 **本人確認擁有符合條件具有多租用戶託管權限的 Windows 10 授權**，以便方塊中出現核取記號。
+    1. 完成時，選取 [下一步:  磁碟]。
 1. 您現在位於 VM 設定的 [磁碟] 索引標籤中。  將所有設定保留為預設值，然後選取 [下一步：**網路 >]** 。
 1. 您現在位於 VM 設定的網路索引標籤中。  填寫以下資訊 (對於未列出的內容，保留預設設定)：
     1. NIC 網路安全性群組：選取 [無]。  注意：您在這個步驟選取 [無] 的原因，是因為我們希望從頭開始引導您經過設定 NSG 的步驟，這會在後續工作中說明。
@@ -52,17 +55,19 @@ ms.locfileid: "141605421"
 1. 檢閱 VM 的設定。  需注意以下幾點：此 VM 有公共 IP 位址，沒有 NIC 網路安全性群組。  從安全性角度來看，這會讓 VM 暴露在外。  我們將在後續任務中解決此問題。 選取 [建立]。  完成 VM 部署可能需要幾分鐘的時間。
 1. 請注意網路介面的名稱為 **sc900-winvmXXX** (XXX 將特定於 VM 的網路介面)。
 1. VM 部署完成後，請選取 **前往資源**。
-1. 您現在位於 SC900-WinVM 頁面。  記下公用 IP 位址。 
+1. 您現在位於 SC900-WinVM 頁面。  記下公用 IP 位址。
 1. 請選取頁面上方的 **連線**，接著在下拉式功能表選取 **RDP**。
-1. 驗證 IP 位址是否設定為公共 IP 位址，保留預設連接埠編號並選取 **下載 DRP 檔案**。 
-1. 開啟已下載的檔案並選取 **連線**。 
+1. 驗證 IP 位址是否設定為公共 IP 位址，保留預設連接埠編號並選取 **下載 DRP 檔案**。
+1. 開啟已下載的檔案並選取 **連線**。
 1. 將提示您輸入認證。  輸入您在建立 VM 時所使用的使用者名稱和密碼。
 1. 遠端桌面連線視窗開啟，顯示無法驗證遠端電腦的身分識別。  仍要繼續連線？  選取 [是]  。
-1. 您現在已連線至剛剛建立的 Windows VM。 請依照提示完成 Windows 設定。 儘管您透過 RDP 和常用的 RDP 連接埠連線至 VM，但此 VM 的所有連接埠都已開啟，並且沒有篩選流量內容。 
+1. 您現在已連線至剛剛建立的 Windows VM。 請依照提示完成 Windows 設定。 儘管您透過 RDP 和常用的 RDP 連接埠連線至 VM，但此 VM 的所有連接埠都已開啟，並且沒有篩選流量內容。
 1. 透過選取顯示 IP 位址的頁面頂部中心的 **X**，關閉遠端桌面連線。  快顯示窗顯示您的遠端工作階段將會中斷連線。 選取 [確定]。
 1. 您現在將退回 Azure 入口網站中的 SC900-WinVM 頁面。  保持此瀏覽器索引標籤處於開啟狀態，以供下一個工作使用。
 
-#### <a name="task-2--create-a-network-security-group-and-assign-the-network-interface-of-the-vm-to-that-nsg"></a>工作 2：建立網路安全性群組，將 VM 的網路介面指派給 NSG。
+### <a name="task-2"></a>工作 2
+
+建立網路安全性群組，將 VM 的網路介面指派給 NSG。
 
 1. 在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。
 
@@ -90,7 +95,9 @@ ms.locfileid: "141605421"
 1. 開啟已下載的檔案並選取 **連線**。
 1. 在嘗試連線幾秒鐘後，您將看到連線失敗訊息，其表明遠端桌面無法連線至遠端電腦。  選取 [確定]。
 
-#### <a name="task-3-in-this-task-you-will-create-a-nsg-rule-to-allow-inbound-traffic-using-rdp-on-port-3389--you-will-then-test-that-rule-by-attempting-to-connect-to-the-vm-using-rdp"></a>工作 3：在此工作中，您將會利用 RDP 在連接埠 3389 上建立允許輸入流量的 NSG 規則。  您將會接著使用 RDP 試圖連線至 VM 以測試該規則。 
+### <a name="task-3"></a>工作 3
+
+在此工作中，您將會以連接埠 3389 上的 RDP 來建立允許輸入流量的 NSG 規則。  您將會接著使用 RDP 試圖連線至 VM 以測試該規則。
 
 1. 在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。
 
@@ -115,10 +122,12 @@ ms.locfileid: "141605421"
 1. 您現在已連線至 VM。 在這種情況下，您能夠連線至 VM，因為您建立的輸入流量規則允許透過 RDP 向 VM 傳送輸入流量。
 1. 請保持 VM 開啟，您將在下個工作中使用它。
 
-#### <a name="task-4--the-default-outbound-rules-for-nsg-allow-outbound-internet-traffic-so-you-will-validate-that-you-can-connect-to-the-internet--you-will-then-go-through-the-process-of-creating-a-custom-outbound-rule-to-block-outgoing-internet-traffic-and-test-that-rule"></a>工作 4：預設的 NSG 輸出規則允許輸出網際網路流量，因此您將會驗證是否可連線至網際網路。  接著，您將會進行建立自訂輸出規則的流程，以封鎖傳出的網際網路流量與測試該規則。
+### <a name="task-4"></a>工作 4
+
+預設的 NSG 輸出規則允許輸出網際網路流量，因此您將會驗證是否可連線至網際網路。  接著，您將會進行建立自訂輸出規則的流程，以封鎖傳出的網際網路流量與測試該規則。
 
 1. 在 VM 上，請選取 **Edge** 以開啟瀏覽器。  
-1. 在瀏覽器網址列輸入 **https://www.bing.com** ，並確認您是否能連線至搜尋引擎。
+1. 在瀏覽器網址列中輸入 **www.bing.com**，確認您可以連線至搜尋引擎。
 1. 關閉 VM 上的瀏覽器，但是保持 VM 為開啟狀態，因為您將會在後續的步驟中使用。
 1. 退回至 Azure 入口網站，在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。
 1. 從左側導覽面板的設定下，選取 **網路**。
@@ -138,11 +147,13 @@ ms.locfileid: "141605421"
 1. 選取 [新增]
 1. 建置規則後，它將出現在輸入規則清單中。  雖然出現在清單上，仍需要數分鐘才能生效 (等待數分鐘，再繼續下一個步驟)。  
 1. 退回您的 VM
-1. 在您的 VM 中開啟 Edge 瀏覽器，然後輸入 **https://www.bing.com** 。  該頁面不應顯示。  請注意：如果您能夠連線至網際網路並驗證輸出規則的所有參數都已正確設定，則可能是因為該規則需要幾分鐘才會生效。  關閉瀏覽器，等待數幾分鐘後，然後重試。
+1. 開啟 VM 中的 Edge 瀏覽器，然後輸入 **www.bing.com**。 該頁面不應顯示。  請注意：如果您能夠連線至網際網路並驗證輸出規則的所有參數都已正確設定，則可能是因為該規則需要幾分鐘才會生效。  關閉瀏覽器，等待數幾分鐘後，然後重試。
 1. 透過選取顯示 IP 位址的頁面頂部中心的 **X**，關閉遠端桌面連線。  快顯示窗顯示您的遠端工作階段將會中斷連線。 選取 [確定]。
 1. 在此工作中，您已成功在 NSG 中設定輸出規則，以封鎖輸出網際網路流量。
 
-#### <a name="task-5--important-in-this-task-you-will-delete-the-resource-group-and-all-the-resources-it-contains---this-is-important-to-avoid-additional-charges"></a>工作 5：重要事項：在此工作中，您將刪除資源群組及其包含的所有資源。   這對於避免額外收費非常重要。
+### <a name="task-5"></a>工作 5
+
+**重要**：在此工作中，您將刪除資源群組及其包含的所有資源。   這對於避免額外收費非常重要。
 
 1. 在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。
 
@@ -153,6 +164,6 @@ ms.locfileid: "141605421"
 1. 在開啟的視窗中，輸入資源群組名稱 **LabsSC900**，確認刪除資源群組及其所有資源，然後從頁面底部選取 **刪除**。
 1. 刪除所有資源和資源群組可能需要幾分鐘的時間。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
 
 在此實驗中，您已進行設定附加與無附加網路安全性群組 (NSG) 的流程，並檢視預設 NSG 規則的影響。  您也已了解建立 NSG 規則的流程。

@@ -1,39 +1,41 @@
 ---
 lab:
-  title: 探索「核心電子文件探索」工作流程
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索電子文件探索 (標準版) 工作流程
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
+ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614371"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557599"
 ---
-# <a name="lab-explore-the-core-ediscovery-workflow"></a>實驗室：探索「核心電子文件探索」工作流程
+# <a name="lab-explore-the-ediscovery-standard-workflow"></a>實驗室：探索電子文件探索 (標準版) 工作流程
 
 ## <a name="lab-scenario"></a>實驗案例
-在本實驗中，您將透過建立「電子文件探索保存措施」、建立搜尋查詢，然後匯出搜尋結果，以逐步了解設定「核心電子文件探索」所需的步驟，然後完成「核心電子文件探索」工作流程。  注意：「核心電子文件探索」的授權需要適當的組織訂用帳戶以及每一使用者授權。 如果您不確定哪些授權可支援「核心電子文件探索」，請造訪「核心電子文件探索」的開始使用步驟。
 
+在本實驗中，您將透過建立電子文件探索保存措施、建立搜尋查詢，然後匯出搜尋結果，以逐步了解設定電子文件探索所需的步驟，然後完成電子文件探索 (標準版) 工作流程。  注意：電子文件探索 (標準版) 授權需要適當的組織訂閱以及每一使用者授權。 如果您不確定哪些授權有支援電子文件探索 (標準版)，請前往[在 Microsoft Purview 中開始使用電子文件探索 (標準版) ](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide)。
 
 **預估時間**：20-25 分鐘
 
-#### <a name="task-1--to-access-core-ediscovery-or-be-added-as-a-member-of-a-core-ediscovery-case-a-user-must-be-assigned-the-appropriate-permissions-in-this-task-you-as-the-global-admin-will-add-specific-users-as-members-of-the-ediscovery-manager-role-group"></a>工作 1：若要存取核心電子文件探索，或新增核心電子文件探索案例的成員，請使用者指派適當的權限。 在本工作中，您作為全域系統管理員將新增特定使用者作為「電子文件探索管理員」角色群組的成員。
+### <a name="task-1"></a>工作 1
+
+若要存取電子文件探索 (標準版)，或新增為電子文件探索案例的成員，使用者必須獲指派適當的權限。 在本工作中，您作為全域系統管理員將新增特定使用者作為「電子文件探索管理員」角色群組的成員。
 
  開啟 Microsoft Edge。 在網址列輸入 **admin.microsoft.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
-    
+
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。 這將帶您前往 Microsoft 365 系統管理中心頁面。
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
 
-1. 在系統管理中心下，請選取 **合規性**。  全新瀏覽器頁面將開啟前往至 Microsoft 365 合規性的歡迎頁面。  
+1. 在系統管理中心下，請選取 **合規性**。  會在新的瀏覽器頁面中開啟 Microsoft Purview 合規性入口網站的歡迎頁面。  
 
-1. 在左側導覽窗格中選取 [權限]。 
+1. 在左側導覽窗格中選取 [權限]。
 
-1. 在 [權限和角色] 頁面的 [合規性中心] 下，選取 [角色]。
+1. 在合規性入口網站下方的 [權限和角色] 頁面中，選取 [角色]。
 
 1. 在搜尋欄位中，請輸入 **電子文件探索** 然後選取搜尋圖示 (放大鏡)。  選取 **電子文件探索管理員**。
 
@@ -51,13 +53,15 @@ ms.locfileid: "142614371"
 
 1. 請保持此索引標籤開啟，您將在下個工作中使用它。
 
-#### <a name="task-2--in-this-task-you-as-an-ediscovery-administrator-mod-admin-is-an-ediscovery-administrator-will-create-a-case-to-start-using-core-ediscovery"></a>工作 2：在本工作中，您作為「電子文件探索系統管理員」(MOD 管理員為「電子文件探索系統管理員」) 將建立案例以開始使用「核心電子文件探索」。
+### <a name="task-2"></a>工作 2
 
-1. 您應該仍在 [合規性中心角色] 頁面上。 如果您關閉了上一個工作的瀏覽器索引標籤，請開啟新的瀏覽器索引標籤並輸入 **compliance.microsoft.com**
+在本工作中，您作為電子文件探索系統管理員 (MOD 管理員為電子文件探索系統管理員) 將建立案例以開始使用電子文件探索 (標準版)。
 
-1. 從左側導覽面板的解決方案下方，選取 **電子文件探索** 然後選取 **核心**。
+1. 您應該還留在合規性入口網站的 [角色] 頁面中。 如果您關閉了上一個工作的瀏覽器索引標籤，請開啟新的瀏覽器索引標籤並輸入 **compliance.microsoft.com**
 
-1. 從核心電子文件探索頁面的頂部，選取 **+ 建立案例**。
+1. 在左側導覽面板的 [解決方案] 下方，選取 [電子文件探索]，然後選取 [標準版]。
+
+1. 在電子文件探索 (標準版) 頁面的頂部，選取 [+ 建立案例]。
 
 1. 在「新案例」視窗中，請輸入案例名稱 **SC900 測試案例**，然後選取頁面底部的 **儲存**。
 
@@ -67,11 +71,13 @@ ms.locfileid: "142614371"
 
 1. 請保持此索引標籤開啟，您將在後續工作中使用它。
 
-#### <a name="task-3--now-that-you-have-created-a-core-ediscovery-case-you-can-begin-to-work-with-the-case--in-this-task-you-will-create-an-ediscovery-hold-for-the-case-for-you-just-created--specifically-you-will-crate-a-hold-for-the-the-exchange-mailbox-belonging-to-adele-vance"></a>工作 3：現在您已建立「核心電子文件探索」案例，可以開始處理此案例。  在本工作中，您將為剛剛建立的案例建立「電子文件探索保存措施」。  具體來說，您將為屬於 Adele Vance 的交換信箱建立保存措施。
+### <a name="task-3"></a>工作 3
 
-1. 在瀏覽器上開啟「核心電子文件探索」索引標籤。
+現在，您已建立了電子文件探索 (標準版) 案例，可以開始處理此案例。  在本工作中，您將為剛剛建立的案例建立「電子文件探索保存措施」。  具體來說，您將為屬於 Adele Vance 的交換信箱建立保存措施。
 
-1. 在「核心電子文件探索」頁面，請選取在上一個索引標籤中所建立的案例 **SC900 測試案例**。 
+1. 在瀏覽器上開啟電子文件探索 (標準版) 索引標籤。
+
+1. 在電子文件探索 (標準版) 頁面中，選取您在前一個索引標籤中建立的案例 **SC900 測試案例**。
 
 1. 在案例的首頁，請選取 **保存措施** 索引標籤，再選取 **+ 建立**。
 
@@ -87,7 +93,9 @@ ms.locfileid: "142614371"
 
 1. 請保持此索引標籤開啟，您將在後續工作中使用它。
 
-#### <a name="task-4--with-a-hold-in-place-you-will-create-a-search-query--once-your-search-is-complete-you-will-go-export-and-download-the-results-for-future-investigation---note--searches-associated-with-a-core-ediscovery-case-are-not-listed-on-the-content-search-page-in-the-microsoft-365-compliance-center-these-searches-are-listed-only-on-the-searches-page-of-the-associated-core-ediscovery-case"></a>工作 4：保存措施到位後，您將建立搜尋查詢。  搜尋完成後，您將進行匯出並下載結果以供將來調查。   注意：與「核心電子文件探索」案例相關的搜尋未列在 Microsoft 365 合規性中心的「內容搜尋」頁面上。 這些搜尋僅列在相關「核心電子文件探索」案例的「搜尋」頁面上。
+### <a name="task-4"></a>工作 4
+
+保存措施到位後，您將建立搜尋查詢。  搜尋完成後，您將進行匯出並下載結果以供將來調查。   注意：與電子文件探索 (標準版) 案例建立關聯的搜尋並未列於 Microsoft Purview 合規性入口網站的 [內容搜尋] 頁面上。 這些搜尋僅會列在與電子文件探索 (標準版) 案例建立關聯的 [搜尋] 頁面上。
 
 1. 在瀏覽器上開啟 [SC900 測試案例] 索引標籤。
 
@@ -106,9 +114,9 @@ ms.locfileid: "142614371"
 1. 在搜尋視窗中，選取剛剛建立的 **測試保存措施 – 銷售搜尋**。  已選取的「摘要」索引標籤將會在視窗中開啟。  搜尋完成後，狀態將指示搜尋已完成。  您將看到「搜尋統計資料」索引標籤 (如果您沒有看到「搜尋統計資料」索引標籤，則搜尋可能仍在執行，可能需要幾分鐘的時間才能完成)。  選取 **搜尋統計資料** 索引標籤，然後選取搜尋內容旁邊的下拉式清單。  您還可以檢視「條件報告」和「熱門位置」的更多資訊。  
 
 1. 請在頁面底部選取 **動作**。  請注意可用選項，再選取 **匯出結果**。
-    
+
     1. 在匯出結果視窗中，保留預設值並從頁面底部選取 **匯出**。 您將自動退回「測試保存措施 – 銷售搜尋」視窗。 請選取頁面底部的 **關閉**。
-    
+
     1. 在 SC900-測試案例頁面，從頁面頂部選取 **匯出**。
     1. 選取 **測試保存措施 - Sales Search_Export**
     1. 在「測試保存措施 – Sales Search_Export」已開啟的視窗中，您將會看到匯出金鑰，選取 **複製到剪貼簿**。
@@ -117,9 +125,8 @@ ms.locfileid: "142614371"
     1. 安裝完成後，會開啟電子文件探索匯出工具視窗。  在第一個欄位中，將複製到剪貼簿的匯出金鑰貼上剪貼板中，立即進行貼上 (鍵盤上的 Control V 或按一下滑鼠右鍵並選取貼上)。
     1. 在第二欄位中，選取要儲存匯出檔案的位置，然後選取 **開始**。  下載流程完成後，請選取 **關閉** 並關閉瀏覽器索引標籤。
     1. 您將退回「測試保存措施 – Sales Search_Export」視窗。  選取 [關閉]。
-    1. 檢查下載位置以驗證下載是否成功完成。 
+    1. 檢查下載位置以驗證下載是否成功完成。
 
+### <a name="review"></a>檢閱
 
-#### <a name="review"></a>檢閱
-
-在本實驗中，您已逐步了解開始使用「核心電子文件探索」所需的步驟，包含設定電子文件探索的角色權限以及建立電子文件探索案例。  藉由建立案例，您已逐步了解「核心電子文件探索」工作流程，透過建立電子文件探索保存措施、建立搜尋查詢，然後匯出搜尋結果以用於進一步調查。
+在本實驗中，您已逐步了解開始使用電子文件探索 (標準版) 所需的步驟，包含設定電子文件探索的角色權限以及建立電子文件探索案例。  藉由建立案例，您已逐步了解電子文件探索 (標準版) 工作流程，透過建立電子文件探索保存措施、建立搜尋查詢，然後匯出搜尋結果以用於進一步調查。

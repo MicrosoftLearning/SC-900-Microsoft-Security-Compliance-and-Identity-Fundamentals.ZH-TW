@@ -2,19 +2,22 @@
 Demo:
   title: Azure 原則
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614179"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557131"
 ---
 # <a name="demo-azure-policy"></a>示範：Azure 原則
 
-### <a name="demo-scenario"></a>示範案例
+## <a name="demo-scenario"></a>示範案例
+
 在本示範中，您將逐步了解設定 Azure 原則的流程，以及此原則的影響。
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>示範第 1 部分：建立一個原則以要求資源群組上的標籤 (顯示從範本建立原則的步驟)
+### <a name="demo-part-1"></a>示範第 1 部分
+
+建立一個原則以要求資源群組上的標籤 (顯示從範本建立原則的步驟)
 
 1. 開啟 Microsoft Edge。 在網址列輸入 **portal.microsoft.com**。  您應該已經登入，若無則請用管理員認證登入。
 
@@ -46,7 +49,9 @@ ms.locfileid: "142614179"
 
 1. 您現在在 Azure 服務首頁。  保持此頁面開啟，將會在下一個工作中使用。
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>示範第 2 部分：建立無標籤的資源群組，再加上標籤進行修正，展示原則的影響。
+### <a name="demo-part-2"></a>示範第 2 部分
+
+建立無標籤的資源群組，再加上標籤進行修正，展示原則的影響。
 
 1. 在頁面上方的 [Azure 服務] 字樣下方選取 **資源群組**。 如果未列出選項，請在搜尋列中輸入 [資源群組] 後，在該處選取。
 
@@ -74,6 +79,6 @@ ms.locfileid: "142614179"
 
 1. 您將會看到列出的資源群組。  因為資源群組提供標籤，所以滿足部分 Azure 原則的條件。  資源群組符合原則的規範。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
 
 在本示範中，您已了解設定 Azure 原則的流程，以及此原則的影響。

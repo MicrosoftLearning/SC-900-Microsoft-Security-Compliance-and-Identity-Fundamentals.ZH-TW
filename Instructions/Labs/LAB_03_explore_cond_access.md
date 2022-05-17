@@ -2,21 +2,24 @@
 lab:
   title: 使用條件式存取，探索 Azure AD 中的存取管理
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489255"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557274"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>實驗室：使用條件式存取探索 Azure AD 中的訪問管理
 
 ## <a name="lab-scenario"></a>實驗案例
+
 在此實驗中，您將會以管理員與使用者的檢視方塊探索條件式存取 MFA。  您將以管理員的身分建立原則，此原則要求使用者在存取雲端型 Microsoft Azure Management 應用程式時進行多重要素驗證。  從使用者檢視方塊中，您將會看到條件式存取原則的影響，包括登錄 MFA 的流程。
 
 **預估時間**：10-15 分鐘
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>工作 1：在此工作中，您將會以管理員身分重設使用者 Debra Berger 的密碼。  您必須進行此步驟，才能在後續工作中初次以使用者身分登入。
+### <a name="task-1"></a>工作 1
+
+在此工作中，您將會以管理員身分重設使用者 Debra Berger 的密碼。  您必須進行此步驟，才能在後續工作中初次以使用者身分登入。
 
 1. 開啟 Microsoft Edge。  在網址列輸入 **portal.azure.com**。
 
@@ -41,8 +44,9 @@ ms.locfileid: "141489255"
 
 10. 讓此視窗保持開啟。
 
+### <a name="task-2"></a>工作 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>工作 2：在此工作中，您將會了解在 Azure AD 中建立條件式存取原則的流程。
+在此工作中，您將會了解在 Azure AD 中建立條件式存取原則的流程。
 
 1. 開啟標籤為 Contoso – Microsoft Azure 的瀏覽器索引標籤。   如果您先前曾經關閉瀏覽器索引標籤，請開啟 Microsoft Edge 並在網址列輸入 portal.azure.com，以管理員認證進行登入後，選取 Azure Active Directory。  
 
@@ -60,7 +64,7 @@ ms.locfileid: "141489255"
 
 8. 請選取 **選取使用者與群組** 選項，並選取 **使用者與群組**。  將開啟 [選取使用者與群組] 視窗。  
 
-9. 在 [搜尋列] 輸入 **Debra**。  請在搜尋列下方選取 **Debra Berger**，接著在頁面下方按一下 **選取** 按鈕。  請注意，一般情況下會指派原則到群組中的使用者。  為了此實驗的便利起見，我們將指派原則給特定的使用者。 
+9. 在 [搜尋列] 輸入 **Debra**。  請在搜尋列下方選取 **Debra Berger**，接著在頁面下方按一下 **選取** 按鈕。  請注意，一般情況下會指派原則到群組中的使用者。  為了此實驗的便利起見，我們將指派原則給特定的使用者。
 
 10. 在 [雲端 App 或動作] 下方，請選取 **未選取雲端 App 或動作**。
 
@@ -80,9 +84,11 @@ ms.locfileid: "141489255"
 
 18. 登出 Azure，並關閉瀏覽器視窗。
 
-#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>工作 3：在此工作中，您將會透過使用者 Debra Berger 的檢視方塊看到條件式存取原則的影響。 您將會從登入應用程式開始，該應用程式不包含在條件式存取原則中。  接著，您將重複應用程式的流程，該應用程式則包含在條件式存取原則中。  請回顧一下，原則要求使用者在存取 Microsoft Azure 管理應用程式時完成 MFA。  若要使用 MFA，使用者必須先登錄將用於 MFA 的驗證方法，例如傳送到行動裝置或驗證應用程式的代碼。
+### <a name="task-3"></a>工作 3
 
-1. 開啟 Microsoft Edge。  在瀏覽器的網址列中，輸入 **https://login.microsoftonline.com/** 。
+在此工作中，您將會透過使用者 Debra Berger 的檢視方塊看到條件式存取原則的影響。 您將會從登入應用程式開始，該應用程式不包含在條件式存取原則中。  接著，您將重複應用程式的流程，該應用程式則包含在條件式存取原則中。  請回顧一下，原則要求使用者在存取 Microsoft Azure 管理應用程式時完成 MFA。  若要使用 MFA，使用者必須先登錄將用於 MFA 的驗證方法，例如傳送到行動裝置或驗證應用程式的代碼。
+
+1. 開啟 Microsoft Edge。  在瀏覽器的網址列中，輸入 **login.microsoftonline.com/** 。
 
 1. 以 Debra Burger 的身分登入。
     1. 在登入視窗中輸入 **DebraB@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是您實驗室代管提供者提供的唯一租用戶識別碼)，然後選取 [下一步]。
@@ -92,7 +98,7 @@ ms.locfileid: "141489255"
 
 1. 您現在應可以成功登入 Microsoft 365 帳戶。  此應用程式不需要 MFA，因為這不是原則的一部分。
 
-1. 現在您將試著登入符合 MFA 標準的應用程式。  開啟 Microsoft Edge，然後在網址列中輸入 https://portal.azure.com 。
+1. 現在您將試著登入符合 MFA 標準的應用程式。  開啟 Microsoft Edge 並在網址列中輸入 **portal.azure.com**。
 
 1. 您將會看到一個視窗顯示 [需要更多資訊]。  選取 [下一步] 。  請注意，這將會啟動 MFA 註冊流程，因為這是您第一次存取識別於條件式存取原則中的雲端 App。  此註冊流程只需要進行一次。   讓使用者完成註冊流程的替代方案，是讓管理員設定使用的驗證方法。
 
@@ -110,5 +116,6 @@ ms.locfileid: "141489255"
 
 1. 若要登出，請選取螢幕右上角電子郵件地址旁的使用者圖示，並選取 [登出]。接著關閉所有瀏覽器視窗。
 
-#### <a name="review"></a>檢閱
+### <a name="review"></a>檢閱
+
 在此實驗中，您已了解設定條件式存取原則的流程，該原則要求使用者在存取 Microsoft Azure 管理雲端應用程式時完成 MFA。  接著，您以使用者的身分了解 MFA 的註冊流程，也了解在您存取 Azure 入口網站時要求您使用 MFA 的條件式存取原則之影響。
