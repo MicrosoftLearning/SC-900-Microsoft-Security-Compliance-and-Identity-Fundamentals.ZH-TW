@@ -2,18 +2,18 @@
 lab:
   title: 瀏覽服務信任入口網站
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
+ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557203"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "146381225"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>實驗室：瀏覽服務信任入口網站
 
 ## <a name="lab-scenario"></a>實驗案例
 
-在本實驗中，您將會探索服務信任入口網站提供的功能和內容。 您也將造訪信任中心並導覽至六項關鍵隱私權原則。
+在本實驗中，您將會探索服務信任入口網站提供的功能和內容。 您也會瀏覽「信任中心」以檢視 Microsoft 對隱私權的處理方式的相關的資訊。
 
 **預估時間**：10-15 分鐘
 
@@ -49,20 +49,14 @@ ms.locfileid: "144557203"
 
 ### <a name="task-2"></a>工作 2
 
-在本工作中，您將造訪信任中心並導覽至 Microsoft 的六項關鍵隱私權原則。
+在此工作中，您將瀏覽「信任中心」，並瀏覽至描述 Microsoft 對隱私權的處理方式的資訊。
 
-1. 從服務信任入口網站頁面的頂部，請選取 **信任中心** 然後選取 **首頁**。 這將開啟新的瀏覽器索引標籤並將您導向信任中心，而在此可以找到相關 Microsoft 雲端中的安全性、合規性和隱私權等更多資訊。
+1. 從服務信任入口網站頁面的頂部，請選取 **信任中心** 然後選取 **首頁**。 這將開啟新的瀏覽器索引標籤並將您導向「信任中心」，您可以在該處找到更多資訊，包括隱私權等資訊。  
 
-1. 從頁面頂部，請選取 **隱私權**，然後選取 **資源**。
-
-1. 請選取 **其他隱私權資源**。
-
-1. 請選取 **Microsoft 的隱私權**。
-
-1. 檢閱六項關鍵隱私權原則。
+1. 您將會看到我們 (Microsoft) 對您的承諾的相關資訊。  從這裡選取 [深入了解 Microsoft 隱私權]。  捲動頁面並探索不同的連結，以深入了解 Microsoft 對隱私權的處理方式。
 
 1. 關閉瀏覽器視窗以退出服務信任入口網站和信任中心。
 
 ### <a name="review"></a>檢閱
 
-在此實驗中，您已探索服務信任入口網站下的一些可用選項、如何存取報告以及如何使用我的資料庫儲存文件以供將來檢閱。  此外，您造訪了信任中心以存取和檢閱 Microsoft 的隱私權原則。
+在此實驗中，您已探索服務信任入口網站下的一些可用選項、如何存取報告以及如何使用我的資料庫儲存文件以供將來檢閱。  此外，您也已經瀏覽「信任中心」以存取並檢閱 Microsoft 對隱私權的處理方式的相關資訊。
