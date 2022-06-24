@@ -2,12 +2,12 @@
 lab:
   title: 探索 Azure 原則
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557515"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542588"
 ---
 # <a name="lab-explore-azure-policy"></a>實驗室：探索 Azure 原則
 
@@ -21,7 +21,7 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
 
 簡略探索 Azure 原則頁面。
 
-1. 開啟 Microsoft Edge。 在網址列輸入 **portal.microsoft.com**。
+1. 開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。

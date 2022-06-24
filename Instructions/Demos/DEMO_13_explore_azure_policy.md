@@ -2,12 +2,12 @@
 Demo:
   title: Azure 原則
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557131"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542672"
 ---
 # <a name="demo-azure-policy"></a>示範：Azure 原則
 
@@ -19,7 +19,7 @@ ms.locfileid: "144557131"
 
 建立一個原則以要求資源群組上的標籤 (顯示從範本建立原則的步驟)
 
-1. 開啟 Microsoft Edge。 在網址列輸入 **portal.microsoft.com**。  您應該已經登入，若無則請用管理員認證登入。
+1. 開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com**。  您應該已經登入，若無則請用管理員認證登入。
 
 1. 請在頁面上方寫著 Microsoft Azure 旁邊的藍色列搜尋方塊中輸入 **policy**，並從搜尋結果中選取 **原則**。
 
