@@ -2,12 +2,12 @@
 lab:
   title: 使用條件式存取，探索 Azure AD 中的存取管理
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c8e9f8eb6e0d3609adc7ed5ea7f4d18ebfa33c4b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557274"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542600"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>實驗室：使用條件式存取探索 Azure AD 中的訪問管理
 
@@ -28,7 +28,7 @@ ms.locfileid: "144557274"
     1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
     1. 當提示保持登入狀態時，請選取 **是**。
 
-3. 選取 **Azure Active Directory**。  
+3. 在畫面左上角的 Microsoft Azure 旁邊，選取顯示入口網站功能表圖示 (三條水平線，也稱為漢堡圖示)，然後從左側瀏覽面板的 [我的最愛] 下方選取 [Azure Active Directory]。 若未列於 [我的最愛] 下方，請在搜尋方塊中輸入 Azure Active Directory，然後在結果清單中選取 [Azure Active Directory]。
 
 4. 在左側導覽面板中選取 **使用者**。
 

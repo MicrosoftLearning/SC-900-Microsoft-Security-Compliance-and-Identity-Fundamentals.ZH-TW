@@ -2,12 +2,12 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 4840bb3463325745987f55c4ed7d7462491e9fce
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557323"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542659"
 ---
 # <a name="demo-microsoft-sentinel"></a>示範：Microsoft Sentinel
 
@@ -131,7 +131,7 @@ ms.locfileid: "144557323"
 
 3. 從 [資源群組] 頁面中，選取以 Microsoft Sentinel 所建立的資源群組 **SC900-ResourceGroup**。
 
-4. 從頁面的頂部中心，請選取 **刪除資源群組**。  檢閱警告。  輸入資源群組名稱 **SC900-ResourceGroup**，然後從頁面底部選取 **刪除**。  刪除資源群組需要幾分鐘的時間。
+4. 從頁面的頂部中心，請選取 **刪除資源群組**。  檢閱警告。  輸入資源群組名稱 **SC900-ResourceGroup**，然後在頁面底部選取 [刪除]。  刪除資源群組需要幾分鐘的時間。
 
 5. 驗證資源群組已刪除後，請關閉瀏覽器頁面。
 

@@ -2,12 +2,12 @@
 lab:
   title: 探索 Microsoft Purview 中測試人員的風險管理
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557539"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542636"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 中測試人員的風險管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "144557539"
 
 1. 在 Microsoft Purview 合規性入口網站的左側導覽窗格中，選取 [權限]。
 
-1. 在合規性入口網站下方的 [權限和角色] 頁面中，選取 [角色]。
+1. 在 [權限和角色] 頁面的「檢視及管理用來執行合規性中心內解決方案特定工作的角色。」下方， 選取 [角色]。
 
 1. 在搜尋欄位，輸入 **內部風險**，然後選取搜尋圖示 (放大鏡)。  請注意顯示的許多角色。  每一個都有不同的存取等級。  請選取 **內部風險管理**。
 
