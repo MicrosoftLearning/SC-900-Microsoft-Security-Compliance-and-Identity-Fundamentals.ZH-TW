@@ -2,12 +2,12 @@
 lab:
   title: Azure 網路安全群組 (NSGs)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557503"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650086"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>實驗室：Azure 網路安全群組 (NSGs)
 
@@ -151,9 +151,9 @@ ms.locfileid: "144557503"
 1. 透過選取顯示 IP 位址的頁面頂部中心的 **X**，關閉遠端桌面連線。  快顯示窗顯示您的遠端工作階段將會中斷連線。 選取 [確定]。
 1. 在此工作中，您已成功在 NSG 中設定輸出規則，以封鎖輸出網際網路流量。
 
-### <a name="task-5"></a>工作 5
+### <a name="tear-down"></a>卸除
 
-**重要**：在此工作中，您將刪除資源群組及其包含的所有資源。   這對於避免額外收費非常重要。
+VM 是計費的資源，雖然此示範中執行 VM 的成本很低，但建議您在課程完成時刪除包含 VM 和相關資源的資源群組。
 
 1. 在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。
 
@@ -163,6 +163,7 @@ ms.locfileid: "144557503"
 1. 從 LabsSC900 頁面的頂部中心，請選取 **刪除資源群組**。
 1. 在開啟的視窗中，輸入資源群組名稱 **LabsSC900**，確認刪除資源群組及其所有資源，然後從頁面底部選取 **刪除**。
 1. 刪除所有資源和資源群組可能需要幾分鐘的時間。
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

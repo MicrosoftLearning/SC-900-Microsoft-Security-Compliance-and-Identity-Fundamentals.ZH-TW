@@ -2,22 +2,31 @@
 Demo:
   title: Azure Active Directory 使用者設定
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557178"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741888"
 ---
 # <a name="demo-azure-active-directory-user-settings"></a>示範：Azure Active Directory 使用者設定
 
 ## <a name="demo-scenario"></a>示範案例
 
-在本示範中，您將會存取 Azure Active Directory 並逐步了解現有使用者的多樣設定。
+在本示範中，您將會存取 Azure Active Directory 並逐步了解現有使用者的多樣設定。  演示者注意事項：本示範會透過 Microsoft 365 租用戶存取 Azure AD。 您也可以透過 Azure 入口網站存取 Azure AD，來向學習者演示。 透過 Microsoft 365 租用戶存取的目的，是為了展示 Microsoft 365 包含 Azure AD 的存取權。
 
-1. 前往瀏覽器中開啟的 **首頁 – Microsoft Azure**。  如果您先前關閉了索引標籤，請開啟 Microsoft Edge 並在網址列輸入 portal.azure.com，以和 Microsoft 365 用戶相同的管理員認證進行登入。
+1. 開啟 Microsoft Edge。
 
-1. Azure 入口網站的登錄頁面會顯示 Azure 服務，請選取 **Azure Active Directory**。 如果無法立即顯示，請在 Microsoft Azure 旁的搜尋方塊輸入「Azure Active Directory」。  您可能也會想了解如何透過 Microsoft Azure 左側的顯示入口網站功能表圖示 (三條水平線又稱為漢堡圖示，在頁面上方的藍色列中) 來存取。
+1. 在網址列中輸入 **admin.microsoft.com** 存取 Microsoft 365 系統管理中心。
+
+1. 登入管理員認證。
+    1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
+    1. 輸入應由您的實驗託管提供者提供的管理員密碼。 選取 [登入]。
+    1. 當提示保持登入狀態時，請選取 **是**。
+
+1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 **顯示全部**。
+
+1. 在系統管理中心下方選取 **Azure Active Directory** (可能需要向下捲動)。  全新瀏覽器頁面將開啟前往至 Azure Active Directory 系統管理中心的 [我的儀表板] 頁面。 在儀表板的主視窗中，您將會看到數個圖格，包括組織身分識別圖格 (Contoso、租用戶與 Azure AD 版本)、使用者與群組圖格等等。
 
 1. 在左側導覽窗格中選取 **使用者**。 請注意，已透過使用者設定了您的租用戶。
 

@@ -2,12 +2,12 @@
 lab:
   title: 瀏覽服務信任入口網站
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381225"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649942"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>實驗室：瀏覽服務信任入口網站
 
@@ -55,7 +55,7 @@ ms.locfileid: "146381225"
 
 1. 您將會看到我們 (Microsoft) 對您的承諾的相關資訊。  從這裡選取 [深入了解 Microsoft 隱私權]。  捲動頁面並探索不同的連結，以深入了解 Microsoft 對隱私權的處理方式。
 
-1. 關閉瀏覽器視窗以退出服務信任入口網站和信任中心。
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

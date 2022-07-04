@@ -2,12 +2,12 @@
 lab:
   title: 探索電子文件探索 (標準版) 工作流程
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542624"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649966"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>實驗室：探索電子文件探索 (標準版) 工作流程
 
@@ -126,6 +126,8 @@ ms.locfileid: "146542624"
     1. 在第二欄位中，選取要儲存匯出檔案的位置，然後選取 **開始**。  下載流程完成後，請選取 **關閉** 並關閉瀏覽器索引標籤。
     1. 您將退回「測試保存措施 – Sales Search_Export」視窗。  選取 [關閉]。
     1. 檢查下載位置以驗證下載是否成功完成。
+
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

@@ -2,12 +2,12 @@
 lab:
   title: 探索 Azure 原則
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542588"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741912"
 ---
 # <a name="lab-explore-azure-policy"></a>實驗室：探索 Azure 原則
 
@@ -125,6 +125,8 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
     1. 在 [Azure 服務] 下方選取 [Azure 原則]。
     1. 在頁面中間，您將看到 Azure 原則/新措施指派的清單。  為原則指派選取省略符號「需要資源群組上的標記」，然後選取 [刪除指派]。
     1. 系統將提示您確認是否要刪除指派。  選取 [是]。
+
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

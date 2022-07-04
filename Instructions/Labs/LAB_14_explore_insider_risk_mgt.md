@@ -2,12 +2,12 @@
 lab:
   title: 探索 Microsoft Purview 中測試人員的風險管理
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542636"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741876"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 中測試人員的風險管理
 
@@ -115,6 +115,8 @@ ms.locfileid: "146542636"
 1. 您將退回內部風險管理頁面的「原則」索引標籤。  將會列出您剛剛已建立的原則。  
 
 1. 在您剛剛建立的原則中，「範圍內的使用者」欄位表示目前由原則指派風險分數的使用者。  觸發原則時會為使用者指派風險分數，這就是該值顯示為 0 的原因。  管理員可以設定原則以開始根據您所選的原則偵測到的活動將風險分數指派給特定使用者，這樣可以繞過先偵測觸發事件的要求。  若要執行此操作，請選取原則名稱旁邊的空心圓形以選取原則，然後選取 **為使用者開始評分活動**，如原則資料表上方所示。  填入每個欄位，然後選取 **開始評分活動**。  使用者可能需要 24 小時才會出現在 '使用者' 索引標籤上。在那之後，您可以從該索引標籤中選取使用者以檢閱偵測到的活動。  選取視窗底部的 [關閉]。
+
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

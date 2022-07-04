@@ -2,12 +2,12 @@
 Demo:
   title: Azure 網路安全性群組 (Network Security Group, NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557526"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741852"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>示範：Azure 網路安全性群組 (Network Security Group, NSG)
 
@@ -152,9 +152,9 @@ ms.locfileid: "144557526"
 
 1. 透過在頁面頂部的藍色列上選取 **Microsoft Azure**，退回至 Azure 入口網站的首頁。
 
-### <a name="tear-down"></a>卸除
+### <a name="post-course-delivery-tear-down"></a>課程結束後的清理作業
 
-**重要**：在此工作中，您將刪除資源群組及其包含的所有資源。   這對於避免額外收費非常重要。
+VM 是計費的資源，雖然此示範中執行 VM 的成本很低，但建議您在課程教授完成時刪除包含 VM 和相關資源的資源群組。
 
 1. 在瀏覽器上開啟 [SC900-WinVM – Microsoft Azure] 索引標籤。
 
