@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure 原則
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 61ec82b1a7015371a60df61c5a6e5af39cdd9fd6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542672"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892206"
 ---
+<a name="---"></a><!---
+---
+示範：標題：「Azure 原則」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 6：描述 Azure 中的資源控管功能；單元 2：描述 Azure 原則」
+---
+--->
+
 # <a name="demo-azure-policy"></a>示範：Azure 原則
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Azure 中的資源控管功能
+- 單元：描述 Azure 原則
 
 ## <a name="demo-scenario"></a>示範案例
 

@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory 使用者設定
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741888"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892182"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>示範：Azure Active Directory 使用者設定
+<a name="---"></a><!---
+---
+示範：標題：「探索 Azure AD 使用者設定」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是Microsoft Entra 的一部分；課程模組 1：描述 Azure AD 的基本服務和身分識別類型；單元 4：描述 Azure AD 身分識別類型」
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>示範：Azure AD 使用者設定
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分
+- 課程模組：描述 Azure AD 的基本服務和身分識別類型
+- 單元：描述 Azure AD 身分識別類型
 
 ## <a name="demo-scenario"></a>示範案例
 

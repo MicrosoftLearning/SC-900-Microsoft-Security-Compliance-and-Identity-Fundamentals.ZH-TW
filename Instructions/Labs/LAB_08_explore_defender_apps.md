@@ -1,15 +1,24 @@
 ---
-lab:
-  title: '探索 Microsoft Defender for Cloud Apps '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c6b9e816596c74199123b21a9fcb07a5d33a725c
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650062"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892626"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Microsoft Defender for Cloud App」課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 5：描述 Microsoft Defender for Cloud Apps」
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>實驗室：探索 Microsoft Defender for Cloud Apps
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Microsoft 365 的威脅防護功能
+- 單元：描述 Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>實驗案例
 

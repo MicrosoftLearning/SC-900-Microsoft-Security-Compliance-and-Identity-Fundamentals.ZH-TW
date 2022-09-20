@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: 示範設定
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458321"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892470"
 ---
+<a name="---"></a><!---
+---
+示範前設定：標題：「示範設定」
+---
+--->
+
 ## <a name="pre-demo-setup"></a>預先示範設定：
-此安裝包含兩項不同的工作。  只有在實驗室環境包含了使用 Azure Pass 時，第一項工作才適用，且為建議作法。 第二項工作著重於啟用 Microsoft 稽核記錄，無論您的環境是否使用 Azure Pass，都可適用且為建議作法。
+
+此安裝包含兩項不同的工作。  只有在示範環境包含了使用 Azure Pass 時，第一個工作才適用，且為建議作法。 第二項工作著重於啟用 Microsoft 稽核記錄，無論您的環境是否使用 Azure Pass，都可適用且為建議作法。
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
 

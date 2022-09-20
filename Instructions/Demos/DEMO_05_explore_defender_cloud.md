@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: 適用於雲端的 Microsoft Defender'
-  module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: ff5145e967445c12dacd90ea50002fe0c3042efb
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: ecea12b9b90c6dc3917d0ee93edcdba0436ccd0d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741900"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892458"
 ---
+<a name="---"></a><!---
+---
+示範：標題：「適用於雲端的 Microsoft Defender」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 2：描述 Azure 的安全性管理功能；單元 3：描述適用於雲端的 Microsoft Defender」
+---
+--->
+
 # <a name="demo-microsoft-defender-for-cloud"></a>示範：適用於雲端的 Microsoft Defender
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Azure 的安全性管理功能
+- 單元：描述適用於雲端的 Microsoft Defender
 
 ## <a name="demo-scenario"></a>示範案例
 

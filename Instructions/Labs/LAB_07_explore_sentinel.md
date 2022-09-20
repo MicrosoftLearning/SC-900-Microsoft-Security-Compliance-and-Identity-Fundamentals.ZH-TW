@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: dfa993671d905ed8bad138376c8cd71b1aa23d85
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741864"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892638"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Microsoft Sentinel」學習路徑/課程模組/標題：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 3：描述 Microsoft Sentinel 的安全性功能；單元 3：描述 Microsoft Sentinel 如何提供整合式威脅管理」
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>實驗室：探索 Microsoft Sentinel
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Microsoft Sentinel 的安全性功能
+- 單元：描述 Microsoft Sentinel 提供整合式威脅管理的方式
 
 ## <a name="lab-scenario"></a>實驗案例
 

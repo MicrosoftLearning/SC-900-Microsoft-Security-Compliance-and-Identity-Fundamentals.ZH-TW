@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Purview 的敏感度標籤
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 9dbcb385f5f4545942ecd38fe5fc0ad17e2934a3
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649954"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892421"
 ---
+<a name="---"></a><!---
+---
+示範：標題：「Microsoft Purview 中的敏感度標籤」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 3：描述 Microsoft Purview 中的資訊保護和資料生命週期管理；單元 4：描述敏感度標籤」
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>示範：Microsoft Purview 的敏感度標籤
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 中的資訊保護和資料生命週期管理
+- 單元：描述敏感度標籤
 
 ## <a name="demo-scenario"></a>示範案例
 

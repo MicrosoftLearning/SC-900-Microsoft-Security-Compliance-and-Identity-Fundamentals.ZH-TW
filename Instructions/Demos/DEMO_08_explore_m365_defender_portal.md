@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: The Microsoft 365 Defender 入口網站
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 400cf70f7d8d305ad85c1697115e1861a0569a9c
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557305"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892399"
 ---
+<a name="---"></a><!---
+---
+示範：標題：「Microsoft 365 Defender 入口網站」課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 7：描述 Microsoft 365 Defender 入口網站」
+---
+--->
+
 # <a name="demo-the-microsoft-365-defender-portal"></a>示範：The Microsoft 365 Defender 入口網站
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Microsoft 365 的威脅防護功能
+- 單元：描述 Microsoft 365 Defender 入口網站
 
 ## <a name="demo-scenario"></a>示範案例
 

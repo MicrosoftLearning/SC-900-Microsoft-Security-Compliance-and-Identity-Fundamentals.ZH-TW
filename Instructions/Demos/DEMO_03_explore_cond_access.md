@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory 條件式存取
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 9c981817c195e981ea69dc6bba5f168848d6d084
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c9d70711fdf9579ef2fdac491a59ceaf6a09547a
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557359"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892482"
 ---
-# <a name="demo-azure-active-directory-conditional-access"></a>示範：Azure Active Directory 條件式存取
+<a name="---"></a><!---
+---
+示範：標題：「Azure AD 條件式存取」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分；課程模組 3：描述 Azure AD 的存取管理功能；單元 2：描述 Azure AD 中的條件式存取」
+---
+--->
+
+# <a name="demo-azure-ad-conditional-access"></a>示範：Azure AD 條件式存取
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分
+- 課程模組：描述 Azure AD 的存取管理功能
+- 單元：描述 Azure AD 中的條件式存取
 
 ## <a name="demo-scenario"></a>示範案例
 

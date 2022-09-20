@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Azure 原則
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741912"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892146"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Azure 原則」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 6：描述 Azure 中的資源控管功能；單元 2：描述 Azure 原則」
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>實驗室：探索 Azure 原則
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Azure 中的資源控管功能
+- 單元：描述 Azure 原則
 
 ## <a name="lab-scenario"></a>實驗案例
 

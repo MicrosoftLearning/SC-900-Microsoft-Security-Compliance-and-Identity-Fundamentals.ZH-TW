@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索電子文件探索 (標準版) 工作流程
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649966"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892660"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索電子文件探索 (標準) 工作流程」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 5：描述 Microsoft Purview 的電子文件探索和稽核功能；單元 2：描述 Microsoft 365 中的電子文件探索解決方案」
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>實驗室：探索電子文件探索 (標準版) 工作流程
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 的電子文件探索和稽核功能
+- 單元：描述 Microsoft 365 中的電子文件探索解决方案
 
 ## <a name="lab-scenario"></a>實驗案例
 

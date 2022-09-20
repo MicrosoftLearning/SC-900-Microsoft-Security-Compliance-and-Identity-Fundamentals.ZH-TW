@@ -1,15 +1,24 @@
 ---
-lab:
-  title: Azure 網路安全群組 (NSGs)
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: d2377516343cb85c279c1a2d6347c59f573d73c7
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695290"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892194"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Azure 網路安全性群組 (NSG)」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 1：描述 Azure 中的基本安全性功能；單元 6：描述 Azure 網路安全性群組」
+---
+--->
+
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>實驗室：Azure 網路安全群組 (NSGs)
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Azure 中的基本安全性功能
+- 單元：描述 Azure 網路安全性群組
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -51,7 +60,7 @@ ms.locfileid: "147695290"
 1. VM 部署完成後，請選取 **前往資源**。
 1. 您現在位於 SC900-WinVM 頁面。
 1. 請選取頁面上方的 **連線**，接著在下拉式功能表選取 **RDP**。
-1. 請注意，連接埠的必要條件未受到滿足。  若要允許滿足必要條件，則須設定輸入網路安全性規則，其目的地連接埠為 3389 且由 RDP 使用。  您將會在下個工作中執行該作業，也就是建立網路安全性群組時。
+1. 請注意，連接埠的必要條件未受到滿足。  為滿足必要條件，必須設定輸入網路安全性規則，其目的地連接埠為 3389 且由 RDP 使用。  您將會在下個工作中執行該作業，也就是建立網路安全性群組時。
 1. 讓此瀏覽器索引標籤保持開啟。
 
 ### <a name="task-2"></a>工作 2

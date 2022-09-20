@@ -1,15 +1,22 @@
 ---
-lab:
-  title: 瀏覽服務信任入口網站
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649942"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892686"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索服務信任入口網站」學習路徑/模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 1：描述 Microsoft 中的合規性管理功能；單元 2：探索服務信任入口網站」
+---
+--->
+
 # <a name="lab-explore-the-service-trust-portal"></a>實驗室：瀏覽服務信任入口網站
+
+此實驗室對應至下列 Learn 內容：
+
+學習路徑：描述 Microsoft 合規性的功能 課程模組：描述 Microsoft 中的合規性管理功能 單元：探索服務信任入口網站
 
 ## <a name="lab-scenario"></a>實驗案例
 

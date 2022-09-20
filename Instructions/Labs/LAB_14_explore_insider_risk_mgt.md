@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 中測試人員的風險管理
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741876"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892698"
 ---
+<a name="---"></a><!--->
+---
+實驗室：標題：「探索 Microsoft Purview 中的內部風險管理」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 4：描述 Microsoft Purview 中的內部風險功能；單元 2：描述內部風險管理」
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 中測試人員的風險管理
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 中的內部風險功能
+- 單元：描述內部風險管理
 
 ## <a name="lab-scenario"></a>實驗案例
 
