@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft 365 Defender 入口網站
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c22aadb543f4501b74be9a6d12da3af3b63b632f
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557143"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892674"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Microsoft 365 Defender 入口網站」課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 7：描述 Microsoft 365 Defender 入口網站」
+---
+--->
+
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>實驗室：探索 Microsoft 365 Defender 入口網站
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Microsoft 365 的威脅防護功能
+- 單元：描述 Microsoft 365 Defender 入口網站
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -65,7 +74,7 @@ ms.locfileid: "144557143"
 
 1. 在頁面上方選取 **計量與趨勢**。  請注意可用的資訊。  從頁面的右上角，請選取 **行事曆圖示**。  您可以縮小檢視為自訂的日期範圍。  選取 **篩選條件圖示**，您可以依照「身分識別」、「裝置」及/或應用程式來篩選檢視的內容。  關閉視窗並在左側導覽面板選取 **首頁**，退回 Microsoft 365 Defender 首頁。
 
-1. 關閉瀏覽器頁面。
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

@@ -1,24 +1,28 @@
 ---
-lab:
-  title: 安裝程式
-ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557300"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892230"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「設定」
+---
+--->
+
 # <a name="lab-setup"></a>實驗室：安裝程式
 
 ## <a name="lab-scenario"></a>實驗案例
 
-在此實驗中，您將使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得順暢的體驗。 在設定的一部分中，您也會在 Microsoft 365 租用戶中啟用稽核記錄功能，這需要一些時間生效。 Microsoft 365 使用稽核記錄來獲取原則和分析深入解析中識別的使用者深入解析和活動。
+此安裝實驗包含兩項不同的工作。  只有在實驗室環境包含了使用 Azure Pass 時，第一項工作才適用，且為建議作法。 第二項工作著重於啟用 Microsoft 稽核記錄，無論您的環境是否使用 Azure Pass，都可適用且為建議作法。
 
 **預估時間**：5-10 分鐘
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
 
-在此設定工作中，您將使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得更順暢無礙的體驗。
+只有在您使用的實驗室環境包含 Azure Pass 時，這項工作才適用，且為建議作法。 在此工作中，您將使用與 Microsoft 365 租用戶相同的認證來兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得更順暢無礙的體驗。
 
 1. 如果您有任何已開啟的瀏覽器視窗，建議您關閉所有瀏覽器。
 

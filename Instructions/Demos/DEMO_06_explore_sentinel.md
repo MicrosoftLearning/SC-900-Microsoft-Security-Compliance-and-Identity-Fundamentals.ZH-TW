@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557323"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892386"
 ---
+<a name="---"></a><!---
+---
+示範：標題：「Microsoft Sentinel」學習路徑/課程模組/標題：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 3：描述 Microsoft Sentinel 的安全性功能；單元 3：描述 Microsoft Sentinel 如何提供整合式威脅管理」
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>示範：Microsoft Sentinel
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Microsoft Sentinel 的安全性功能
+- 單元：描述 Microsoft Sentinel 提供整合式威脅管理的方式
 
 ## <a name="demo-scenario"></a>示範案例
 
@@ -121,9 +130,9 @@ ms.locfileid: "144557323"
 
 1. 選取視窗左上角藍色列下方的 [首頁]，即可返回 Azure 入口網站的首頁。
 
-### <a name="task-6"></a>工作 6
+### <a name="post-course-delivery-tear-down"></a>課程結束後的清理作業
 
-課程結束後的清理作業。 Microsoft Sentinel 的計費方式，取決於 Microsoft Sentinel 中分析所取用的資料量。 雖然，這個示範中所內嵌的資料量很小，但仍建議在完成探索 Microsoft Sentinel 的功能特性之後，刪除 Microsoft Sentinel 資源群組。
+Microsoft Sentinel 的計費方式，取決於 Microsoft Sentinel 中分析所取用的資料量。 雖然，這個示範中所內嵌的資料量很小，但仍建議在完成課程教授之後，刪除 Microsoft Sentinel 資源群組。
 
 1. 請從 Microsoft Sentinel 頁面左上角的 Microsoft Sentinel，選取 [所有服務]。
 
@@ -131,7 +140,7 @@ ms.locfileid: "144557323"
 
 3. 從 [資源群組] 頁面中，選取以 Microsoft Sentinel 所建立的資源群組 **SC900-ResourceGroup**。
 
-4. 從頁面的頂部中心，請選取 **刪除資源群組**。  檢閱警告。  輸入資源群組名稱 **SC900-ResourceGroup**，然後從頁面底部選取 **刪除**。  刪除資源群組需要幾分鐘的時間。
+4. 從頁面的頂部中心，請選取 **刪除資源群組**。  檢閱警告。  輸入資源群組名稱 **SC900-ResourceGroup**，然後在頁面底部選取 [刪除]。  刪除資源群組需要幾分鐘的時間。
 
 5. 驗證資源群組已刪除後，請關閉瀏覽器頁面。
 

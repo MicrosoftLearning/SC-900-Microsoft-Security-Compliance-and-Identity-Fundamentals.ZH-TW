@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 中測試人員的風險管理
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557539"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892698"
 ---
+<a name="---"></a><!--->
+---
+實驗室：標題：「探索 Microsoft Purview 中的內部風險管理」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 4：描述 Microsoft Purview 中的內部風險功能；單元 2：描述內部風險管理」
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 中測試人員的風險管理
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 中的內部風險功能
+- 單元：描述內部風險管理
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -35,7 +44,7 @@ ms.locfileid: "144557539"
 
 1. 在 Microsoft Purview 合規性入口網站的左側導覽窗格中，選取 [權限]。
 
-1. 在合規性入口網站下方的 [權限和角色] 頁面中，選取 [角色]。
+1. 在 [權限和角色] 頁面的「檢視及管理用來執行合規性中心內解決方案特定工作的角色。」下方， 選取 [角色]。
 
 1. 在搜尋欄位，輸入 **內部風險**，然後選取搜尋圖示 (放大鏡)。  請注意顯示的許多角色。  每一個都有不同的存取等級。  請選取 **內部風險管理**。
 
@@ -115,6 +124,8 @@ ms.locfileid: "144557539"
 1. 您將退回內部風險管理頁面的「原則」索引標籤。  將會列出您剛剛已建立的原則。  
 
 1. 在您剛剛建立的原則中，「範圍內的使用者」欄位表示目前由原則指派風險分數的使用者。  觸發原則時會為使用者指派風險分數，這就是該值顯示為 0 的原因。  管理員可以設定原則以開始根據您所選的原則偵測到的活動將風險分數指派給特定使用者，這樣可以繞過先偵測觸發事件的要求。  若要執行此操作，請選取原則名稱旁邊的空心圓形以選取原則，然後選取 **為使用者開始評分活動**，如原則資料表上方所示。  填入每個欄位，然後選取 **開始評分活動**。  使用者可能需要 24 小時才會出現在 '使用者' 索引標籤上。在那之後，您可以從該索引標籤中選取使用者以檢閱偵測到的活動。  選取視窗底部的 [關閉]。
+
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

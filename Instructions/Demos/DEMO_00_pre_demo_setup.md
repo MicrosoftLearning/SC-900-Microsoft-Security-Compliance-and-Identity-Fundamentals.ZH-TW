@@ -1,18 +1,24 @@
 ---
-Pre-Demo Setup:
-  title: 示範設定
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557251"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892470"
 ---
-# <a name="pre-demo-setup"></a>預先示範設定：
+<a name="---"></a><!---
+---
+示範前設定：標題：「示範設定」
+---
+--->
 
-## <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
+## <a name="pre-demo-setup"></a>預先示範設定：
 
-在此設定工作中，您將使用與 Microsoft 365 租用戶相同的認證兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得更順暢無礙的體驗。
+此安裝包含兩項不同的工作。  只有在示範環境包含了使用 Azure Pass 時，第一個工作才適用，且為建議作法。 第二項工作著重於啟用 Microsoft 稽核記錄，無論您的環境是否使用 Azure Pass，都可適用且為建議作法。
+
+### <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
+
+只有在您使用的示範環境包含 Azure Pass 時，這項工作才適用，且為建議作法。 在此工作中，您將使用與 Microsoft 365 租用戶相同的認證來兌換 Azure Pass。  這將有助於在 Microsoft 365 和 Azure 之間移動時取得更順暢無礙的體驗。
 
 1. 如果您有任何已開啟的瀏覽器視窗，建議您關閉所有瀏覽器。
 

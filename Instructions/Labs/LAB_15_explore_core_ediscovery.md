@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索電子文件探索 (標準版) 工作流程
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557599"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892660"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索電子文件探索 (標準) 工作流程」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 5：描述 Microsoft Purview 的電子文件探索和稽核功能；單元 2：描述 Microsoft 365 中的電子文件探索解決方案」
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>實驗室：探索電子文件探索 (標準版) 工作流程
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 的電子文件探索和稽核功能
+- 單元：描述 Microsoft 365 中的電子文件探索解决方案
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -115,7 +124,7 @@ ms.locfileid: "144557599"
 
 1. 請在頁面底部選取 **動作**。  請注意可用選項，再選取 **匯出結果**。
 
-    1. 在匯出結果視窗中，保留預設值並從頁面底部選取 **匯出**。 您將自動退回「測試保存措施 – 銷售搜尋」視窗。 請選取頁面底部的 **關閉**。
+    1. 在匯出結果視窗中，保留預設值並從頁面底部選取 **匯出**。 您將自動退回「測試保存措施 – 銷售搜尋」視窗。 選取頁面底部的 [關閉]。
 
     1. 在 SC900-測試案例頁面，從頁面頂部選取 **匯出**。
     1. 選取 **測試保存措施 - Sales Search_Export**
@@ -126,6 +135,8 @@ ms.locfileid: "144557599"
     1. 在第二欄位中，選取要儲存匯出檔案的位置，然後選取 **開始**。  下載流程完成後，請選取 **關閉** 並關閉瀏覽器索引標籤。
     1. 您將退回「測試保存措施 – Sales Search_Export」視窗。  選取 [關閉]。
     1. 檢查下載位置以驗證下載是否成功完成。
+
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

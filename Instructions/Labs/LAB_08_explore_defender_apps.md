@@ -1,15 +1,24 @@
 ---
-lab:
-  title: '探索 Microsoft Defender for Cloud Apps '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557567"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892626"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Microsoft Defender for Cloud App」課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 5：描述 Microsoft Defender for Cloud Apps」
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>實驗室：探索 Microsoft Defender for Cloud Apps
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 安全性解決方案的功能
+- 課程模組：描述 Microsoft 365 的威脅防護功能
+- 單元：描述 Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -79,7 +88,7 @@ ms.locfileid: "144557567"
 
 1. 在左側導覽面板中選取 **警示**。  如果您有任何列出的警示，請在警示清單中選取一個項目。 檢閱提供的資訊。  在視窗的右上方選取 **關閉警示** 以檢視關閉警示的選項。  
 
-1. 關閉瀏覽器視窗。
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

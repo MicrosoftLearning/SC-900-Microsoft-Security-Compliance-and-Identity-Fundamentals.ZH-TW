@@ -1,19 +1,26 @@
 ---
-Demo:
-  title: 服務信任入口網站
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 79190b5422352e204adad1f0799789181d2d4408
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557482"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892446"
 ---
+<a name="---"></a><!---
+---
+示範：標題：「服務信任入口網站」學習路徑/模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 1：描述 Microsoft 中的合規性管理功能；單元 2：探索服務信任入口網站」
+---
+--->
+
 # <a name="demo-service-trust-portal"></a>示範：服務信任入口網站
+
+此示範對應至下列 Learn 內容：
+
+學習路徑：描述 Microsoft 合規性的功能 課程模組：描述 Microsoft 中的合規性管理功能 單元：探索服務信任入口網站
 
 ## <a name="demo-scenario"></a>示範案例
 
-在此示範中，您將展示服務信任入口網站提供的功能和內容。 還包括 (作為選項顯示) 透過信任中心存取六項關鍵隱私權原則的步驟。
+在此示範中，您將展示服務信任入口網站提供的功能和內容。 此外，也包含瀏覽「信任中心」以檢視 Microsoft 對隱私權的處理方式的相關資訊。
 
 ### <a name="demo-part-1"></a>示範第 1 部分
 
@@ -47,20 +54,14 @@ ms.locfileid: "144557482"
 
 ### <a name="demo-part-2-optional"></a>示範第 2 部分 (選用)
 
-在示範的這一部分中，您將展示信任中心並導覽至 Microsoft 的六項關鍵隱私權原則。
+在示範的此部分，您將顯示「信任中心」，並瀏覽至描述 Microsoft 對隱私權的處理方式的資訊。
 
-1. 從服務信任入口網站頁面的頂部，請選取 **信任中心** 然後選取 **首頁**。 這將開啟新的瀏覽器索引標籤並將您導向信任中心，而在此可以找到相關 Microsoft 雲端中的安全性、合規性和隱私權等更多資訊。
+1. 從服務信任入口網站頁面的頂部，請選取 **信任中心** 然後選取 **首頁**。 這將開啟新的瀏覽器索引標籤並將您導向「信任中心」，您可以在該處找到更多資訊，包括隱私權等資訊。  
 
-1. 從頁面頂部，請選取 **隱私權**，然後選取 **資源**。
-
-1. 請選取 **其他隱私權資源**。
-
-1. 請選取 **Microsoft 的隱私權**。
-
-1. 檢閱六項關鍵隱私權原則。
+1. 您將會看到我們 (Microsoft) 對您的承諾的相關資訊。  從這裡選取 [深入了解 Microsoft 隱私權]。  捲動頁面並探索不同的連結，以深入了解 Microsoft 對隱私權的處理方式。
 
 1. 關閉瀏覽器視窗以退出服務信任入口網站和信任中心。
 
 ### <a name="review"></a>檢閱
 
-在此示範中，您已探索服務信任入口網站下的一些可用選項、如何存取 Microsoft Microsoft Cloud Service 的稽核報告以及如何使用我的資料庫儲存文件以供將來檢閱。  此外，您造訪了信任中心以存取和檢閱 Microsoft 的隱私權原則。
+在此示範中，您已探索服務信任入口網站下的一些可用選項、如何存取 Microsoft Microsoft Cloud Service 的稽核報告以及如何使用我的資料庫儲存文件以供將來檢閱。  此外，您也已經瀏覽「信任中心」以存取並檢閱 Microsoft 對隱私權的處理方式的相關資訊。

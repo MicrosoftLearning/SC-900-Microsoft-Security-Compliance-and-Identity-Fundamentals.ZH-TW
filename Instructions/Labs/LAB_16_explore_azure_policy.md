@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Azure 原則
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557515"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892146"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Azure 原則」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 6：描述 Azure 中的資源控管功能；單元 2：描述 Azure 原則」
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>實驗室：探索 Azure 原則
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Azure 中的資源控管功能
+- 單元：描述 Azure 原則
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -21,7 +30,7 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
 
 簡略探索 Azure 原則頁面。
 
-1. 開啟 Microsoft Edge。 在網址列輸入 **portal.microsoft.com**。
+1. 開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com**。
 
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗代管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]。
@@ -125,6 +134,8 @@ Azure 原則有助於強制執行組織標準並大規模評估合規性。 Azur
     1. 在 [Azure 服務] 下方選取 [Azure 原則]。
     1. 在頁面中間，您將看到 Azure 原則/新措施指派的清單。  為原則指派選取省略符號「需要資源群組上的標記」，然後選取 [刪除指派]。
     1. 系統將提示您確認是否要刪除指派。  選取 [是]。
+
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

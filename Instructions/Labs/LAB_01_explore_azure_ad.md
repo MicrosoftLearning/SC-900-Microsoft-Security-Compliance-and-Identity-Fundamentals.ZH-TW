@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Azure Active Directory
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e70692d55a6d1ef5d89fde484234bf937cef981d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557287"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892242"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Azure Active Directory」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是Microsoft Entra 的一部分；課程模組 1：描述 Azure AD 的基本服務和身分識別類型；單元 4：描述 Azure AD 身分識別類型」
+---
+--->
+
 # <a name="lab-explore-azure-active-directory"></a>實驗室：探索 Azure Active Directory
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分
+- 課程模組：描述 Azure AD 的基本服務和身分識別類型
+- 單元：描述 Azure AD 身分識別類型
 
 ## <a name="lab-scenario"></a>實驗案例
 

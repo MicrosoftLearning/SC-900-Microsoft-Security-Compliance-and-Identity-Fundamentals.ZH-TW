@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 的敏感度標籤
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557587"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892649"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Microsoft Purview 中的敏感度標籤」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 3：描述 Microsoft Purview 中的資訊保護和資料生命週期管理；單元 4：描述敏感度標籤」
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 的敏感度標籤
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 中的資訊保護和資料生命週期管理
+- 單元：描述敏感度標籤
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -88,7 +97,7 @@ ms.locfileid: "144557587"
 
 1. 請選取 **+ 新空白文件**，然後在頁面上輸入一些文字。  在頁面頂部的藍色列上，選取 DocumentXX - Saved 旁邊的向下箭號，然後在檔案名稱方塊中輸入 **測試標籤**。
 
-1. 在頂部功能表列中選取 **敏感度**，如果您沒有立即看到此選項，請重新整理頁面。 在下拉式清單中選取 **機密 - 財務**。
+1. 在頂部功能表列中選取 **敏感度**，如果您沒有立即看到此選項，請重新整理頁面。 在下拉式清單中選取 **機密 - 財務**。  注意：[敏感度] 選項最多可能需要 15 分鐘才會顯示。
 
 1. 在頂部功能表列中選取 **檢視**，然後選取 **閱讀檢視**。
 
@@ -112,7 +121,7 @@ ms.locfileid: "144557587"
 
 1. 使用實驗室 VM 上的網頁瀏覽器，登入您傳送文件的電子郵件帳戶。  請注意，可能會將電子郵件導向垃圾資料夾。  當您嘗試開啟附加的 Word 檔案時，將會看顯示您無權開啟該文件的通知。
 
-1. 關閉已開啟的瀏覽器索引標籤。
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 

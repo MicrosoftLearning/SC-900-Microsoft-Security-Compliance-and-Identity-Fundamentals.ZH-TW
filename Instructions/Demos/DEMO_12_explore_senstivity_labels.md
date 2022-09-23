@@ -1,19 +1,28 @@
 ---
-Demo:
-  title: Microsoft Purview 的敏感度標籤
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 7f6827f55ddc30dac37ab7da750a9331477650f1
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557191"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892421"
 ---
+<a name="---"></a><!---
+---
+示範：標題：「Microsoft Purview 中的敏感度標籤」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 3：描述 Microsoft Purview 中的資訊保護和資料生命週期管理；單元 4：描述敏感度標籤」
+---
+--->
+
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>示範：Microsoft Purview 的敏感度標籤
+
+此示範對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 中的資訊保護和資料生命週期管理
+- 單元：描述敏感度標籤
 
 ## <a name="demo-scenario"></a>示範案例
 
-在本示範中，您將展示敏感度標籤的功能。  您將瀏覽已建立的現有敏感度標籤的設定以及發佈標籤的相應原則。   然後，您將從使用者的角度了解如何套用標籤以及標籤的影響。
+在本示範中，您將展示敏感度標籤的功能。  您將瀏覽已建立的現有敏感度標籤的設定以及發佈標籤的相應原則。   然後，您將從使用者的角度了解如何套用標籤以及標籤的影響。  附註：第一次透過 Microsoft 365 租用戶使用線上版 Word 時，[敏感性] 選項最多可能需要 15 分鐘的時間才會出現在功能區上。  演示者應在上課前執行示範第 2 部分，以確保有足夠的時間顯示選項。
 
 ### <a name="demo-part-1"></a>示範第 1 部分
 

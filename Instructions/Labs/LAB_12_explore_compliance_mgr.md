@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 合規性入口網站及合規性管理員
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557484"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892374"
 ---
+<a name="---"></a><!---
+---
+實驗室：標題：「探索 Microsoft Purview 合規性入口網站與合規性管理員」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 2：描述 Microsoft Purview 中的合規性管理功能；單元 2：描述Microsoft Purview 合規性入口網站」
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>實驗室：探索 Microsoft Purview 合規性入口網站及合規性管理員
+
+此實驗室對應至下列 Learn 內容：
+
+- 學習路徑：描述 Microsoft 合規性的功能
+- 課程模組：描述 Microsoft Purview 中的合規性管理功能
+- 單元：描述 Microsoft Purview 合規性入口網站
 
 ## <a name="lab-scenario"></a>實驗案例
 
@@ -69,7 +78,7 @@ ms.locfileid: "144557484"
 
 1. 在隨附的範本清單上，選取 **ISO/IEC27001:2013**。 請在頁面右上方選取 **+ 建立評量**。  請注意螢幕左側，從範本建立評量只需要兩個步驟。  請選取頁面底部的「取消」。
 
-1. 關閉已開啟的瀏覽器索引標籤。
+1. 關閉所有已開啟的瀏覽器索引標籤。
 
 ### <a name="review"></a>檢閱
 
