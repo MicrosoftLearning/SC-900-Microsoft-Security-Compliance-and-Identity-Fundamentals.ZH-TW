@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: 2c2c0be64f8f19dcae5ef6066bb7f8518057a6a3
+ms.sourcegitcommit: 7974f6f09e9b092b73c6f7aee26d636aaefe5bfa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892230"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "148010598"
 ---
 <a name="---"></a><!---
 ---
@@ -19,6 +19,8 @@ ms.locfileid: "147892230"
 此安裝實驗包含兩項不同的工作。  只有在實驗室環境包含了使用 Azure Pass 時，第一項工作才適用，且為建議作法。 第二項工作著重於啟用 Microsoft 稽核記錄，無論您的環境是否使用 Azure Pass，都可適用且為建議作法。
 
 **預估時間**：5-10 分鐘
+
+
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>設定第 1 部分 - 兌換 Azure Pass
 
