@@ -1,16 +1,17 @@
 ---
-ms.openlocfilehash: c9d70711fdf9579ef2fdac491a59ceaf6a09547a
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
+ms.openlocfilehash: b9577dbed15e45986a20f4caf0f233c8e6fe4a4a
+ms.sourcegitcommit: e95df9b6b0cd4511c64832583e414ce7745cd29e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892482"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "148022686"
 ---
 <a name="---"></a><!---
 ---
 示範：標題：「Azure AD 條件式存取」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分；課程模組 3：描述 Azure AD 的存取管理功能；單元 2：描述 Azure AD 中的條件式存取」
 ---
 --->
+
 
 # <a name="demo-azure-ad-conditional-access"></a>示範：Azure AD 條件式存取
 
