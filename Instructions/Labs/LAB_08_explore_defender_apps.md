@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-實驗室：標題：「探索 Microsoft Defender for Cloud App」課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 5：描述 Microsoft Defender for Cloud Apps」
+lab:
+  title: '探索 Microsoft Defender for Cloud App'
+  module: '課程模組 4：描述 Microsoft 365 的威脅防護功能'
 ---
---->
+
 
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>實驗室：探索 Microsoft Defender for Cloud Apps
 

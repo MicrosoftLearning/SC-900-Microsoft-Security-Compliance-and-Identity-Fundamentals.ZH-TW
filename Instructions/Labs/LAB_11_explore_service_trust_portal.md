@@ -1,8 +1,10 @@
-<a name="---"></a><!---
 ---
-實驗室：標題：「探索服務信任入口網站」學習路徑/模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 1：描述 Microsoft 中的合規性管理功能；單元 2：探索服務信任入口網站」
+lab:
+  title: '探索服務信任入口網站'
+  module: '課程模組 1：描述 Microsoft 中的合規性管理功能'
 ---
---->
+
+
 
 # <a name="lab-explore-the-service-trust-portal"></a>實驗室：瀏覽服務信任入口網站
 

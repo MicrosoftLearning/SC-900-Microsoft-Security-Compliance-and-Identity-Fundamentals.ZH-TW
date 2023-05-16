@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-示範：標題：「探索 Azure AD 使用者設定」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是Microsoft Entra 的一部分；課程模組 1：描述 Azure AD 的基本服務和身分識別類型；單元 4：描述 Azure AD 身分識別類型」
+demo:
+  title: '探索 Azure AD 使用者設定'
+  module: '課程模組 1：描述 Azure AD 的基本服務和身分識別類型'
 ---
---->
+
 
 # <a name="demo-azure-ad-user-settings"></a>示範：Azure AD 使用者設定
 

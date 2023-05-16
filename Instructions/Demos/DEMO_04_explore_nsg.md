@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-示範：標題：「Azure 網路安全性群組 (NSG)」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 1：描述 Azure 中的基本安全性功能；單元 6：描述 Azure 網路安全性群組」
+demo:
+  title: 'Azure 網路安全性群組 (NSG)'
+  module: '課程模組 1：描述 Azure 中的基本安全性功能'
 ---
---->
+
 
 # <a name="demo-azure-network-security-groups-nsgs"></a>示範：Azure 網路安全性群組 (Network Security Group, NSG)
 

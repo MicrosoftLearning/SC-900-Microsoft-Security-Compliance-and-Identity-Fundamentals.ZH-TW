@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-實驗室：標題：「探索電子文件探索 (標準) 工作流程」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 5：描述 Microsoft Purview 的電子文件探索和稽核功能；單元 2：描述 Microsoft 365 中的電子文件探索解決方案」
+lab:
+  title: '探索電子文件探索 (標準) 工作流程'
+  module: '課程模組 5：描述 Microsoft Purview 的電子文件探索和稽核功能'
 ---
---->
+
 
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>實驗室：探索電子文件探索 (標準版) 工作流程
 

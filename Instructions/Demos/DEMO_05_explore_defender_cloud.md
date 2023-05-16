@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-示範：標題：「適用於雲端的 Microsoft Defender」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 2：描述 Azure 的安全性管理功能；單元 3：描述適用於雲端的 Microsoft Defender」
+demo:
+  title: '適用於雲端的 Microsoft Defender'
+  module: '課程模組 2：描述 Azure 的安全性管理功能'
 ---
---->
+
 
 # <a name="demo-microsoft-defender-for-cloud"></a>示範：適用於雲端的 Microsoft Defender
 

@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-實驗室：標題：「探索 Microsoft Sentinel」學習路徑/課程模組/標題：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 3：描述 Microsoft Sentinel 的安全性功能；單元 3：描述 Microsoft Sentinel 如何提供整合式威脅管理」
+lab:
+  title: '探索 Microsoft Sentinel'
+  module: '課程模組 3：描述 Microsoft Sentinel 的安全性功能'
 ---
---->
+
 
 # <a name="lab-explore-microsoft-sentinel"></a>實驗室：探索 Microsoft Sentinel
 
