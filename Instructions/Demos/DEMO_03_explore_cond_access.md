@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD 條件式存取'
-  module: '課程模組 3：描述 Azure AD 的存取管理功能'
+示範：標題：「Azure AD 條件式存取」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分；課程模組 3：描述 Azure AD 的存取管理功能；單元 2：描述 Azure AD 中的條件式存取」
 ---
-
+--->
 
 # <a name="demo-azure-ad-conditional-access"></a>示範：Azure AD 條件式存取
 

@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '描述 Azure AD 的存取管理功能'
-  module: '描述 Azure AD 的存取管理功能'
+實驗室：學習路徑：「描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分」課程模組：「描述 Azure AD 的存取管理功能」單元：「描述 Azure AD 中的條件式存取」
 ---
-
+--->
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>實驗室：探索如何使用條件式存取在 Azure AD 中進行存取管理探索
 

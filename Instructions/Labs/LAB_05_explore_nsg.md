@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '探索 Azure 網路安全性群組 (NSG)'
-  module: '課程模組 1：描述 Azure 中的基本安全性功能'
+實驗室：標題：「探索 Azure 網路安全性群組 (NSG)」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 1：描述 Azure 中的基本安全性功能；單元 6：描述 Azure 網路安全性群組」
 ---
+--->
 
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>實驗室：Azure 網路安全群組 (NSGs)
 

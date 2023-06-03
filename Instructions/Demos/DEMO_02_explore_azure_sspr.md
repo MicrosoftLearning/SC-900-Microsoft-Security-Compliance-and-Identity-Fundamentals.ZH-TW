@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Azure AD 自助式密碼重設 (SSPR)'
-  module: '課程模組 2：描述 Azure AD 的驗證功能'
+示範：標題：「Azure AD 自助式密碼重設 (SSPR)」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分；課程模組 2：描述 Azure AD 的驗證功能；單元 4：描述 Azure AD 中的自助式密碼重設」
 ---
-
+--->
 
 # <a name="demo-azure-ad-self-service-password-reset-sspr"></a>示範：Azure AD 自助式密碼重設 (SSPR)
 

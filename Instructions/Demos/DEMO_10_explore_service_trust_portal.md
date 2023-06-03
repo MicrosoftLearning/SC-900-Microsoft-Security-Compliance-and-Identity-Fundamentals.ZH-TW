@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: '服務信任入口網站'
-  module: '課程模組 1：描述 Microsoft 中的合規性管理功能'
+示範：標題：「服務信任入口網站」學習路徑/模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 1：描述 Microsoft 中的合規性管理功能；單元 2：探索服務信任入口網站」
 ---
-
+--->
 
 # <a name="demo-service-trust-portal"></a>示範：服務信任入口網站
 

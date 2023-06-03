@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '探索如何使用 Privileged Identity Management 在 Azure AD 中進行身分識別治理'
-  module: '課程模組 4：描述 Azure AD 的身分識別保護和治理功能'
+實驗室：標題：「探索如何使用 Privileged Identity Management 在 Azure AD 中進行身分識別治理。 」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分；課程模組 4：描述 Azure AD 的身分識別保護和治理功能；單元 4：描述 Privileged Identity Management 的功能」
 ---
-
+--->
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>實驗室：使用 Privileged identity Management 探索 Azure AD 中的身分控管
 

@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '探索具有自助式密碼重設的 Azure 驗證'
-  module: '課程模組 2：描述 Azure AD 的驗證功能'
+實驗室：標題：「探索具有自助式密碼重設的 Azure 驗證」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分；課程模組 2：描述 Azure AD 的驗證功能；單元 4：描述 Azure AD 中的自助式密碼重設」
 ---
-
+--->
 
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>實驗室：以自助式密碼重設探索 Azure AD 驗證
 

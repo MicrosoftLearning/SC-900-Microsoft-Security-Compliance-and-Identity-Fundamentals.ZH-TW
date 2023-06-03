@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '探索 Microsoft Purview 中的敏感度標籤'
-  module: '課程模組 3：描述 Microsoft Purview 中的資訊保護和資料生命週期管理'
+實驗室：標題：「探索 Microsoft Purview 中的敏感度標籤」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 3：描述 Microsoft Purview 中的資訊保護和資料生命週期管理；單元 4：描述敏感度標籤」
 ---
-
+--->
 
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>實驗室：探索 Microsoft Purview 的敏感度標籤
 

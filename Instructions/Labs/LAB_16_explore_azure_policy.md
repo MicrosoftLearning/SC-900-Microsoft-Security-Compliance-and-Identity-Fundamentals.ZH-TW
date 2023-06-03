@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-  title: '探索 Azure 原則'
-  module: '課程模組 6：描述 Azure 中的資源控管功能'
+實驗室：標題：「探索 Azure 原則」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 6：描述 Azure 中的資源控管功能；單元 2：描述 Azure 原則」
 ---
-
+--->
 
 # <a name="lab-explore-azure-policy"></a>實驗室：探索 Azure 原則
 

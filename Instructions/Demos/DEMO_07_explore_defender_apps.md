@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-  title: 'Microsoft Defender for Cloud Apps'
-  module: '課程模組 4：描述 Microsoft 365 的威脅防護功能'
+示範：標題：Microsoft Defender for Cloud Apps「課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 5：描述 Microsoft Defender for Cloud Apps」
 ---
-
+--->
 
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>示範：Microsoft Defender for Cloud Apps
 
