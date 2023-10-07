@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-示範：標題：「Azure AD 自助式密碼重設 (SSPR)」學習路徑/課程模組/單元：「學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分；課程模組 2：描述 Azure AD 的驗證功能；單元 4：描述 Azure AD 中的自助式密碼重設」
+示範：標題：「Microsoft Entra自助式密碼重設 (SSPR) 」學習路徑/模組/單元：「學習路徑：描述Microsoft Entra的功能;課程模組 2：描述Microsoft Entra識別碼的驗證功能;單元 4：描述自助式密碼重設'
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>示範：Azure AD 自助式密碼重設 (SSPR)
+# 示範：Microsoft Entra自助式密碼重設 (SSPR) 
 
 此示範對應至下列 Learn 內容：
 
-- 學習路徑：描述 Azure Active Directory (Azure AD) 的功能，這是 Microsoft Entra 的一部分
-- 課程模組：描述 Azure AD 的驗證功能
-- 單元：描述 Azure AD 中的自助式密碼重設
+- 學習路徑：描述Microsoft Entra的功能
+- 模組：描述Microsoft Entra識別碼的驗證功能
+- 單元：描述自助式密碼重設
 
-## <a name="demo-scenario"></a>示範案例
+## 示範案例
 
 在本示範中，您將逐步解說與啟用自助式密碼重設相關的多種設定。
 
-1. 前往瀏覽器中開啟的索引標籤 Contoso – Microsoft Azure。 如果您先前關閉了索引標籤，請開啟瀏覽器頁面，然後在網址列中輸入 portal.azure.com 並選取 Azure Active Directory。 您應以管理員身分登入 Azure 入口網站，如果未登入，請重新登入。
+1. 返回標題為 「首頁Microsoft Entra系統管理中心」的開啟瀏覽器索引標籤。  如果您先前已關閉該瀏覽器索引標籤，請開啟 Microsoft Edge，並使用您的 Microsoft 365 系統管理員認證登入 **[entra.microsoft.com](https://entra.microsoft.com)** 。
 
-1. 在左側導覽窗格中選取 [密碼重設]。
+1. 從左側流覽窗格中，展開 [ **保護** ]，然後選取 [ **密碼重設**]。
 
 1. 屬性索引標籤呈現反白狀態。  在 [屬性] 視窗中，SSPR 可啟用為 [無]、[選取] 或 [全部]。
     1. 將游標移到 [已啟用自助式密碼重設] 旁的資訊圖示並呼叫，即可選取 [已啟用] 以限制密碼重設為有限的使用者群組，或是選取 [無] 或 [全部]。
@@ -41,6 +41,6 @@
 
 1. 保持此瀏覽器頁面處於開啟狀態，以供下一個示範使用。
 
-### <a name="review"></a>檢閱
+### 檢閱
 
 在本示範中，您已了解自助式密碼重設相關的設定。
