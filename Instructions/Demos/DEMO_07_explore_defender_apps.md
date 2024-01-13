@@ -1,4 +1,4 @@
-<!---
+&lt;!---
 ---
 示範：標題：Microsoft Defender for Cloud Apps「課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 5：描述適用於雲端的 Microsoft Defender 應用程式」
 ---
@@ -20,7 +20,7 @@
 
 1. 在網址列輸入 **admin.microsoft.com**。 透過您授權的實驗室主機管理工具 (ALH) 提供的 Microsoft 365 租用戶系統管理員認證登入，以存取 Microsoft 365 管理員中心。
 
-1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取**顯示全部**。
+1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 [顯示全部]****。
 
 1. 在 [系統管理中心] 底下，選取 [安全性]****。  會在新的瀏覽器頁面中開啟 Microsoft 365 Defender 合規性入口網站歡迎頁面。  
 
