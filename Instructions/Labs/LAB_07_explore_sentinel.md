@@ -1,8 +1,8 @@
-<!---
 ---
-實驗室：標題：「探索 Microsoft Sentinel」學習路徑/課程模組/標題：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 3：描述 Microsoft Sentinel 的安全性功能；單元 3：描述 Microsoft Sentinel 中的威脅偵測和移轉功能」
+lab:
+  title: 探索 Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # 實驗室：探索 Microsoft Sentinel
 
@@ -14,7 +14,7 @@
 
 ## 實驗案例
 
-會逐步引導您建立 Microsoft Sentinel 執行個體的流程。  您也將會設定權限，確保可存取將會部署的資源，以支援 Microsoft Sentinel。  完成此基本設定之後，會逐步引導您進行將 Microsoft Sentinel 連線至資料來源、設定活頁簿的步驟，並會對 Microsoft Sentinel 中所提供的部分主要功能逐一解說。
+在此實驗室中，您將逐步解說建立 Microsoft Sentinel 實例的程式。  您也將會設定權限，確保可存取將會部署的資源，以支援 Microsoft Sentinel。  完成此基本設定之後，會逐步引導您進行將 Microsoft Sentinel 連線至資料來源、設定活頁簿的步驟，並會對 Microsoft Sentinel 中所提供的部分主要功能逐一解說。
 
 **預估時間**：45-60 分鐘
 
@@ -78,7 +78,7 @@
 
 1. 再次從清單中選取 **[適用於雲端的 Microsoft Defender**]。 從右側的視窗中，選取 [ **管理**]。
 
-1. 在 [適用於雲端的 Microsoft Defender] 頁面右側，是內容中樞與解決方案相關聯的描述和附注，以及此解決方案的一部分。  在主視窗上是解決方案的元件。  在此情況下，有兩個數據連接器和一個數據規則。 橙色三角形表示需要某些設定。 選取 [訂用帳戶型 適用於雲端的 Microsoft Defender（舊版）**旁的**方塊。  視窗會在頁面右側開啟。  選取 [開啟連接器頁面]****。
+1. 在 [適用於雲端的 Microsoft Defender] 頁面右側，是內容中樞與解決方案相關聯的描述和附注，以及此解決方案的一部分。  在主視窗上是解決方案的元件。  在此情況下，有兩個數據連接器和一個數據規則。 橙色三角形表示需要某些設定。 選取 [**訂用帳戶型 適用於雲端的 Microsoft Defender[舊版]** 旁的方塊。  視窗會在頁面右側開啟。  選取 [開啟連接器頁面]****。
 
 1. 請注意設定指示。  選取訂用帳戶名稱旁的方塊，然後選取 [連線]****。  快顯視窗可能會顯示，表示只有您擁有安全性讀取者權限的訂用帳戶，才會開始串流適用於雲端的 Microsoft Defender警示。  選取 [確定]****。  狀態會移至已連線。  連接器現在已啟用，但可能需要一些時間才會顯示在資料連線器頁面中。  
 
