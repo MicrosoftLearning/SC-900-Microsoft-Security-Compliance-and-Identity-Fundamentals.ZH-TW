@@ -1,10 +1,10 @@
-&lt;!---
 ---
-實驗室：標題：「探索 Microsoft Entra ID 使用者設定」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft Entra 的功能；課程模組 1：描述 Microsoft Entra ID 的功能和識別類型；單元 3：描述 Microsoft Entra 識別類型」
+lab:
+  title: 探索 Microsoft Entra ID 使用者 設定
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# 實驗室：探索 Microsoft Entra ID。
+# 實驗室：探索 Microsoft Entra ID 使用者 設定
 
 此實驗室對應至下列 Learn 內容：
 
