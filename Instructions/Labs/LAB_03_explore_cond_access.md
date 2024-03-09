@@ -1,8 +1,8 @@
-&lt;!---
 ---
-實驗室：學習路徑：「描述 Microsoft Entra 的功能」課程模組：「描述 Microsoft Entra ID 的存取管理功能」單元：「描述條件式存取」
+lab:
+  title: Microsoft Entra 條件式存取
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # 實驗室：Microsoft Entra 條件式存取
 

@@ -1,8 +1,8 @@
-<!---
 ---
-實驗室：標題：「探索 Microsoft Purview 中的內部風險管理」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft 合規性的功能；課程模組 4：描述 Microsoft Purview 中的內部風險功能；單元 2：描述內部風險管理」
+lab:
+  title: 探索 Microsoft Purview 中的內部風險管理
+  module: Describe the insider risk capabilities in Microsoft Purview
 ---
---->
 
 # 實驗室：探索 Microsoft Purview 的內部風險管理
 

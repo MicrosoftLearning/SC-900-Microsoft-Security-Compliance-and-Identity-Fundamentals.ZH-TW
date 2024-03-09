@@ -1,8 +1,8 @@
-&lt;!---
 ---
-實驗室：標題：「設定」
+lab:
+  title: 實驗室設定
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # 實驗室：設定
 

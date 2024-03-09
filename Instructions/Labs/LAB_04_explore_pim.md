@@ -1,8 +1,8 @@
-&lt;!---
 ---
-實驗室：標題：「探索特殊權限身分識別管理。 」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft Entra 的功能；課程模組 4：描述 Microsoft Entra 的身分識別保護和治理功能；單元 4：描述特殊權限識別碼管理的功能」
+lab:
+  title: 探索 Privileged Identity Management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # 實驗室：探索特殊權限身分識別管理
 

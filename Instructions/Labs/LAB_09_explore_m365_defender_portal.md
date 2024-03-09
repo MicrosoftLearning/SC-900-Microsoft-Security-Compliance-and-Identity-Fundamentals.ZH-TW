@@ -1,8 +1,8 @@
-&lt;!---
 ---
-實驗室：標題：「探索 Microsoft 365 Defender 入口網站」課程模組：「學習路徑：描述 Microsoft 安全性解決方案的功能；課程模組 4：描述 Microsoft 365 的威脅防護功能；單元 7：描述 Microsoft 365 Defender 入口網站」
+lab:
+  title: 探索 Microsoft 365 Defender 入口網站
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # 實驗室：探索 Microsoft 365 Defender 入口網站
 
