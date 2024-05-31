@@ -43,7 +43,7 @@ lab:
 
 ### 工作 2
 
-在這項工作中，您將會了解在 Azure AD 中建立條件式存取原則的流程。
+在這項工作中，您將完成在 Microsoft Entra ID 中建立條件式存取原則的程式。
 
 1. 開啟 Microsoft Entra 管理員中心首頁的瀏覽器索引標籤。   如果先前關閉過此瀏覽器索引標籤，請開啟 Microsoft Edge 並在網址列輸入 **https://entra.microsoft.com** ，然後以ALH 提供的 Microsoft 365 管理員認證登入。
 
