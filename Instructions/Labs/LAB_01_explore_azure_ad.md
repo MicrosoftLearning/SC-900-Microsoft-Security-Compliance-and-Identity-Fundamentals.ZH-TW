@@ -1,10 +1,10 @@
 ---
 lab:
-  title: 探索 Microsoft Entra ID 使用者 設定
+  title: 探索 Microsoft Entra ID 使用者設定
   module: Describe the function and identity types of Microsoft Entra ID
 ---
 
-# 實驗室：探索 Microsoft Entra ID 使用者 設定
+# 實驗室：探索 Microsoft Entra ID 使用者設定
 
 此實驗室對應至下列 Learn 內容：
 
@@ -112,4 +112,4 @@ lab:
 
 ### 檢閱
 
-在此實驗室中，您已開始對 Microsoft Entra ID 進行初始探索。 由於 Microsoft 365 訂閱者會自動使用 Microsoft Entra ID，因此您發現您可以透過 Microsoft 365 系統管理入口網站或透過 Azure 入口網站 存取 Microsoft Entra ID 功能和服務。  無論偏好哪種方式，都有共同的目的地。  您也逐步解說了建立新使用者的流程，以及可以進行的不同設定，包括可指派使用者的群組、角色的顯示狀態與使用者授權指派。
+在此實驗中，您初次開始探索 Microsoft Entra ID。 因為 Microsoft 365 的訂閱者會自動使用 Microsoft Entra ID，所以您會發現可透過 Microsoft 365 系統管理入口網站或 Azure 入口網站存取 Microsoft Entra ID 功能與服務。  無論偏好哪種方式，都有共同的目的地。  您也逐步解說了建立新使用者的流程，以及可以進行的不同設定，包括可指派使用者的群組、角色的顯示狀態與使用者授權指派。

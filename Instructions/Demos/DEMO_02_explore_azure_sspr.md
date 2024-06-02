@@ -1,4 +1,4 @@
-&lt;!---
+<!---
 ---
 示範：標題：「Microsoft Entra 自助式密碼重設 (SSPR)」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft Entra 的功能；課程模組 2：描述 Microsoft Entra ID 的驗證功能；單元 4：描述自助式密碼重設」
 ---

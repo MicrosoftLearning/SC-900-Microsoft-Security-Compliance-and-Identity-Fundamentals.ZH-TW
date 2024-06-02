@@ -1,4 +1,4 @@
-&lt;!---
+<!---
 ---
 示範：標題：「探索 Microsoft Entra ID 使用者設定」學習路徑/課程模組/單元：「學習路徑：描述 Microsoft Entra 的功能；課程模組 1：描述 Microsoft Entra ID 的功能和識別類型；單元 3：描述 Microsoft Entra 識別類型」
 ---
