@@ -8,7 +8,7 @@
 | 00 | Microsoft 365 租用戶的示範前設定 | [DEMO_00_pre_demo_setup](DEMO_00_pre_demo_setup.md) |
 | 01 | Microsoft Entra ID 設定  | [DEMO_01_explore_azure_ad](DEMO_01_explore_azure_ad.md) |
 | 01a | 驗證方法和 MFA | [DEMO_01a_explore_authentication](DEMO_01a_explore_authentication.md) |
-| 02 | Microsoft Entra 自助式密碼重設 （SSPR）  | [DEMO_02_explore_azure_sspr](DEMO_02_explore_azure_sspr.md) |
+| 02 | Microsoft Entra 自助式密碼重設 (SSPR)  | [DEMO_02_explore_azure_sspr](DEMO_02_explore_azure_sspr.md) |
 | 03 | Microsoft Entra 條件式存取  | [DEMO_03_explore_cond_access](DEMO_03_explore_cond_access.md) |
 | 04 | Azure 網路安全性群組 (Network Security Group, NSG)  | [DEMO_04_explore_nsg](DEMO_04_explore_nsg.md) |
 | 05 | 適用於雲端的 Microsoft Defender  | [DEMO_05_explore_defender_cloud](DEMO_05_explore_defender_cloud.md) |
