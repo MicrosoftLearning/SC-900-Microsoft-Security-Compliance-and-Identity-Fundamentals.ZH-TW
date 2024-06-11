@@ -6,7 +6,7 @@
 | **Number** | **實驗室名稱** | **連結** |
 |------|---------|----|
 | 00 | 設定 | [LAB_00_setup](LAB_00_setup.md) |
-| 01 | 探索 Microsoft Entra ID 使用者 設定 | [LAB_01_explore_azure_ad](LAB_01_explore_azure_ad.md) |
+| 01 | 探索 Microsoft Entra ID 使用者設定 | [LAB_01_explore_azure_ad](LAB_01_explore_azure_ad.md) |
 | 02 | Microsoft Entra 自助式密碼重設 | [LAB_02_explore_azure_sspr](LAB_02_explore_azure_sspr.md) |
 | 03 | Microsoft Entra 條件式存取 | [LAB_03_explore_cond_access](LAB_03_explore_cond_access.md) |
 | 04 | 探索 Privileged Identity Management | [LAB_04_explore_pim](LAB_04_explore_pim.md) |
