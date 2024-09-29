@@ -16,7 +16,7 @@ lab:
 
 在本實驗中，會逐步引導您完成建立 Microsoft Sentinel 執行個體的流程。  您也將會設定權限，確保可存取將會部署的資源，以支援 Microsoft Sentinel。  完成此基本設定之後，會逐步引導您進行將 Microsoft Sentinel 連線至資料來源、設定活頁簿的步驟，並會對 Microsoft Sentinel 中所提供的部分主要功能逐一解說。
 
-**預估時間**：45-60 分鐘
+**估計時間**：60 分鐘
 
 ### 工作 1
 
