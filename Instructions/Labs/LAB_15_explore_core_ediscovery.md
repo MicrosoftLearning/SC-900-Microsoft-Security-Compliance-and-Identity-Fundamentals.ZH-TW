@@ -1,16 +1,16 @@
 ---
 lab:
-  title: 探索電子文件探索 (標準版) 工作流程
-  module: Describe the eDiscovery and audit capabilities of Microsoft Purview
+  title: 探索電子檔探索
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# 實驗室：探索電子文件探索 (標準版) 工作流程
+# 實驗室：探索電子檔探索
 
 此實驗室對應至下列 Learn 內容：
 
-- 學習路徑：描述 Microsoft 合規性的功能
-- 課程模組：描述 Microsoft Purview 的電子文件探索和稽核功能
-- 單元：描述 Microsoft Purview 中的電子文件探索解決方案
+- 學習路徑：描述 Priva 和 Microsoft Purview Microsoft功能
+- 課程模組：說明一下 Microsoft Purview 的資料法務遵循解決方案
+- 單元：描述電子檔探索
 
 ## 實驗案例
 

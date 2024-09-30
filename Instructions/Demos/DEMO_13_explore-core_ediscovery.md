@@ -1,15 +1,15 @@
 <!---
 ---
-示範：標題：「探索電子檔探索工作流程」學習路徑/模組/單元：『學習路徑：描述 priva Microsoft 和 Microsoft Purview 的功能;課程模組 3：描述 Purview Microsoft 的數據合規性解決方案;單元 2：描述電子檔探索'
+示範：標題：「探索電子檔探索」學習路徑/模組/單元：『學習路徑：描述 Priva Microsoft和Microsoft Purview 的功能;課程模組 3：描述 Purview Microsoft 的數據合規性解決方案;單元 2：描述電子檔探索'
 ---
 --->
 
-# 示範：探索電子文件探索 (標準版) 工作流程
+# 示範：探索電子檔案探索 （標準）
 
 此示範對應至下列 Learn 內容：
 
 - 學習路徑：描述 Priva Microsoft 和 Microsoft Purview 的功能
-- 模組：描述 purview Microsoft 的數據合規性解決方案
+- 課程模組：說明一下 Microsoft Purview 的資料法務遵循解決方案
 - 單元：描述電子檔探索
 
 ## 示範案例

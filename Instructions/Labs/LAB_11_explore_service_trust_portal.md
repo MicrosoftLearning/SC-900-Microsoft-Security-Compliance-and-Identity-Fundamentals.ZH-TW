@@ -1,15 +1,15 @@
 ---
 lab:
   title: 瀏覽服務信任入口網站
-  module: Describe the compliance management capabilities at Microsoft
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
 ---
 
 # 實驗室：探索服務信任入口網站
 
 此實驗室對應至下列 Learn 內容：
 
-- 學習路徑：描述 Microsoft 合規性的功能
-- 課程模組：描述 Microsoft 中的合規性管理功能
+- 學習路徑：描述 Priva 和 Microsoft Purview Microsoft功能
+- 課程模組：描述 Microsoft 的服務信任入口網站和隱私權功能
 - 單元：探索服務信任入口網站
 
 ## 實驗案例
