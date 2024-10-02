@@ -1,16 +1,16 @@
 ---
 lab:
   title: 探索 Microsoft Purview 中的內部風險管理
-  module: Describe the insider risk capabilities in Microsoft Purview
+  module: Describe the data security solutions of Microsoft Purview
 ---
 
 # 實驗室：探索 Microsoft Purview 的內部風險管理
 
 此實驗室對應至下列 Learn 內容：
 
-- 學習路徑：描述 Microsoft 合規性的功能
-- 課程模組：描述 Microsoft Purview 中的內部風險功能
-- 單元：描述內部風險管理
+- 學習路徑：描述 Priva 和 Microsoft Purview Microsoft功能
+- 模組：描述 purview Microsoft 的數據安全性解決方案
+- 單元：描述 Purview 中Microsoft內部風險管理
 
 ## 實驗案例
 
@@ -22,7 +22,9 @@ lab:
 
 在此工作中，您身為全域管理員，將啟用內部風險管理的權限。  具體而言，您將向「內部風險管理」角色群組新增使用者，以確保指定使用者可以存取和管理內部風險管理功能。  最多可能需要 30 分鐘，才能將角色群組權限套用到整個組織的使用者。
 
-1. 開啟 Microsoft Purview 首頁的瀏覽器索引標籤。  如果您先前已關閉，請開啟瀏覽器索引標籤並輸入 **https://admin.microsoft.com**。 透過您授權的實驗室主機管理工具 (ALH) 提供的 Microsoft 365 租用戶系統管理員認證登入。 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 [顯示全部]****，接著選取 [合規性]****。  新的瀏覽器頁面隨即開啟至 Microsoft Purview 入口網站的歡迎頁面。  
+1. 開啟 Microsoft Purview 首頁的瀏覽器索引標籤。  如果您先前已關閉，請開啟瀏覽器索引標籤並輸入 **https://admin.microsoft.com**。 透過您授權的實驗室主機管理工具 (ALH) 提供的 Microsoft 365 租用戶系統管理員認證登入。 如果您先前以系統管理員身分登入，系統會提示您完成次要驗證，作為 MFA 的一部分。 如果您先前尚未以系統管理員身分登入，系統會提示您完成 MFA 註冊程式。依照畫面上的提示來設定 MFA。
+
+1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 [顯示全部]****，接著選取 [合規性]****。  新的瀏覽器頁面隨即開啟至 Microsoft Purview 入口網站的歡迎頁面。  
 
 1. 從左側導覽面板中，選取 [ **設定**]，展開 **[角色和範圍]** ，然後選取 [ **角色群組**]。
 

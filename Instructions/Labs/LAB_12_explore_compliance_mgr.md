@@ -1,16 +1,16 @@
 ---
 lab:
-  title: 探索 Microsoft Purview 合規性入口網站及合規性管理員
-  module: Describe the compliance management capabilities in Microsoft Purview
+  title: 探索 Microsoft Purview 入口網站和合規性管理員
+  module: Describe the data compliance solutions of Microsoft Purview
 ---
 
-# 實驗室：探索 Microsoft Purview 合規性入口網站和合規性管理員
+# 實驗室：探索Microsoft Purview 入口網站和合規性管理員
 
 此實驗室對應至下列 Learn 內容：
 
-- 學習路徑：描述 Microsoft 合規性的功能
-- 課程模組：描述 Microsoft Purview 中的合規性管理功能
-- 單元：描述 Microsoft Purview 合規性入口網站
+- 學習路徑：描述 Priva 和 Microsoft Purview Microsoft功能
+- 課程模組：說明一下 Microsoft Purview 的資料法務遵循解決方案
+- 單元：描述合規性管理員
 
 ## 實驗案例
 
@@ -26,6 +26,7 @@ lab:
 1. 登入管理員認證。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗室託管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]****。
     1. 輸入應由您的實驗室託管提供者提供的管理員密碼。 選取 [登入]****。
+    1. 如果您先前以系統管理員身分登入，系統會提示您完成次要驗證，作為 MFA 的一部分。 如果您先前尚未以系統管理員身分登入，系統會提示您完成 MFA 註冊程式。依照畫面上的提示來設定 MFA。
     1. 當提示保持登入狀態時，請選取**是**。 這將帶您前往 Microsoft 365 系統管理中心頁面。
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取**顯示全部**。

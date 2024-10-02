@@ -22,7 +22,7 @@ lab:
 
 在本工作中，您將針對適用於雲端的 Microsoft Defender 的某些功能進行高階逐步解說
 
-1. 您應該在 Azure 服務的首頁。  如果您先前已關閉瀏覽器，請開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com** 並使用管理員認證登入。
+1. 您應該在 Azure 服務的首頁。  如果您先前已關閉瀏覽器，請開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com** 並使用管理員認證登入。 如果您先前已記錄，系統可能會提示您輸入次要形式的驗證，作為 MFA 的剖析。  如果您先前尚未登入，系統可能會提示您設定 MFA。  依照畫面上的提示來設定 MFA。
 
 1. 在藍色搜尋列中輸入 [適用於雲端的 Microsoft Defender]****，然後從結果清單中選取 [適用於雲端的 Microsoft Defender]****。
 
