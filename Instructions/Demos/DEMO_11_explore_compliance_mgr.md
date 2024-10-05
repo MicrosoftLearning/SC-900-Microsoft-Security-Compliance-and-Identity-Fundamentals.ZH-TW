@@ -4,12 +4,12 @@
 ---
 --->
 
-# 示範：探索 Microsoft Purview 合規性入口網站及合規性管理員
+# 示範：探索Microsoft Purview 入口網站與合規性管理員
 
 此示範對應至下列 Learn 內容：
 
 - 學習路徑：描述 Priva Microsoft 和 Microsoft Purview 的功能
-- 模組：描述 purview Microsoft 的數據合規性解決方案
+- 課程模組：說明一下 Microsoft Purview 的資料法務遵循解決方案
 - 單元：描述合規性管理員
 
 ## 示範案例

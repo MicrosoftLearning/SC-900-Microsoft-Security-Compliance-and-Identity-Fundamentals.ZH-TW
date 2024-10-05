@@ -16,13 +16,13 @@ lab:
 
 在本實驗中，會逐步引導您完成建立 Microsoft Sentinel 執行個體的流程。  您也將會設定權限，確保可存取將會部署的資源，以支援 Microsoft Sentinel。  完成此基本設定之後，會逐步引導您進行將 Microsoft Sentinel 連線至資料來源、設定活頁簿的步驟，並會對 Microsoft Sentinel 中所提供的部分主要功能逐一解說。
 
-**預估時間**：45-60 分鐘
+**估計時間**：60 分鐘
 
 ### 工作 1
 
 建立 Microsoft Sentinel 執行個體
 
-1. 您應該在 Azure 服務的首頁。  如果您先前已關閉瀏覽器，請開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com** 並使用管理員認證登入。
+1. 您應該在 Azure 服務的首頁。  如果您先前已關閉瀏覽器，請開啟 Microsoft Edge。 在網址列輸入 **portal.azure.com** 並使用管理員認證登入。 如果您先前已記錄，系統可能會提示您輸入次要形式的驗證，作為 MFA 的剖析。  如果您先前尚未登入，系統可能會提示您設定 MFA。  依照畫面上的提示來設定 MFA。
 
 1. 在頁面頂端藍色搜尋方塊中，輸入 **Microsoft Sentinel**，然後從搜尋結果中選取 **Microsoft Sentinel**。
 
