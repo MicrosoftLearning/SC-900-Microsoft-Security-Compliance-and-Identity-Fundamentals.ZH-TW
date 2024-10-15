@@ -1,6 +1,6 @@
 <!---
 ---
-示範：標題：「Microsoft Defender 入口網站」課程模組：「學習路徑：描述Microsoft安全性解決方案的功能;課程模組 4：描述 Microsoft 365 的威脅防護功能;單元 7：描述 Microsoft Defender 入口網站'
+示範：標題：「Microsoft Defender 入口網站」課程模組：「學習路徑：描述Microsoft安全性解決方案的功能;課程模組 4：描述 Microsoft Defender 全面偵測回應 的威脅防護功能;單元 7：描述 Microsoft Defender 入口網站'
 ---
 --->
 
@@ -9,7 +9,7 @@
 此示範對應至下列 Learn 內容：
 
 - 學習路徑：描述 Microsoft 安全性解決方案的功能
-- 課程模組：描述 Microsoft 365 的威脅防護功能
+- 模組：描述 Microsoft Defender 全面偵測回應 的威脅防護功能
 - 單元：描述 Microsoft Defender 入口網站
 
 ## 示範案例
@@ -20,7 +20,7 @@
 
 探索 Microsoft Defender 登陸頁面。
 
-1. 開啟 Microsoft 365 安全性首頁的瀏覽器索引標籤。  如果您先前已關閉瀏覽器，請開啟 Microsoft Edge。 在網址列中，輸入 **https://admin.microsoft.com** 並使用授權實驗室主機管理工具 (ALH) 所提供的 Microsoft 365 租用戶系統管理員認證登入，以存取 Microsoft 365 系統管理中心。 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 [顯示全部]****，接著選取 [安全性]****。  新的瀏覽器頁面隨即開啟至 Microsoft Defender 入口網站的歡迎頁面。  
+1. 開啟 Microsoft Defender 首頁的瀏覽器索引標籤。  如果您先前已關閉瀏覽器，請開啟 Microsoft Edge。 在網址列中，輸入 **https://admin.microsoft.com** 並使用授權實驗室主機管理工具 (ALH) 所提供的 Microsoft 365 租用戶系統管理員認證登入，以存取 Microsoft 365 系統管理中心。 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取 [顯示全部]****，接著選取 [安全性]****。  新的瀏覽器頁面隨即開啟至 Microsoft Defender 入口網站的歡迎頁面。  
 
 1. Microsoft Defender 入口網站的首頁會顯示安全性小組所需的許多常見卡片。 卡片與資料的組合取決於使用者角色。 捲動頁面檢視作為全域管理員角色的預設卡片集。
 
@@ -46,11 +46,11 @@
     1. **安全分數 - 安全分數提供分數** 的細目、可提升組織分數的改進動作，以及組織的安全分數與其他類似組織相比有多好。
     1. **數據連接器** - 這裡會連接數據源，以取得更豐富、更集中的曝光管理體驗。
 1. **調查和回應** - 從這裡您會看到數個選項：
-    1. **事件和警示** - 從這裏檢視來自不同 Defender XDR 解決方案的事件或個別警示（適用於身分識別的 Defender、適用於雲端的 Defender 應用程式、適用於 Office 365 的 Defender 和適用於身分識別的 Defender）和其他Microsoft解決方案，包括Microsoft Sentinel，適用於雲端的 Microsoft Defender、Microsoft Entra 和 Microsoft Purview。
+    1. **事件和警示** - 從這裡您檢視不同 Defender XDR 解決方案的事件或個別警示（適用於身分識別的 Defender、適用於雲端的 Defender 應用程式、適用於 Office 365 的 Defender 和適用於身分識別的 Defender）和其他Microsoft解決方案，包括Microsoft Sentinel，適用於雲端的 Microsoft Defender、Microsoft Entra 和 Microsoft Purview。
     1. **** 搜尋 - 您可以從這裡建置自定義偵測規則，並搜尋您環境中的特定威脅。
-    1. **動作和提交** - 統一的控制中心會將整個 適用於端點的 Microsoft Defender 和 適用於 Office 365 的 Microsoft Defender 的補救動作整合在一起。 它會在一個地方列出您裝置、電子郵件和共同作業內容及身分識別的擱置和已完成補救動作。 在擁有 Exchange Online 信箱的 Microsoft 365 組織中，系統管理員可以使用 Microsoft Defender 入口網站中的 [提交] 頁面，將訊息、URL 和附件提交給 Microsoft 進行分析。
+    1. **動作和提交** - 統一的動作中心會跨 適用於端點的 Microsoft Defender 和 適用於 Office 365 的 Microsoft Defender 整合補救動作。 它會在一個地方列出您裝置、電子郵件和共同作業內容及身分識別的擱置和已完成補救動作。 在擁有 Exchange Online 信箱的 Microsoft 365 組織中，系統管理員可以使用 Microsoft Defender 入口網站中的 [提交] 頁面，將訊息、URL 和附件提交給 Microsoft 進行分析。
     1. **合作夥伴目錄 - 合作夥伴目錄** 會列出支援的技術合作夥伴和專業服務，可協助貴組織增強平臺的偵測、調查和威脅情報功能。
-1. **威脅情報 - 從 [威脅情報**] 索引標籤，使用者存取 Microsoft Defender 威脅情報 和功能支援，包括威脅分析、Intel 配置檔、Intel 檔案總管和 Intel 專案。
+1. **威脅情報 - 從 [威脅情報**] 索引標籤，使用者存取 Microsoft Defender 威脅情報，以及解決方案支援的功能，包括威脅分析、Intel 配置檔、Intel Explorer 和 Intel 專案。
 1. **資產 - [資產** ] 索引標籤可讓您檢視和管理貴組織的受保護和探索資產清查（裝置和身分識別）。
 1. **Microsoft Sentinel** - Defender 入口網站的 Microsoft Sentinel 區段中提供一些Microsoft Sentinel 功能。  這需要透過 [設定] 頁面設定整合。
 1. **身分**識別 - 身分識別節點會對應至與 適用於身分識別的 Microsoft Defender 相關聯的功能。 儀錶板提供有關身分識別威脅偵測和回應的重要見解和實時數據（ITDR）。 [健康情況問題] 頁面會列出適用於身分識別的 Defender 部署和感應器的任何目前健康情況問題，提醒您適用於身分識別的 Defender 部署中發生任何問題。 工具頁面會列出其他資訊，協助您管理適用於身分識別的 Microsoft Defender 環境。
@@ -58,7 +58,7 @@
     1. 弱點管理 - 管理裝置上的弱點和其他風險來源。 您可以從這裡存取弱點管理儀表板、建議、補救、弱點等等。
     1. 合作夥伴和 API - 您可以從這裡選取 [已連線的應用程式和 API 總管]。
     1. 組態管理 - 您可以在這裡檢視裝置組態管理儀錶板。  您也可以定義端點原則並追蹤部署。
-1. **電子郵件與共同作業** - 您可以在其中找到 適用於 Office 365 的 Microsoft Defender 功能，讓您追蹤和調查使用者電子郵件的威脅、追蹤營銷活動等等。
+1. **電子郵件與共同作業** - 您可以在其中找到 適用於 Office 365 的 Microsoft Defender 功能，讓您追蹤及調查使用者的電子郵件威脅、追蹤營銷活動等等。
 1. **雲端應用程式** - 您可以在其中找到 適用於雲端的 Microsoft Defender Apps 功能。 如需詳細資訊，請參閱 適用於雲端的 Microsoft Defender 應用程式的示範。
 1. **SOC 優化 - SOC 優化** 可讓您優化安全性控件的方式，隨著時間的進行，從Microsoft安全性服務取得更多價值。
 1. **報告 - 報表** 會在 Microsoft Defender 入口網站中統一。 系統管理員可以從一般安全性報告開始，並分支到有關端點、電子郵件與共同作業、雲端應用程式、基礎結構和身分識別的特定報告。 此處的連結會根據工作負載組態動態產生。
@@ -68,17 +68,15 @@
     1. 設定 - 您可以在這裡設定 Defender 入口網站的設定、Defender XDR、屬於 Microsoft Defender 全面偵測回應 的解決方案，以及Microsoft Sentinel。  隨意探索這個。
 1. **自訂瀏覽** - 您可以在這裡選取來顯示或隱藏瀏覽窗格中的專案。 其他系統管理員不會看到您的變更。
 
-1. 左側瀏覽面板提供屬於 Microsoft 的 Extended Detection and Response (XDR 解決方案) 的資訊連結/存取，包含事件與警示、搜捕、控制中心、威脅分析、安全性分數等等。  也包括適用於端點的 Microsoft Defender (連結列於端點下方)、適用於 Office for 365 的 Defender (連結列於電子郵件與共同作業下方)、適用於雲端的 Microsoft Defender 應用程式 (連結在雲端應用程式下方) 等等的快速存取。  選取一些連結來探索這些選項。   若要返回 Microsoft Defender 入口網站的首頁，請在左側導覽面板中選取 **[首頁** ]。
-
 ### 示範第 3 部分
 
 在本示範的這個部分中，您將展示 Microsoft 安全性分數如何協助組織改善其安全性狀態。
 
-1. 從左側導覽面板中，選取 [Microsoft 安全性分數]****。
+1. 從左側導覽面板中，展開 **[曝光管理** ]，然後選取 [ **安全分數**]。
 
 1. Microsoft 安全性分數頁面會開啟至概觀索引標籤。Microsoft 安全性分數是一個組織的安全性狀態量值。 您的組織安全性分數會以百分比顯示，也會顯示您從可能的總分得到的分數，並依照類別分別計算。 選取您安全性分數旁的 [包含]****。 您可以選擇分數的檢視方式，以包含可達成的分數、規劃的分數，以及目前的授權分數。
 
-1. 概觀頁面也包含建議的動作、比較分數、歷程記錄和其他資源。
+1. [概觀] 頁面也包含建議的動作、比較分數、歷程記錄和資源。
 
 1. 選取頁面上方的 [建議動作]****。  請注意資料表中各項目可用的資訊。  
 
@@ -94,4 +92,4 @@
 
 ### 檢閱
 
-在此示範中，您流覽了 Microsoft Defender 入口網站，方法是逐步流覽登陸頁面上顯示的內容，探索瀏覽面板上的選項，以快速存取屬於Microsoft擴充偵測和回應 （XDR） 解決方案、適用於端點的 Microsoft Defender 和適用於 Office 365 的 Microsoft Defender（電子郵件和共同作業）。  最後，您展示了 Microsoft 安全性分數如何協助組織改善其安全性狀態。
+在此示範中，您流覽了 Microsoft Defender 入口網站，方法是逐步流覽登陸頁面上顯示的內容，探索瀏覽面板上的選項，讓您快速存取屬於 Microsoft Defender 全面偵測回應 的功能。  最後，您展示了 Microsoft 安全性分數如何協助組織改善其安全性狀態。
