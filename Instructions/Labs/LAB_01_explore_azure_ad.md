@@ -20,13 +20,13 @@ lab:
 
 ### 工作 1
 
-身為 Microsoft 365 的訂閱者，您已使用 Microsoft Entra ID (先前稱為 Azure AD)。  在這項工作中，您將瞭解如何在 Microsoft Entra ID 中建立新使用者，並探索可在使用者層級管理的一些服務。
+身為Microsoft 365 的訂閱者，您已使用 Microsoft Entra 標識符。  在這項工作中，您將瞭解如何在 Microsoft Entra ID 中建立新使用者，並探索可在使用者層級管理的一些服務。
 
-1. 開啟 Microsoft Edge 瀏覽器。 在網址列中，輸入 **[admin.microsoft.com](https://admin.microsoft.com)**，並使用您授權的實驗室主機工具 (ALH) 所提供的 Microsoft 365 認證登入。
+1. 開啟 Microsoft Edge 瀏覽器。 在網址列中，輸入 **`https://admin.microsoft.com`** 並使用您授權的實驗室主機工具 （ALH） 所提供的Microsoft 365 認證登入。
     1. 在登入視窗中輸入 **admin@WWLxZZZZZZ.onmicrosoft.com** (其中的 ZZZZZZ 是實驗室託管提供者所提供的唯一租用戶識別碼)，然後選取 [下一步]****。
     1. 輸入應由您的實驗室託管提供者提供的管理員密碼。 選取 [登入]****。
-    1. 因為這是您第一次登入時，系統可能會提示您設定 MFA。 依照畫面上的提示來設定 MFA。
-    1. 出現提示要求您保持登入時，請選取 [是]****。
+    1. 視您的實驗室主機管理員而定，如果這是您第一次登入租用戶，系統可能會提示您完成 MFA 註冊程式。 如果是，請依照畫面上的提示來設定 MFA。
+    1. 登入之後，系統會帶您前往 [Microsoft 365 系統管理中心] 頁面。
 
 1. 在 [管理員中心] 下，選取 [身分識別]**** (您可能需要選取 [顯示全部] **** 並向下捲動)。  會在新的瀏覽器頁面中開啟 MMicrosoft Entra 管理員中心概觀頁面。
 
