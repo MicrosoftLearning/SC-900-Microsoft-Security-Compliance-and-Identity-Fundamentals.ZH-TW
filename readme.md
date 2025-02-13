@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900：Microsoft 安全性、合規性與身分識別基本概念
 
 此存放庫包含 **SC-900T00：Microsoft 安全性、合規性和身分識別基本概念**的示範指令碼和實驗室指示。  示範指令碼與實驗皆已假定可存取預先配置的 WWL M365 Enterprise 2019 SPE_E5 租用戶，其可透過經授權的實驗託管提供者 (ALH) 取得，亦可使用 ALH 提供的 Azure 訂用帳戶。 示範指令碼和實驗說明，可在使用者個人的 Microsoft 365 租用戶和 Azure 訂閱上運作，但這點無法特別保證，因為某些功能可能無法透過使用者的個人訂閱啟用。
