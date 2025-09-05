@@ -15,13 +15,13 @@ lab:
 
 ## 實驗室場景
 
-此設定實驗室包含啟用 Microsoft 365 租使用者中的Microsoft稽核記錄檔和檔案監視功能。
+此安裝實驗室包含在 Microsoft 365 租用戶中啟用 Microsoft 稽核記錄和檔案監視功能。
 
-**預估時間**：5-10 分鐘
+**預估時間**：10-15 分鐘
 
-### 安裝程式 - 啟用 Microsoft 365 稽核記錄檔和檔案監視
+### 安裝程式 - 啟用 Microsoft 365 稽核記錄和檔案監視
 
-在此設定工作中，您將啟用 Microsoft 365 中的稽核記錄檔和檔案監視功能。  
+在此設定工作中，您將在 Microsoft 365 中啟用稽核記錄和檔案監視功能。  
 
 1. 開啟 Microsoft Edge。 在網址列中輸入 **`https://admin.microsoft.com`**。
 
@@ -29,27 +29,28 @@ lab:
 
 1. 從 Microsoft 365 系統管理中心的左側導覽窗格中，選取**顯示全部**。
 
-1. 在 [系統管理中心] 底下，選取 [安全性]****。  新的瀏覽器頁面隨即開啟至 Microsoft Defender 的歡迎頁面。
+1. 在 [系統管理中心] 底下，選取 [安全性]****。  新的瀏覽器頁面會開啟至 Microsoft Defender 的歡迎頁面。
 
-1. 在左側導覽面板中，向下捲動並展開 **[系統**]。  從展開的清單中，選取 [ **稽核**]。  注意：稽核功能也可透過 Microsoft Purview 入口網站存取。
+1. 在左側導覽面板中，向下捲動並展開 **系統**。  從展開的清單中，選取**稽核。**  附註： 稽核功能也可以透過 Microsoft Purview 入口網站存取。
 
-1. 登陸 [稽核] 頁面之後，請等候 1-2 分鐘。  如果未啟用稽核，您將在頁面頂部看到藍色列，上面寫著開始記錄使用者和管理活動。  選取 [開始錄製使用者和系統管理員活動]****。  啟用稽核之後，藍色列就會消失。  如果藍色列不存在，則表示已啟用稽核，無需進一步動作。  如果您看到一則訊息：「很抱歉，如果記錄活動，我們無法找出活動。 請嘗試重新整理頁面，「重新整理頁面之後沒有任何變更，您必須透過 PowerShell 啟用稽核。
-    1. 以滑鼠右鍵按兩下任務列上的藍色 Windows PowerShell 圖示，然後選取 [ **以系統管理員**身分執行]。
-    1. 若要確認電腦上已安裝 Exchange Online PowerShell 模組，請輸入 **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**。  您會看到 Exchange OnlineManagement 的名稱、版本和安裝位置。
-    1. 現在輸入 **`Import-Module ExchangeOnlineManagement`** 來載入模組。
-    1. 若要連線，請輸入 **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**。  針對UPN，輸入實驗室 [資源] 索引標籤中找到的系統管理員用戶名稱。
-    1. 系統會提示您登入。  輸入實驗室 [資源] 索引標籤中找到的系統管理使用者名稱和密碼。
-    1. 若要開啟稽核，請輸入 **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**。 顯示一則訊息，指出變更可能需要 60 分鐘才會生效。
-    1. 雖然可能需要最多 60 分鐘才會生效，但您可以輸入 **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`** 來確認命令已收到。  如果已啟用稽核，則 UnifiedAuditLogIngestionEnabled 屬性會顯示 true 的值。
+1. 登陸「稽核」頁面後，請等待 1-2 分鐘。  如果未啟用稽核，您將在頁面頂部看到藍色列，上面寫著開始記錄使用者和管理活動。  選取 [開始錄製使用者和系統管理員活動]****。  啟用稽核之後，藍色列就會消失。  如果藍色列不存在，則表示已啟用稽核，無需進一步動作。  如果您看到一則訊息：「抱歉，我們無法確定是否正在記錄活動。 嘗試刷新頁面。 如果重新整理頁面後沒有變更，您必須透過 PowerShell 啟用稽核。
+    1. 以滑鼠右鍵選取工作列上的藍色 Windows PowerShell 圖示，然後選取 **[以系統管理員**身分執行]。
+    1. 輸入 **`Install-Module -Name ExchangeOnlineManagement`** 來安裝 Exchange Online PowerShell 模組。  當提示「您確定要安裝『PSGallery』中的模組嗎」時，請選取 **`[A]` [全部是]**
+    1. 現在，輸入 **`Import-Module ExchangeOnlineManagement`** 來載入模組。
+    1. 若要連線，請輸入 **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**。  針對 UPN，輸入實驗室資源索引標籤中找到的系統管理員使用者名稱。
+    1. 系統會提示您登入。  輸入實驗室資源索引標籤中找到的系統管理使用者名稱和密碼。
+    1. 若要開啟稽核，請輸入 **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**。 系統會顯示一則訊息，指出變更最多可能需要 60 分鐘才能生效。
+    1. 雖然最多可能需要 60 分鐘才能生效，但您可以輸入 **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`** 來驗證是否收到命令。  如果已啟用稽核，則 UnifiedAuditLogIngestionEnabled 屬性會顯示 true 值。
 
-1. 從左側瀏覽面板的 [系統] 底下，選取 [ **設定**]。
+1. 從左側導覽面板的 [系統] 底下，選取 **[設定]。**
 
-1. 從 [設定] 頁面中，選取 [ **雲端應用程式**]。   向下卷動，然後在 [資訊保護 下**** 選取 **[檔案**]。
+1. 從設定頁面中，選取 [ **雲端應用程式**]。   向下捲動，然後在 [資訊保護]** 底下**選取 **[檔案**]。
 
-1. 如果尚未啟用，請選取 [ **啟用檔案監視** ] 旁的方塊，然後選取 [ **儲存**]。  
+1. 如果尚未啟用，請選取顯示 [啟用檔案監視 **] 旁邊**的方塊，然後選取 [**儲存**]。  
 
-1. 這會結束 Microsoft 365 租用戶的實驗室設定。
+1. Microsoft 365 租用戶的實驗室設定到此結束。
+1. 您可以關閉瀏覽器索引標籤 [Cloud Apps-Microsoft Defender]，但請保持開啟 [Microsoft 365 系統管理中心] 索引標籤，以進行下一個練習。
 
 ### 檢閱
 
-在此設定中，您已在 Microsoft 365 中啟用稽核記錄檔和檔案監視功能。
+在此設定中，您已啟用 Microsoft 365 中的稽核記錄和檔案監視功能。
