@@ -1,10 +1,10 @@
 <!---
 ---
-示範：標題：「探索 Microsoft Purview 合規性管理員」學習路徑/模組/單元：「描述 Microsoft Priva 和 Microsoft Purview 的功能;模組 2：描述 Microsoft Purview 的資料合規性解決方案;單元 4：描述合規性管理員'
+示範：標題：「探索 Microsoft Purview 入口網站和合規性管理員」學習路徑/模組/單元：「描述 Microsoft Priva 和 Microsoft Purview 的功能;模組 2：描述 Microsoft Purview 的資料合規性解決方案;單元 4：描述合規性管理員'
 ---
 --->
 
-# 示範：探索 Microsoft Purview 合規性管理員
+# 示範：探索 Microsoft Purview 入口網站 & 合規性管理員
 
 此示範對應至下列 Learn 內容：
 
@@ -22,7 +22,7 @@
 
 1. 開啟 Microsoft Edge。 在網址列中輸入 **https://purview.microsoft.com**。 您應該已經以系統管理員身分登入。如果不是，請使用授權的實驗室主機管理工具 (ALH) 提供的 Microsoft 365 租用戶管理員認證登入。
 
-瀏覽器頁面會開啟至 Microsoft Purview 入口網站的歡迎頁面，選取 [ **開始使用**]。  
+新的瀏覽器頁面會開啟至 Microsoft Purview 入口網站的歡迎頁面。  若要存取新的 Microsoft Purview 入口網站，請選取顯示 [我同意資料流程揭露和隱私權聲明的條款] **旁邊的方塊，然後選取 **[** 開始使用**]。  
 
 1. 移至合規性管理員之前，請花一些時間探索新的入口網站。
 
