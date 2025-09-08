@@ -48,7 +48,7 @@ lab:
 
 1. 開啟 Microsoft Entra 管理員中心首頁的瀏覽器索引標籤。
 
-1. 從左側導覽面板中，展開 **IF 控管**，然後選取 **Privileged Identity Management**。
+1. 從左側導覽面板中，展開 **ID 控管**，然後選取 **Privileged Identity Management**。
 
 1. 您現在位於特殊權限識別碼管理快速入門頁面。 檢閱快速入門的頁面資訊。 在主視窗中，在顯示 [管理存取權] 的位置下，選取 [**管理]。**
 
