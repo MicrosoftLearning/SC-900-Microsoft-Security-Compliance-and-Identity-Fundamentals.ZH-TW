@@ -33,14 +33,7 @@ lab:
 
 1. 在左側導覽面板中，向下捲動並展開 **系統**。  從展開的清單中，選取**稽核。**  附註： 稽核功能也可以透過 Microsoft Purview 入口網站存取。
 
-1. 登陸「稽核」頁面後，請等待 1-2 分鐘。  如果未啟用稽核，您將在頁面頂部看到藍色列，上面寫著開始記錄使用者和管理活動。  選取 [開始錄製使用者和系統管理員活動]****。  啟用稽核之後，藍色列就會消失。  如果藍色列不存在，則表示已啟用稽核，無需進一步動作。  如果您看到一則訊息：「抱歉，我們無法確定是否正在記錄活動。 嘗試刷新頁面。 如果重新整理頁面後沒有變更，您必須透過 PowerShell 啟用稽核。
-    1. 以滑鼠右鍵選取工作列上的藍色 Windows PowerShell 圖示，然後選取 **[以系統管理員**身分執行]。
-    1. 輸入 **`Install-Module -Name ExchangeOnlineManagement`** 來安裝 Exchange Online PowerShell 模組。  當提示「您確定要安裝『PSGallery』中的模組嗎」時，請選取 **`[A]` [全部是]**
-    1. 現在，輸入 **`Import-Module ExchangeOnlineManagement`** 來載入模組。
-    1. 若要連線，請輸入 **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**。  針對 UPN，輸入實驗室資源索引標籤中找到的系統管理員使用者名稱。
-    1. 系統會提示您登入。  輸入實驗室資源索引標籤中找到的系統管理使用者名稱和密碼。
-    1. 若要開啟稽核，請輸入 **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**。 系統會顯示一則訊息，指出變更最多可能需要 60 分鐘才能生效。
-    1. 雖然最多可能需要 60 分鐘才能生效，但您可以輸入 **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`** 來驗證是否收到命令。  如果已啟用稽核，則 UnifiedAuditLogIngestionEnabled 屬性會顯示 true 值。
+1. 登陸「稽核」頁面後，請等待 1-2 分鐘。  如果未啟用稽核，您將在頁面頂部看到藍色列，上面寫著開始記錄使用者和管理活動。  選取 [開始錄製使用者和系統管理員活動]****。  啟用稽核之後，藍色列就會消失。
 
 1. 從左側導覽面板的 [系統] 底下，選取 **[設定]。**
 
