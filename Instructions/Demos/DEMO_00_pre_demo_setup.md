@@ -118,26 +118,25 @@
 
 ### Microsoft Sentinel
 
-檢查以確定已建立 Microsoft Sentinel 的實例。 如果沒有，請立即設定，因為將需要用於 Microsoft Sentinel 逐步解說示範的一部分。
+設定 Log Analytics 工作區，建立之後，請建立 Microsoft Sentinel 的執行個體，並將 Log Analytics 工作區新增至其中。
 
 1. 在您的瀏覽器開啟 [首頁 – Microsoft Azure]。
 
-1. 在頁面頂端 Microsoft Azure 旁藍色列的搜尋方塊中，輸入 **Microsoft Sentinel**，然後從搜尋結果中選取 **Microsoft Sentinel**。
-
-1. 從 Microsoft Sentinel 頁面，選取 [建立 Microsoft Sentinel]****。
-
-1. 從 [將 Microsoft Sentinel 新增到工作區] 頁面，選取 [建立新的工作區]****。
-
+1. 在頁面頂端的藍色搜尋方塊中，輸入 **Log Analytics** ，然後從搜尋結果中選取它。
+1. 選取 **+ 建立**。
 1. 從 [建立 Log Analytics] 工作區的 [基本] 索引標籤中，輸入下列項目：
-    1. 訂用帳戶：保留預設值。
-    1. 資源群組：選取 [新建]****，然後中輸入名稱 **SC900-Sentinel-RG**，接著選取 [確定]****。
-    1. 名稱：** SC900-LogAnalytics-workspace **。
-    1. **美國東部** (可能會根據您所在的位置選取不同預設區域)。
+    1. 訂用帳戶：保留預設值，這是授權實驗室託管服務提供者 (ALH) 所提供的 Azure 訂用帳戶。
+    1. 資源群組：選取 [SC900-Sentinel-RG]****。 如果未列出此資源群組，請選取 [新建]****，輸入 **SC900-Sentinel-RG**，然後選取 [確定]****。
+    1. 名稱： **SC900-Sentinel-workspace**。
+    1. **美國東部** (可能會根據您所在的位置選取不同預設區域)
     1. 選取 [檢閱 + 建立]**** (不會設定標籤)。
     1. 確認您輸入的資訊，然後選取 [建立]。****
-    1. 列出 ne 工作區可能需要一兩分鐘的時間，如果您仍然看不到，請選取 [重新整理]****，然後選取 [新增]****。
-
-1. 新增工作區之後，[Microsoft Sentinel | 新聞與指南] 頁面隨即顯示，指出已啟用 Microsoft Sentinel 免費試用。  選取 [確定]****。
+    1. 建立新工作區可能需要一兩分鐘。
+    1. 建立之後，請選取 [ **移至資源** ] 以檢視工作區的相關資訊。
+1. 此時，尚未建立 Microsoft Sentinel 的實例。 若要建立 Sentinel 的實例，您必須移至 Microsoft Sentinel 頁面。 使用頁面頂端的藍色搜尋列來搜尋 **Microsoft Sentinel** ，然後從搜尋結果中選取它。
+1. 若要將工作區新增至 Microsoft Sentinel，您必須移至 Microsoft Sentinel 頁面。 使用頁面頂端的藍色搜尋列來搜尋 **Microsoft Sentinel**
+    1. 從 [Microsoft Sentinel] 頁面中，選取 **[+ 建立**]。
+    1. 現在您可以新增剛建立的工作區。 選取 [**SC900-Sentinel-workspace**]，然後選取 [**新增]。**  這可能需要幾分鐘的時間，因為 Microsoft Sentinel 的免費試用版會啟動。  啟動後，您可以選擇**確定。**
 
 ### 檢閱
 
